@@ -1,7 +1,6 @@
 
 body {
-	border: solid;
-	border-width:thin;
+	
 	background-color: powderblue;
 	 }
 	h2  
@@ -10,13 +9,13 @@ body {
 		color: green;
 		margin: auto;	
 		font-family: 'Acme', sans-serif;
-		padding-left: 50px;
+		
 	 }
 	h3
 	{
 		color: blue;
 		font-family: 'Acme', sans-serif;
-		padding-left: 100px;
+		
 		
 	}
 	li
@@ -28,5 +27,9 @@ body {
 		 	
 
 	}
+
+
+
+
 
 	
