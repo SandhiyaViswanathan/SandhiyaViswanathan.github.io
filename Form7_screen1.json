@@ -912,10 +912,7 @@
                       "name": "comments_one",
                       "value": "",
                       "contentDescription": "11",
-                      "class":"comments_label table_row_even_styles",
-                      "style": {
-                        "height": "10%"
-                      }
+                      "class":"comments_label table_row_even_styles"
                     }
                   ],
                   "class": "no_padding table_row_even_styles",
