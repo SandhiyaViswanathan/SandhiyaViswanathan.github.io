@@ -47,19 +47,24 @@
           "size": "15",
           "font": "HelveticaHeader",
           "color": "rgb(0, 0, 0)",
-          "width":"50%"
+          "width":"50%",
+          "border": "#FFFFFF",
+          "border_width": "2"
         },
         "number_style": {
           "size": "15",
           "font": "HelveticaHeader",
           "color": "rgb(0, 0, 0)",
           "width":"5%",
-          "align":"center"
+          "align":"center",
+          "border": "#FFFFFF",
+          "border_width": "2"
         },
         "switch_label":{
           "width":"15%",
           "align":"center",
-          "padding-right":"2%"
+          "border": "#FFFFFF",
+          "border_width": "2"
         },
         "comments_label": {
           "width": "25%",
@@ -638,7 +643,9 @@
                   ],
                   "class": "no_padding table_row_odd_styles",
                   "style": {
-                    "height": "7%"
+                    "height": "7%",
+                    "border": "#FFFFFF",
+                    "border_width": "2"
                   }
                 }
               ]
@@ -846,7 +853,7 @@
                   ],
                   "class": "no_padding table_row_odd_styles",
                   "style": {
-                    "height": "3%"
+                    "height": "7%"
                   }
                 }
               ]
@@ -898,7 +905,7 @@
                   ],
                   "class": "no_padding table_row_even_styles",
                   "style": {
-                    "height": "7%"
+                    "height": "10%"
                   }
                 }
               ]
