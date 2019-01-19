@@ -157,7 +157,13 @@
             "f7_s1_month": "{{$get.month}}",
             "f7_s1_year": "{{$get.year}}",
             "f7_s1_shift": "{{$get.shift}}",
-            "f7_s1_operator": "{{$get.operator}}"
+            "f7_s1_operator": "{{$get.operator}}",
+            "comments_one":"{{$get.comments_one}}",
+            "comments_two":"{{$get.comments_two}}",
+            "comments_three":"{{$get.comments_three}}",
+            "comments_four":"{{$get.comments_four}}",
+            "comments_five":"{{$get.comments_five}}",
+            "comments_six":"{{$get.comments_six}}"
           },
           "success": {
             "type": "$util.toast",
@@ -630,7 +636,7 @@
                     {
                       "type": "textfield",
                       "name": "comments_one",
-                      "value": "",
+                      "value": "{{$global.comments_one || ''}}",
                       "contentDescription": "11",
                       "class":"comments_label table_row_odd_styles"
                     }
@@ -651,7 +657,7 @@
                   "components": [
                     {
                       "type": "label",
-                      "name": "checks_description_1",
+                      "name": "checks_description_2",
                       "text": "Four metering pumps are operating",
                       "class":"check_style"
                     },
@@ -662,15 +668,15 @@
                     },
                     {
                       "type": "switch",
-                      "name": "reagent_operator_switch1",
-                      "value": "{{$global.reagent_operator_switch1}}",
+                      "name": "reagent_operator_switch2",
+                      "value": "{{$global.reagent_operator_switch2}}",
                       "class":"switch_label",
-                      "contentDescription": "one",
+                      "contentDescription": "2",
                       "action": {
                         "type": "$global.set",
                         "options": {
                           "section_id": "form7_screen1",
-                          "reagent_operator_switch1": "{{$get.reagent_operator_switch1}}"
+                          "reagent_operator_switch1": "{{$get.reagent_operator_switch2}}"
                         }
                       }
                     },
@@ -681,9 +687,9 @@
                     },
                     {
                       "type": "textfield",
-                      "name": "comments_one",
-                      "value": "",
-                      "contentDescription": "11",
+                      "name": "comments_two",
+                      "value": "{{$global.comments_two || ''}}",
+                      "contentDescription": "8",
                       "class":"comments_label table_row_even_styles"
                     }
                   ],
@@ -703,7 +709,7 @@
                   "components": [
                     {
                       "type": "label",
-                      "name": "checks_description_1",
+                      "name": "checks_description_3",
                       "text": "Scrubber fan is running efficiently",
                       "class":"check_style"
                     },
@@ -714,15 +720,15 @@
                     },
                     {
                       "type": "switch",
-                      "name": "reagent_operator_switch1",
-                      "value": "{{$global.reagent_operator_switch1}}",
+                      "name": "reagent_operator_switch3",
+                      "value": "{{$global.reagent_operator_switch3}}",
                       "class":"switch_label",
-                      "contentDescription": "one",
+                      "contentDescription": "3",
                       "action": {
                         "type": "$global.set",
                         "options": {
                           "section_id": "form7_screen1",
-                          "reagent_operator_switch1": "{{$get.reagent_operator_switch1}}"
+                          "reagent_operator_switch1": "{{$get.reagent_operator_switch3}}"
                         }
                       }
                     },
@@ -733,9 +739,9 @@
                     },
                     {
                       "type": "textfield",
-                      "name": "comments_one",
-                      "value": "",
-                      "contentDescription": "11",
+                      "name": "comments_three",
+                      "value": "{{$global.comments_three || ''}}",
+                      "contentDescription": "9",
                       "class":"comments_label table_row_odd_styles"
                     }
                   ],
@@ -755,7 +761,7 @@
                   "components": [
                     {
                       "type": "label",
-                      "name": "checks_description_1",
+                      "name": "checks_description_4",
                       "text": "Eye wash and safety shower checked",
                       "class":"check_style"
                     },
@@ -766,15 +772,15 @@
                     },
                     {
                       "type": "switch",
-                      "name": "reagent_operator_switch1",
-                      "value": "{{$global.reagent_operator_switch1}}",
+                      "name": "reagent_operator_switch4",
+                      "value": "{{$global.reagent_operator_switch4}}",
                       "class":"switch_label",
-                      "contentDescription": "one",
+                      "contentDescription": "4",
                       "action": {
                         "type": "$global.set",
                         "options": {
                           "section_id": "form7_screen1",
-                          "reagent_operator_switch1": "{{$get.reagent_operator_switch1}}"
+                          "reagent_operator_switch1": "{{$get.reagent_operator_switch4}}"
                         }
                       }
                     },
@@ -785,9 +791,9 @@
                     },
                     {
                       "type": "textfield",
-                      "name": "comments_one",
-                      "value": "",
-                      "contentDescription": "11",
+                      "name": "comments_four",
+                      "value": "{{$global.comments_four || ''}}",
+                      "contentDescription": "10",
                       "class":"comments_label table_row_even_styles"
                     }
                   ],
@@ -807,7 +813,7 @@
                   "components": [
                     {
                       "type": "label",
-                      "name": "checks_description_1",
+                      "name": "checks_description_5",
                       "text": "No leaks",
                       "class":"check_style"
                     },
@@ -818,15 +824,15 @@
                     },
                     {
                       "type": "switch",
-                      "name": "reagent_operator_switch1",
-                      "value": "{{$global.reagent_operator_switch1}}",
+                      "name": "reagent_operator_switch5",
+                      "value": "{{$global.reagent_operator_switch5}}",
                       "class":"switch_label",
-                      "contentDescription": "one",
+                      "contentDescription": "5",
                       "action": {
                         "type": "$global.set",
                         "options": {
                           "section_id": "form7_screen1",
-                          "reagent_operator_switch1": "{{$get.reagent_operator_switch1}}"
+                          "reagent_operator_switch1": "{{$get.reagent_operator_switch5}}"
                         }
                       }
                     },
@@ -837,8 +843,8 @@
                     },
                     {
                       "type": "textfield",
-                      "name": "comments_one",
-                      "value": "",
+                      "name": "comments_five",
+                      "value": "{{$global.comments_five || ''}}",
                       "contentDescription": "11",
                       "class":"comments_label table_row_odd_styles"
                     }
@@ -859,7 +865,7 @@
                   "components": [
                     {
                       "type": "label",
-                      "name": "checks_description_1",
+                      "name": "checks_description_6",
                       "text": "Confirm heat trace is operating (lights at back of the PP next to the door)",
                       "class":"check_style"
                     },
@@ -870,15 +876,15 @@
                     },
                     {
                       "type": "switch",
-                      "name": "reagent_operator_switch1",
-                      "value": "{{$global.reagent_operator_switch1}}",
+                      "name": "reagent_operator_switch6",
+                      "value": "{{$global.reagent_operator_switch6}}",
                       "class":"switch_label switch_styles",
-                      "contentDescription": "one",
+                      "contentDescription": "6",
                       "action": {
                         "type": "$global.set",
                         "options": {
                           "section_id": "form7_screen1",
-                          "reagent_operator_switch1": "{{$get.reagent_operator_switch1}}"
+                          "reagent_operator_switch1": "{{$get.reagent_operator_switch6}}"
                         }
                       }
                     },
@@ -889,10 +895,13 @@
                     },
                     {
                       "type": "textfield",
-                      "name": "comments_one",
-                      "value": "",
-                      "contentDescription": "11",
-                      "class":"comments_label table_row_even_styles"
+                      "name": "comments_six",
+                      "value": "{{$global.comments_six || ''}}",
+                      "contentDescription": "12",
+                      "class":"comments_label table_row_even_styles",
+                      "style": {
+                        "height": "9%"
+                      }
                     }
                   ],
                   "class": "no_padding table_row_even_styles",
@@ -908,6 +917,10 @@
                 {
                   "type": "horizontal",
                   "class": "no_padding center_align",
+                  "style": {
+                    "padding_top": "1%",
+                    "padding_bottom": "1%"
+                  },
                   "components": [
                     {
                       "type": "space",
