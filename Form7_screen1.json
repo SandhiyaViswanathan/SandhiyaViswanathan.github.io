@@ -58,7 +58,8 @@
         },
         "switch_label":{
           "width":"15%",
-          "align":"center"
+          "align":"center",
+          "padding-right":"2%"
         },
         "comments_label": {
           "width": "25%",
@@ -600,7 +601,7 @@
                     {
                           "type": "label",
                           "name": "checks_description_1",
-                          "text": "Sump Pump is operating in remote and onSump Pump is operating in remote and onSump Pump is operating in remote and on",
+                          "text": "Sump Pump is operating in remote and on",
                           "class":"check_style"
                     },
                     {
@@ -632,12 +633,12 @@
                       "name": "comments_one",
                       "value": "",
                       "contentDescription": "11",
-                      "class":"comments_label"
+                      "class":"comments_label table_row_odd_styles"
                     }
                   ],
                   "class": "no_padding table_row_odd_styles",
-                  "style":{
-                    "height":"20%"
+                  "style": {
+                    "height": "3%"
                   }
                 }
               ]
@@ -684,10 +685,13 @@
                       "name": "comments_one",
                       "value": "",
                       "contentDescription": "11",
-                      "class":"comments_label"
+                      "class":"comments_label table_row_even_styles"
                     }
                   ],
-                  "class": "no_padding table_row_even_styles"
+                  "class": "no_padding table_row_even_styles",
+                  "style": {
+                    "height": "3%"
+                  }
                 }
               ]
             },
@@ -733,10 +737,13 @@
                       "name": "comments_one",
                       "value": "",
                       "contentDescription": "11",
-                      "class":"comments_label"
+                      "class":"comments_label table_row_odd_styles"
                     }
                   ],
-                  "class": "no_padding table_row_odd_styles"
+                  "class": "no_padding table_row_odd_styles",
+                  "style": {
+                    "height": "3%"
+                  }
                 }
               ]
             },
@@ -782,10 +789,13 @@
                       "name": "comments_one",
                       "value": "",
                       "contentDescription": "11",
-                      "class":"comments_label"
+                      "class":"comments_label table_row_even_styles"
                     }
                   ],
-                  "class": "no_padding table_row_even_styles"
+                  "class": "no_padding table_row_even_styles",
+                  "style": {
+                    "height": "3%"
+                  }
                 }
               ]
             },
@@ -831,10 +841,13 @@
                       "name": "comments_one",
                       "value": "",
                       "contentDescription": "11",
-                      "class":"comments_label"
+                      "class":"comments_label table_row_odd_styles"
                     }
                   ],
-                  "class": "no_padding table_row_even_styles"
+                  "class": "no_padding table_row_odd_styles",
+                  "style": {
+                    "height": "3%"
+                  }
                 }
               ]
             },
@@ -880,10 +893,13 @@
                       "name": "comments_one",
                       "value": "",
                       "contentDescription": "11",
-                      "class":"comments_label"
+                      "class":"comments_label table_row_even_styles"
                     }
                   ],
-                  "class": "no_padding table_row_even_styles"
+                  "class": "no_padding table_row_even_styles",
+                  "style": {
+                    "height": "7%"
+                  }
                 }
               ]
             },
