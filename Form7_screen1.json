@@ -624,7 +624,7 @@
                     },
                     {
                       "type": "label",
-                      "text": "11",
+                      "text": "7",
                       "class":"number_style"
                     },
                     {
@@ -657,7 +657,7 @@
                     },
                     {
                       "type": "label",
-                      "text": "1",
+                      "text": "2",
                       "class":"number_style"
                     },
                     {
@@ -676,7 +676,7 @@
                     },
                     {
                       "type": "label",
-                      "text": "11",
+                      "text": "8",
                       "class":"number_style"
                     },
                     {
@@ -709,7 +709,7 @@
                     },
                     {
                       "type": "label",
-                      "text": "1",
+                      "text": "3",
                       "class":"number_style"
                     },
                     {
@@ -728,7 +728,7 @@
                     },
                     {
                       "type": "label",
-                      "text": "11",
+                      "text": "9",
                       "class":"number_style"
                     },
                     {
@@ -761,7 +761,7 @@
                     },
                     {
                       "type": "label",
-                      "text": "1",
+                      "text": "4",
                       "class":"number_style"
                     },
                     {
@@ -780,7 +780,7 @@
                     },
                     {
                       "type": "label",
-                      "text": "11",
+                      "text": "10",
                       "class":"number_style"
                     },
                     {
@@ -813,7 +813,7 @@
                     },
                     {
                       "type": "label",
-                      "text": "1",
+                      "text": "5",
                       "class":"number_style"
                     },
                     {
@@ -865,7 +865,7 @@
                     },
                     {
                       "type": "label",
-                      "text": "1",
+                      "text": "6",
                       "class":"number_style"
                     },
                     {
@@ -884,7 +884,7 @@
                     },
                     {
                       "type": "label",
-                      "text": "11",
+                      "text": "12",
                       "class":"number_style"
                     },
                     {
@@ -892,15 +892,12 @@
                       "name": "comments_one",
                       "value": "",
                       "contentDescription": "11",
-                      "class":"comments_label table_row_even_styles",
-                      "style": {
-                        "height": "5%"
-                      }
+                      "class":"comments_label table_row_even_styles"
                     }
                   ],
                   "class": "no_padding table_row_even_styles",
                   "style": {
-                    "height": "10%"
+                    "height": "13%"
                   }
                 }
               ]
