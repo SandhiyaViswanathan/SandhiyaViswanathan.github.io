@@ -869,7 +869,7 @@
                       "type": "label",
                       "name": "checks_description_1",
                       "text": "Confirm heat trace is operating (lights at back of the PP next to the door)",
-                      "class":"check_style table_row_even_styles"
+                      "class":"check_style table_row_even_styles",
                       "style": {
                         "height": "10%"
                       }
