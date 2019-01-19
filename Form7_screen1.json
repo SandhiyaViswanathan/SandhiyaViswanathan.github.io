@@ -638,7 +638,7 @@
                   ],
                   "class": "no_padding table_row_odd_styles",
                   "style": {
-                    "height": "3%"
+                    "height": "7%"
                   }
                 }
               ]
@@ -690,7 +690,7 @@
                   ],
                   "class": "no_padding table_row_even_styles",
                   "style": {
-                    "height": "3%"
+                    "height": "7%"
                   }
                 }
               ]
@@ -742,7 +742,7 @@
                   ],
                   "class": "no_padding table_row_odd_styles",
                   "style": {
-                    "height": "3%"
+                    "height": "7%"
                   }
                 }
               ]
@@ -794,7 +794,7 @@
                   ],
                   "class": "no_padding table_row_even_styles",
                   "style": {
-                    "height": "3%"
+                    "height": "7%"
                   }
                 }
               ]
@@ -998,7 +998,7 @@
                     {
                       "type": "space",
                       "style": {
-                        "width": "5%"
+                        "width": "10%"
                       }
                     }
                   ]
