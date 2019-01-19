@@ -869,27 +869,18 @@
                       "type": "label",
                       "name": "checks_description_1",
                       "text": "Confirm heat trace is operating (lights at back of the PP next to the door)",
-                      "class":"check_style table_row_even_styles",
-                      "style": {
-                        "height": "10%"
-                      }
+                      "class":"check_style table_row_even_styles"
                     },
                     {
                       "type": "label",
                       "text": "1",
-                      "class":"number_style table_row_even_styles",
-                      "style": {
-                        "height": "10%"
-                      }
+                      "class":"number_style table_row_even_styles"
                     },
                     {
                       "type": "switch",
                       "name": "reagent_operator_switch1",
                       "value": "{{$global.reagent_operator_switch1}}",
                       "class":"switch_label switch_styles table_row_even_styles",
-                      "style": {
-                        "height": "10%"
-                      },
                       "contentDescription": "one",
                       "action": {
                         "type": "$global.set",
@@ -902,17 +893,17 @@
                     {
                       "type": "label",
                       "text": "11",
-                      "class":"number_style table_row_even_styles",
-                      "style": {
-                        "height": "10%"
-                      }
+                      "class":"number_style table_row_even_styles"
                     },
                     {
                       "type": "textfield",
                       "name": "comments_one",
                       "value": "",
                       "contentDescription": "11",
-                      "class":"comments_label table_row_even_styles"
+                      "class":"comments_label table_row_even_styles",
+                      "style": {
+                        "height": "7%"
+                      }
                     }
                   ],
                   "class": "no_padding table_row_even_styles",
