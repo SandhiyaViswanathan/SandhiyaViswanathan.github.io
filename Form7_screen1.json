@@ -64,7 +64,10 @@
           "width": "25%",
           "size": "15",
           "font": "HelveticaHeader",
-          "color": "rgb(0, 0, 0)"
+          "color": "rgb(0, 0, 0)",
+          "border": "#FFFFFF",
+          "border_width": "2",
+          "padding": "0"
         },
         "switch_styles": {
           "color": "#00ff00",
@@ -632,7 +635,10 @@
                       "class":"comments_label"
                     }
                   ],
-                  "class": "no_padding table_row_odd_styles"
+                  "class": "no_padding table_row_odd_styles",
+                  "style":{
+                    "height":"20%"
+                  }
                 }
               ]
             },
