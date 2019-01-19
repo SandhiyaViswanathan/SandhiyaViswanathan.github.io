@@ -47,38 +47,24 @@
           "size": "15",
           "font": "HelveticaHeader",
           "color": "rgb(0, 0, 0)",
-          "width":"50%",
-          "height":"8%",
-          "border": "#FFFFFF",
-          "border_width": "2",
-          "padding": "0"
+          "width":"50%"
         },
-        "number_style":{
+        "number_style": {
           "size": "15",
           "font": "HelveticaHeader",
           "color": "rgb(0, 0, 0)",
-          "height": "8%",
           "width":"5%",
-          "border": "#FFFFFF",
-          "border_width": "2",
-          "padding": "0"
+          "align":"center"
         },
         "switch_label":{
           "width":"15%",
-          "height": "8%",
-          "border_color": "#FFFFFF",
-          "border_width": "1",
-          "padding": "0"
+          "align":"center"
         },
         "comments_label": {
-          "height": "5%",
           "width": "25%",
           "size": "15",
-          "border": "#FFFFFF",
-          "border_width": "2",
           "font": "HelveticaHeader",
-          "color": "rgb(0, 0, 0)",
-          "padding":"0"
+          "color": "rgb(0, 0, 0)"
         },
         "switch_styles": {
           "color": "#00ff00",
@@ -612,24 +598,18 @@
                           "type": "label",
                           "name": "checks_description_1",
                           "text": "Sump Pump is operating in remote and onSump Pump is operating in remote and onSump Pump is operating in remote and on",
-                          "style":{
-                            "width":"50%"
-                          }
+                          "class":"check_style"
                     },
                     {
                       "type": "label",
                       "text": "1",
-                      "style":{
-                        "width":"5%"
-                      }
+                      "class":"number_style"
                     },
                     {
                       "type": "switch",
                       "name": "reagent_operator_switch1",
                       "value": "{{$global.reagent_operator_switch1}}",
-                      "style":{
-                        "width":"15%"
-                      },
+                      "class":"switch_label",
                       "contentDescription": "one",
                       "action": {
                         "type": "$global.set",
@@ -642,21 +622,262 @@
                     {
                       "type": "label",
                       "text": "11",
-                      "style":{
-                        "width":"5%"
-                      }
+                      "class":"number_style"
                     },
                     {
                       "type": "textfield",
                       "name": "comments_one",
                       "value": "",
                       "contentDescription": "11",
-                      "style":{
-                        "width":"25%"
-                      }
+                      "class":"comments_label"
                     }
                   ],
                   "class": "no_padding table_row_odd_styles"
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "class": "no_padding",
+                  "components": [
+                    {
+                      "type": "label",
+                      "name": "checks_description_1",
+                      "text": "Four metering pumps are operating",
+                      "class":"check_style"
+                    },
+                    {
+                      "type": "label",
+                      "text": "1",
+                      "class":"number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch1",
+                      "value": "{{$global.reagent_operator_switch1}}",
+                      "class":"switch_label",
+                      "contentDescription": "one",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "section_id": "form7_screen1",
+                          "reagent_operator_switch1": "{{$get.reagent_operator_switch1}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "11",
+                      "class":"number_style"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_one",
+                      "value": "",
+                      "contentDescription": "11",
+                      "class":"comments_label"
+                    }
+                  ],
+                  "class": "no_padding table_row_even_styles"
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "class": "no_padding",
+                  "components": [
+                    {
+                      "type": "label",
+                      "name": "checks_description_1",
+                      "text": "Scrubber fan is running efficiently",
+                      "class":"check_style"
+                    },
+                    {
+                      "type": "label",
+                      "text": "1",
+                      "class":"number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch1",
+                      "value": "{{$global.reagent_operator_switch1}}",
+                      "class":"switch_label",
+                      "contentDescription": "one",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "section_id": "form7_screen1",
+                          "reagent_operator_switch1": "{{$get.reagent_operator_switch1}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "11",
+                      "class":"number_style"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_one",
+                      "value": "",
+                      "contentDescription": "11",
+                      "class":"comments_label"
+                    }
+                  ],
+                  "class": "no_padding table_row_odd_styles"
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "class": "no_padding",
+                  "components": [
+                    {
+                      "type": "label",
+                      "name": "checks_description_1",
+                      "text": "Eye wash and safety shower checked",
+                      "class":"check_style"
+                    },
+                    {
+                      "type": "label",
+                      "text": "1",
+                      "class":"number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch1",
+                      "value": "{{$global.reagent_operator_switch1}}",
+                      "class":"switch_label",
+                      "contentDescription": "one",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "section_id": "form7_screen1",
+                          "reagent_operator_switch1": "{{$get.reagent_operator_switch1}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "11",
+                      "class":"number_style"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_one",
+                      "value": "",
+                      "contentDescription": "11",
+                      "class":"comments_label"
+                    }
+                  ],
+                  "class": "no_padding table_row_even_styles"
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "class": "no_padding",
+                  "components": [
+                    {
+                      "type": "label",
+                      "name": "checks_description_1",
+                      "text": "No leaks",
+                      "class":"check_style"
+                    },
+                    {
+                      "type": "label",
+                      "text": "1",
+                      "class":"number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch1",
+                      "value": "{{$global.reagent_operator_switch1}}",
+                      "class":"switch_label",
+                      "contentDescription": "one",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "section_id": "form7_screen1",
+                          "reagent_operator_switch1": "{{$get.reagent_operator_switch1}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "11",
+                      "class":"number_style"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_one",
+                      "value": "",
+                      "contentDescription": "11",
+                      "class":"comments_label"
+                    }
+                  ],
+                  "class": "no_padding table_row_even_styles"
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "class": "no_padding",
+                  "components": [
+                    {
+                      "type": "label",
+                      "name": "checks_description_1",
+                      "text": "Confirm heat trace is operating (lights at back of the PP next to the door)",
+                      "class":"check_style"
+                    },
+                    {
+                      "type": "label",
+                      "text": "1",
+                      "class":"number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch1",
+                      "value": "{{$global.reagent_operator_switch1}}",
+                      "class":"switch_label",
+                      "contentDescription": "one",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "section_id": "form7_screen1",
+                          "reagent_operator_switch1": "{{$get.reagent_operator_switch1}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "11",
+                      "class":"number_style"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_one",
+                      "value": "",
+                      "contentDescription": "11",
+                      "class":"comments_label"
+                    }
+                  ],
+                  "class": "no_padding table_row_even_styles"
                 }
               ]
             },
