@@ -47,33 +47,24 @@
           "size": "15",
           "font": "HelveticaHeader",
           "color": "rgb(0, 0, 0)",
-          "width":"50%",
-          "border": "#FFFFFF",
-          "border_width": "2"
+          "width":"50%"
         },
         "number_style": {
           "size": "15",
           "font": "HelveticaHeader",
           "color": "rgb(0, 0, 0)",
           "width":"5%",
-          "align":"center",
-          "border": "#FFFFFF",
-          "border_width": "2"
+          "align":"center"
         },
         "switch_label":{
           "width":"15%",
-          "align":"center",
-          "border_color": "#FFFFFF",
-          "border_width": "2"
+          "align":"center"
         },
         "comments_label": {
           "width": "25%",
           "size": "15",
           "font": "HelveticaHeader",
-          "color": "rgb(0, 0, 0)",
-          "border": "#FFFFFF",
-          "border_width": "2",
-          "padding": "0"
+          "color": "rgb(0, 0, 0)"
         },
         "switch_styles": {
           "color": "#00ff00",
