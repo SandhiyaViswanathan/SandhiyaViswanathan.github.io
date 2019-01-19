@@ -607,18 +607,18 @@
                           "type": "label",
                           "name": "checks_description_1",
                           "text": "Sump Pump is operating in remote and on",
-                          "class":"check_style"
+                          "class":"check_style table_row_odd_styles"
                     },
                     {
                       "type": "label",
                       "text": "1",
-                      "class":"number_style"
+                      "class":"number_style table_row_odd_styles"
                     },
                     {
                       "type": "switch",
                       "name": "reagent_operator_switch1",
                       "value": "{{$global.reagent_operator_switch1}}",
-                      "class":"switch_label",
+                      "class":"switch_label table_row_odd_styles",
                       "contentDescription": "one",
                       "action": {
                         "type": "$global.set",
@@ -631,7 +631,7 @@
                     {
                       "type": "label",
                       "text": "11",
-                      "class":"number_style"
+                      "class":"number_style table_row_odd_styles"
                     },
                     {
                       "type": "textfield",
@@ -869,18 +869,18 @@
                       "type": "label",
                       "name": "checks_description_1",
                       "text": "Confirm heat trace is operating (lights at back of the PP next to the door)",
-                      "class":"check_style"
+                      "class":"check_style table_row_even_styles"
                     },
                     {
                       "type": "label",
                       "text": "1",
-                      "class":"number_style"
+                      "class":"number_style table_row_even_styles"
                     },
                     {
                       "type": "switch",
                       "name": "reagent_operator_switch1",
                       "value": "{{$global.reagent_operator_switch1}}",
-                      "class":"switch_label",
+                      "class":"switch_label table_row_even_styles",
                       "contentDescription": "one",
                       "action": {
                         "type": "$global.set",
@@ -893,7 +893,7 @@
                     {
                       "type": "label",
                       "text": "11",
-                      "class":"number_style"
+                      "class":"number_style table_row_even_styles"
                     },
                     {
                       "type": "textfield",
