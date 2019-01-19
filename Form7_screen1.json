@@ -617,7 +617,7 @@
                       "name": "reagent_operator_switch1",
                       "value": "{{$global.reagent_operator_switch1}}",
                       "class":"switch_label",
-                      "contentDescription": "one",
+                      "contentDescription": "1",
                       "action": {
                         "type": "$global.set",
                         "options": {
@@ -934,7 +934,7 @@
                       "action": {
                         "type": "$href",
                         "options": {
-                          "url": "https://s3.amazonaws.com/enu-digital-ips/development/home.json",
+                          "url": "file://Form7_screen1.json",
                           "preload": {
                             "style": {
                               "background": "#ff0000"
@@ -969,7 +969,7 @@
                       "action": {
                         "type": "$href",
                         "options": {
-                          "url": "https://s3.amazonaws.com/enu-digital-ips/development/5_GroupSOPSignoff/screen_2.json",
+                          "url": "file://Form7_screen2.json",
                           "preload": {
                             "style": {
                               "background": "#ff0000"
