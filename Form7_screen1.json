@@ -896,15 +896,12 @@
                       "name": "comments_six",
                       "value": "{{$global.comments_six || ''}}",
                       "contentDescription": "12",
-                      "class":"comments_label table_row_even_styles",
-                      "style": {
-                        "height": "5%"
-                      }
+                      "class":"comments_label table_row_even_styles"
                     }
                   ],
                   "class": "no_padding table_row_even_styles",
                   "style": {
-                    "height": "13%"
+                    "height": "12%"
                   }
                 }
               ]
@@ -968,8 +965,7 @@
                   "type": "horizontal",
                   "class": "no_padding center_align",
                   "style": {
-                    "padding_top": "1%",
-                    "padding_bottom": "1%"
+                    "padding_top": "1%"
                   },
                   "components": [
                     {
