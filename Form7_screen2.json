@@ -202,20 +202,6 @@
       "templates": {
         "body": {
           "header": {
-            "title": {
-              "type": "label",
-              "text": "{{Page_Heading}}",
-              "align": "left"
-            },
-            "style": {
-              "font": "HelveticaHeader-Bold",
-              "size": 15,
-              "background": "rgb(154,205,50)",
-              "color": "rgb(255,255,255)",
-              "height": "0%",
-              "padding": "0",
-              "align": "left"
-            }
           },
           "sections": [
             {
