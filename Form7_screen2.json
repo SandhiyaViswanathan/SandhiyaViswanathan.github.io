@@ -156,7 +156,6 @@
             "f7_s1_year": "{{$get.year}}",
             "f7_s1_shift": "{{$get.shift}}",
             "f7_s1_operator": "{{$get.operator}}",
-            "comments_seven": "{{$get.comments_seven}}",
             "comments_eight": "{{$get.comments_eight}}",
             "comments_nine": "{{$get.comments_nine}}",
             "comments_ten": "{{$get.comments_ten}}",

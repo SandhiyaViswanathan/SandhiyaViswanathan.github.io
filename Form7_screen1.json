@@ -161,7 +161,8 @@
             "comments_three":"{{$get.comments_three}}",
             "comments_four":"{{$get.comments_four}}",
             "comments_five":"{{$get.comments_five}}",
-            "comments_six":"{{$get.comments_six}}"
+            "comments_six":"{{$get.comments_six}}",
+            "comments_seven": "{{$get.comments_seven}}"
           },
           "success": {
             "type": "$util.toast",
