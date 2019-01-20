@@ -914,6 +914,58 @@
               "items": [
                 {
                   "type": "horizontal",
+                  "class": "no_padding",
+                  "components": [
+                    {
+                      "type": "label",
+                      "name": "checks_description_7",
+                      "text": "Strainer basket cleaned after every mix.No holes in basket",
+                      "class": "check_style"
+                    },
+                    {
+                      "type": "label",
+                      "text": "13",
+                      "class": "number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch7",
+                      "value": "{{$global.reagent_operator_switch7}}",
+                      "class": "switch_label",
+                      "contentDescription": "13",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "section_id": "form7_screen1",
+                          "reagent_operator_switch1": "{{$get.reagent_operator_switch7}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "20",
+                      "class": "number_style"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_seven",
+                      "value": "{{$global.comments_seven || ''}}",
+                      "contentDescription": "20",
+                      "class": "comments_label table_row_odd_styles"
+                    }
+                  ],
+                  "class": "no_padding table_row_odd_styles",
+                  "style": {
+                    "height": "11%"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
                   "class": "no_padding center_align",
                   "style": {
                     "padding_top": "1%",
