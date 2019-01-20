@@ -272,7 +272,7 @@
                           ],
                           "class": "no_padding table_row_odd_styles",
                           "style": {
-                            "height": "10%"
+                            "height": "11%"
                           }
                         }
                       ]
@@ -324,7 +324,7 @@
                           ],
                           "class": "no_padding table_row_even_styles",
                           "style": {
-                            "height": "7%"
+                            "height": "13%"
                           }
                         }
                       ]
@@ -376,7 +376,7 @@
                           ],
                           "class": "no_padding table_row_odd_styles",
                           "style": {
-                            "height": "7%"
+                            "height": "15%"
                           }
                         }
                       ]
@@ -428,7 +428,7 @@
                           ],
                           "class": "no_padding table_row_even_styles",
                           "style": {
-                            "height": "7%"
+                            "height": "10%"
                           }
                         }
                       ]
@@ -480,7 +480,7 @@
                           ],
                           "class": "no_padding table_row_odd_styles",
                           "style": {
-                            "height": "7%"
+                            "height": "15%"
                           }
                         }
                       ]
@@ -527,15 +527,12 @@
                               "name": "comments_twelve",
                               "value": "{{$global.comments_twelve || ''}}",
                               "contentDescription": "25",
-                              "class": "comments_label table_row_even_styles",
-                              "style": {
-                                "height": "5%"
-                              }
+                              "class": "comments_label table_row_even_styles"
                             }
                           ],
                           "class": "no_padding table_row_even_styles",
                           "style": {
-                            "height": "13%"
+                            "height": "10%"
                           }
                         }
                       ]
@@ -555,7 +552,7 @@
                             },
                             {
                               "type": "label",
-                              "text": "10",
+                              "text": "19",
                               "class": "number_style"
                             },
                             {
@@ -582,15 +579,12 @@
                               "name": "comments_thirteen",
                               "value": "{{$global.comments_thirteen || ''}}",
                               "contentDescription": "26",
-                              "class": "comments_label table_row_even_styles",
-                              "style": {
-                                "height": "5%"
-                              }
+                              "class": "comments_label table_row_odd_styles"
                             }
                           ],
-                          "class": "no_padding table_row_even_styles",
+                          "class": "no_padding table_row_odd_styles",
                           "style": {
-                            "height": "13%"
+                            "height": "15%"
                           }
                         }
                       ]
