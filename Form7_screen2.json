@@ -238,7 +238,7 @@
                             },
                             {
                               "type": "label",
-                              "text": "14",
+                              "text": "15",
                               "class": "number_style"
                             },
                             {
@@ -246,7 +246,7 @@
                               "name": "reagent_operator_switch8",
                               "value": "{{$global.reagent_operator_switch8}}",
                               "class": "switch_label",
-                              "contentDescription": "14",
+                              "contentDescription": "15",
                               "action": {
                                 "type": "$global.set",
                                 "options": {
@@ -270,7 +270,7 @@
                           ],
                           "class": "no_padding table_row_even_styles",
                           "style": {
-                            "height": "12%"
+                            "height": "11%"
                           }
                         }
                       ]
@@ -290,7 +290,7 @@
                             },
                             {
                               "type": "label",
-                              "text": "15",
+                              "text": "16",
                               "class": "number_style"
                             },
                             {
@@ -298,7 +298,7 @@
                               "name": "reagent_operator_switch9",
                               "value": "{{$global.reagent_operator_switch9}}",
                               "class": "switch_label",
-                              "contentDescription": "15",
+                              "contentDescription": "16",
                               "action": {
                                 "type": "$global.set",
                                 "options": {
@@ -342,7 +342,7 @@
                             },
                             {
                               "type": "label",
-                              "text": "16",
+                              "text": "17",
                               "class": "number_style"
                             },
                             {
@@ -350,7 +350,7 @@
                               "name": "reagent_operator_switch10",
                               "value": "{{$global.reagent_operator_switch10}}",
                               "class": "switch_label",
-                              "contentDescription": "16",
+                              "contentDescription": "17",
                               "action": {
                                 "type": "$global.set",
                                 "options": {
@@ -374,7 +374,7 @@
                           ],
                           "class": "no_padding table_row_even_styles",
                           "style": {
-                            "height": "10%"
+                            "height": "11%"
                           }
                         }
                       ]
@@ -394,7 +394,7 @@
                             },
                             {
                               "type": "label",
-                              "text": "17",
+                              "text": "18",
                               "class": "number_style"
                             },
                             {
@@ -402,7 +402,7 @@
                               "name": "reagent_operator_switch11",
                               "value": "{{$global.reagent_operator_switch11}}",
                               "class": "switch_label",
-                              "contentDescription": "17",
+                              "contentDescription": "18",
                               "action": {
                                 "type": "$global.set",
                                 "options": {
@@ -446,7 +446,7 @@
                             },
                             {
                               "type": "label",
-                              "text": "18",
+                              "text": "19",
                               "class": "number_style"
                             },
                             {
@@ -454,7 +454,7 @@
                               "name": "reagent_operator_switch12",
                               "value": "{{$global.reagent_operator_switch12}}",
                               "class": "switch_label switch_styles",
-                              "contentDescription": "18",
+                              "contentDescription": "19",
                               "action": {
                                 "type": "$global.set",
                                 "options": {
@@ -478,7 +478,7 @@
                           ],
                           "class": "no_padding table_row_even_styles",
                           "style": {
-                            "height": "10%"
+                            "height": "9%"
                           }
                         }
                       ]
@@ -498,7 +498,7 @@
                             },
                             {
                               "type": "label",
-                              "text": "19",
+                              "text": "20",
                               "class": "number_style"
                             },
                             {
@@ -506,7 +506,7 @@
                               "name": "reagent_operator_switch13",
                               "value": "{{$global.reagent_operator_switch13}}",
                               "class": "switch_label switch_styles",
-                              "contentDescription": "19",
+                              "contentDescription": "20",
                               "action": {
                                 "type": "$global.set",
                                 "options": {

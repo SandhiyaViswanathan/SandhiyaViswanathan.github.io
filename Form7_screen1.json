@@ -628,14 +628,14 @@
                     },
                     {
                       "type": "label",
-                      "text": "7",
+                      "text": "8",
                       "class":"number_style"
                     },
                     {
                       "type": "textfield",
                       "name": "comments_one",
                       "value": "{{$global.comments_one || ''}}",
-                      "contentDescription": "11",
+                      "contentDescription": "8",
                       "class":"comments_label table_row_odd_styles"
                     }
                   ],
@@ -680,14 +680,14 @@
                     },
                     {
                       "type": "label",
-                      "text": "8",
+                      "text": "9",
                       "class":"number_style"
                     },
                     {
                       "type": "textfield",
                       "name": "comments_two",
                       "value": "{{$global.comments_two || ''}}",
-                      "contentDescription": "8",
+                      "contentDescription": "9",
                       "class":"comments_label table_row_even_styles"
                     }
                   ],
@@ -732,14 +732,14 @@
                     },
                     {
                       "type": "label",
-                      "text": "9",
+                      "text": "10",
                       "class":"number_style"
                     },
                     {
                       "type": "textfield",
                       "name": "comments_three",
                       "value": "{{$global.comments_three || ''}}",
-                      "contentDescription": "9",
+                      "contentDescription": "10",
                       "class":"comments_label table_row_odd_styles"
                     }
                   ],
@@ -784,14 +784,14 @@
                     },
                     {
                       "type": "label",
-                      "text": "10",
+                      "text": "11",
                       "class":"number_style"
                     },
                     {
                       "type": "textfield",
                       "name": "comments_four",
                       "value": "{{$global.comments_four || ''}}",
-                      "contentDescription": "10",
+                      "contentDescription": "11",
                       "class":"comments_label table_row_even_styles"
                     }
                   ],
@@ -836,14 +836,14 @@
                     },
                     {
                       "type": "label",
-                      "text": "11",
+                      "text": "12",
                       "class":"number_style"
                     },
                     {
                       "type": "textfield",
                       "name": "comments_five",
                       "value": "{{$global.comments_five || ''}}",
-                      "contentDescription": "11",
+                      "contentDescription": "12",
                       "class":"comments_label table_row_odd_styles"
                     }
                   ],
@@ -888,20 +888,20 @@
                     },
                     {
                       "type": "label",
-                      "text": "12",
+                      "text": "13",
                       "class":"number_style"
                     },
                     {
                       "type": "textfield",
                       "name": "comments_six",
                       "value": "{{$global.comments_six || ''}}",
-                      "contentDescription": "12",
+                      "contentDescription": "13",
                       "class":"comments_label table_row_even_styles"
                     }
                   ],
                   "class": "no_padding table_row_even_styles",
                   "style": {
-                    "height": "12%"
+                    "height": "11%"
                   }
                 }
               ]
@@ -921,7 +921,7 @@
                     },
                     {
                       "type": "label",
-                      "text": "13",
+                      "text": "7",
                       "class": "number_style"
                     },
                     {
@@ -929,7 +929,10 @@
                       "name": "reagent_operator_switch7",
                       "value": "{{$global.reagent_operator_switch7}}",
                       "class": "switch_label",
-                      "contentDescription": "13",
+                      "contentDescription": "7",
+                      "style":{
+                        "align":"left"
+                      }
                       "action": {
                         "type": "$global.set",
                         "options": {
@@ -940,14 +943,14 @@
                     },
                     {
                       "type": "label",
-                      "text": "20",
+                      "text": "14",
                       "class": "number_style"
                     },
                     {
                       "type": "textfield",
                       "name": "comments_seven",
                       "value": "{{$global.comments_seven || ''}}",
-                      "contentDescription": "20",
+                      "contentDescription": "14",
                       "class": "comments_label table_row_odd_styles"
                     }
                   ],
