@@ -934,7 +934,7 @@
                       "action": {
                         "type": "$href",
                         "options": {
-                          "url": "file://Form7_screen1.json",
+                          "url": "https://sandhiyaviswanathan.github.io/Form7_screen1.json",
                           "preload": {
                             "style": {
                               "background": "#ff0000"
@@ -969,7 +969,7 @@
                       "action": {
                         "type": "$href",
                         "options": {
-                          "url": "file://Form7_screen2.json",
+                          "url": "https://sandhiyaviswanathan.github.io/Form7_screen2.json",
                           "preload": {
                             "style": {
                               "background": "#ff0000"
