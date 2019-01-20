@@ -201,8 +201,6 @@
       },
       "templates": {
         "body": {
-          "header": {
-          },
           "sections": [
                     {
                       "type": "horizontal",
