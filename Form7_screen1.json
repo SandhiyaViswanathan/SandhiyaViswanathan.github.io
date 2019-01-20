@@ -933,7 +933,7 @@
                       "contentDescription": "7",
                       "style":{
                         "align":"left"
-                      }
+                      },
                       "action": {
                         "type": "$global.set",
                         "options": {
