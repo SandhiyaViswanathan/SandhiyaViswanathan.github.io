@@ -68,8 +68,9 @@
           "padding":"0"
         },
         "switch_styles": {
-          "color": "#00ff00",
-          "color:disabled": "#ff0000"
+          "color": "rgb(0,255,0)",
+          "color:disabled": "rgb(255,0,0)",
+          "align":"center"
         },
         "table_row_odd_styles": {
           "background": "rgb(204,206,213)"
@@ -162,7 +163,14 @@
             "comments_four":"{{$get.comments_four}}",
             "comments_five":"{{$get.comments_five}}",
             "comments_six":"{{$get.comments_six}}",
-            "comments_seven": "{{$get.comments_seven}}"
+            "comments_seven": "{{$get.comments_seven}}",
+            "reagent_operator_switch1": "{{$global.reagent_operator_switch1 == null ? true : $global.reagent_operator_switch1}}",
+            "reagent_operator_switch2": "{{$global.reagent_operator_switch2 == null ? true : $global.reagent_operator_switch2}}",
+            "reagent_operator_switch3": "{{$global.reagent_operator_switch3 == null ? true : $global.reagent_operator_switch3}}",
+            "reagent_operator_switch4": "{{$global.reagent_operator_switch4 == null ? true : $global.reagent_operator_switch4}}",
+            "reagent_operator_switch5": "{{$global.reagent_operator_switch5 == null ? true : $global.reagent_operator_switch5}}",
+            "reagent_operator_switch6": "{{$global.reagent_operator_switch6 == null ? true : $global.reagent_operator_switch6}}",
+            "reagent_operator_switch7": "{{$global.reagent_operator_switch7 == null ? true : $global.reagent_operator_switch7}}"
           },
           "success": {
             "type": "$util.toast",

@@ -124,6 +124,13 @@
           "height": "4%",
           "width": "20%",
           "size": "15"
+        },
+        "submit_button_styles": {
+          "width": "15%",
+          "height": "7%",
+          "color": "rgb(255,255,255)",
+          "background": "rgb(0,147,215)",
+          "corner_radius": "1%"
         }
       },
       "actions": {
@@ -161,7 +168,14 @@
             "comments_ten": "{{$get.comments_ten}}",
             "comments_eleven": "{{$get.comments_eleven}}",
             "comments_twelve": "{{$get.comments_twelve}}",
-            "comments_thirteen": "{{$get.comments_thirteen}}"
+            "comments_thirteen": "{{$get.comments_thirteen}}",
+            "reagent_operator_switch8": "{{$global.reagent_operator_switch8 == null ? true : $global.reagent_operator_switch8}}",
+            "reagent_operator_switch9": "{{$global.reagent_operator_switch9 == null ? true : $global.reagent_operator_switch9}}",
+            "reagent_operator_switch10": "{{$global.reagent_operator_switch10 == null ? true : $global.reagent_operator_switch10}}",
+            "reagent_operator_switch11": "{{$global.reagent_operator_switch11 == null ? true : $global.reagent_operator_switch11}}",
+            "reagent_operator_switch12": "{{$global.reagent_operator_switch12 == null ? true : $global.reagent_operator_switch12}}",
+            "reagent_operator_switch13": "{{$global.reagent_operator_switch13 == null ? true : $global.reagent_operator_switch13}}",
+            "reagent_operator_switch14": "{{$global.reagent_operator_switch14 == null ? true : $global.reagent_operator_switch14}}"
           },
           "success": {
             "type": "$util.toast",
