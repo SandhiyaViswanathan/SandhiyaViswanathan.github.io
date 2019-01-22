@@ -717,40 +717,6 @@
             },
             {
               "type":"horizontal",
-              "class":"no_padding",
-              "items":[
-                {
-                  "type":"vertical",
-                  "class": "no_padding",
-                  "components":[{
-                       "type":"horizontal",
-                       "components":{
-                         "{{#each Table2_Headers}}":{
-                           "type":"label",
-                           "text":"{{value}}",
-                           "class":"{{styles}}"
-                         }
-                       }
-                    }]
-                },
-                {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"horizontal",
-                    "components":{
-                      "{{#each Table3_Headers}}":{
-                        "type":"label",
-                        "text":"{{value}}",
-                        "class":"{{styles}}"
-                      }
-                    }
-                  }]
-                }
-                ]
-            },
-            {
-              "type":"horizontal",
               "items":[
                 {
                   "type":"vertical",
@@ -779,7 +745,7 @@
                             "border":"#FFFFFF",
                             "border_width":"2",
                             "background":"rgb(27,142,197)",
-                            "height":"10%"
+                            "height":"14%"
                           }
                         },
                         {
@@ -802,7 +768,7 @@
                             "border":"#FFFFFF",
                             "border_width":"2",
                             "background":"rgb(27,142,197)",
-                            "height":"10%"
+                            "height":"14%"
                           }
                         },
                         {
@@ -813,7 +779,7 @@
                             "border":"#FFFFFF",
                             "border_width":"2",
                             "background":"rgb(27,142,197)",
-                            "height":"10%"
+                            "height":"14%"
                           }
                         }],
                       "style":{
