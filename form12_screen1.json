@@ -762,35 +762,45 @@
                         "type":"label",
                         "text":"Cyanide-Isotainers",
                         "style":{
-                          "width":"10%"
+                          "width":"10%",
+                          "border":"#FFFFFF",
+                          "border_width":"2"
                         }
                       },
                         {
                           "type":"label",
                           "text":"Carbon",
                           "style":{
-                            "width":"10%"
+                            "width":"10%",
+                            "border":"#FFFFFF",
+                            "border_width":"2"
                           }
                         },
                         {
                           "type":"label",
                           "text":"Copper-Sulphate",
                           "style":{
-                            "width":"10%"
+                            "width":"10%",
+                            "border":"#FFFFFF",
+                            "border_width":"2"
                           }
                         },
                         {
                           "type":"label",
                           "text":"SMBS",
                           "style":{
-                            "width":"10%"
+                            "width":"10%",
+                            "border":"#FFFFFF",
+                            "border_width":"2"
                           }
                         },
                         {
                           "type":"label",
                           "text":"Floc",
                           "style":{
-                            "width":"10%"
+                            "width":"10%",
+                            "border":"#FFFFFF",
+                            "border_width":"2"
                           }
                         }],
                       "style":{
