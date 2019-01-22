@@ -94,7 +94,7 @@
           "background": "rgb(27, 142, 197)",
           "border": "#FFFFFF",
           "border_width": "2",
-          "padding":"2"
+          "padding":"0"
         },
         "width_style":{
           "width":"9%",
@@ -749,6 +749,61 @@
                 }
                 ]
             },
+            {
+              "type":"horizontal",
+              "items":[
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[
+                    {
+                      "type":"horizontal",
+                      "components":[{
+                        "type":"label",
+                        "text":"Cyanide-Isotainers",
+                        "style":{
+                          "width":"10%"
+                        }
+                      },
+                        {
+                          "type":"label",
+                          "text":"Carbon",
+                          "style":{
+                            "width":"10%"
+                          }
+                        },
+                        {
+                          "type":"label",
+                          "text":"Copper-Sulphate",
+                          "style":{
+                            "width":"10%"
+                          }
+                        },
+                        {
+                          "type":"label",
+                          "text":"SMBS",
+                          "style":{
+                            "width":"10%"
+                          }
+                        },
+                        {
+                          "type":"label",
+                          "text":"Floc",
+                          "style":{
+                            "width":"10%"
+                          }
+                        }]
+                    }
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
+                },
+                {
+                  "type":"vertical"
+                }
+              ]
+            }
             {
               "type": "horizontal",
               "items": [
