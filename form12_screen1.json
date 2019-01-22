@@ -730,8 +730,7 @@
                     }],
                   "style":{
                     "width":"50%",
-                    "height":"13%",
-                    "background": "rgb(27, 142, 197)"
+                    "height":"13%"
                   }
                 },
                 {
@@ -752,7 +751,11 @@
                     "height":"13%"
                   }
                 }
-                ]
+                ],
+              "style":{
+
+                "background": "rgb(27, 142, 197)"
+              }
             },
             {
               "type": "horizontal",
