@@ -91,7 +91,6 @@
           "size": "15",
           "font": "HelveticaHeader-Bold",
           "color": "rgb(255, 255, 255)",
-          "background": "rgb(27, 142, 197)",
           "border": "#FFFFFF",
           "border_width": "2",
           "padding":"2"
@@ -731,7 +730,8 @@
                     }],
                   "style":{
                     "width":"50%",
-                    "height":"13%"
+                    "height":"13%",
+                    "background": "rgb(27, 142, 197)"
                   }
                 },
                 {
