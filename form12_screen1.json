@@ -716,8 +716,8 @@
               "class":"no_padding",
               "items":[
                 {
-                  "type":"horizontal",
-                  "class":"no_padding",
+                  "type":"vertical",
+                  "class": "no_padding",
                   "components":[{
                        "type":"horizontal",
                        "components":{
@@ -727,11 +727,7 @@
                            "class":"{{styles}}"
                          }
                        }
-                    }],
-                  "style":{
-                    "width":"50%",
-                    "height":"13%"
-                  }
+                    }]
                 },
                 {
                   "type":"vertical",
@@ -745,17 +741,9 @@
                         "class":"{{styles}}"
                       }
                     }
-                  }],
-                  "style":{
-                    "width":"50%",
-                    "height":"13%"
-                  }
+                  }]
                 }
-                ],
-              "style":{
-
-                "background": "rgb(27, 142, 197)"
-              }
+                ]
             },
             {
               "type": "horizontal",
