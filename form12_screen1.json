@@ -716,7 +716,7 @@
               "class":"no_padding",
               "items":[
                 {
-                  "type":"vertical",
+                  "type":"horizontal",
                   "class":"no_padding",
                   "components":[{
                        "type":"horizontal",
@@ -726,7 +726,11 @@
                            "text":"{{value}}",
                            "class":"{{styles}}"
                          }
-                       }
+                       },
+                    "style":{
+
+                      "background": "rgb(27, 142, 197)"
+                    }
                     }],
                   "style":{
                     "width":"50%",
@@ -743,6 +747,10 @@
                         "type":"label",
                         "text":"{{value}}",
                         "class":"{{styles}}"
+                      },
+                      "style":{
+
+                        "background": "rgb(27, 142, 197)"
                       }
                     }
                   }],
