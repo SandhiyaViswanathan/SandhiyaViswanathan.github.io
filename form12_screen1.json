@@ -94,7 +94,8 @@
           "background": "rgb(27, 142, 197)",
           "border": "#FFFFFF",
           "border_width": "2",
-          "padding":"0"
+          "padding":"0",
+          "height":"13%"
         },
         "width_style":{
           "width":"9%"
@@ -733,7 +734,6 @@
                   "style":{
                     "width":"50%"
                   }
-
                 },
                 {
                   "type":"horizontal",
@@ -751,7 +751,6 @@
                   "style":{
                     "width":"50%"
                   }
-
                 }
                 ],
               "style":{
