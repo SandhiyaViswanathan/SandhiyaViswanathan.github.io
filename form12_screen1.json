@@ -710,6 +710,7 @@
               "items":[
                 {
                   "type":"horizontal",
+                  "class":"no_padding",
                   "components":{
                       "{{#each Table2_Headers}}":{
                         "type":"label",
@@ -724,6 +725,7 @@
                 },
                 {
                   "type":"horizontal",
+                  "class":"no_padding",
                     "components":{
                       "{{#each Table3_Headers}}":{
                         "type":"label",
