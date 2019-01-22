@@ -766,7 +766,7 @@
                           "border":"#FFFFFF",
                           "border_width":"2",
                           "background":"rgb(27,142,197)",
-                          "height":"14%",
+                          "height":"20%",
                           "padding":"0"
                         }
                       },
@@ -816,8 +816,7 @@
                           }
                         }],
                       "style":{
-                        "background":"rgb(27,142,197)",
-                        "height":"10%"
+                        "background":"rgb(27,142,197)"
                       }
                     }
                   ],
