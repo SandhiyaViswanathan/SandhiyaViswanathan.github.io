@@ -103,7 +103,8 @@
           "width":"12%"
         },
         "width_style2":{
-          "width":"10%"
+          "width":"10%",
+          "height":"10%"
         },
         "table_header_name_styles":{
           "width":"50%"
