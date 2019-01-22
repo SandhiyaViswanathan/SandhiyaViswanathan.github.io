@@ -737,7 +737,10 @@
                     "width":"50%"
                   }
                 }
-                ]
+                ],
+              "style":{
+                "height":"15%"
+              }
             },
             {
               "type": "horizontal",
