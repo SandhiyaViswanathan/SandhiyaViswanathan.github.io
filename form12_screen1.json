@@ -705,6 +705,20 @@
               ]
             },
             {
+              "type":"horizontal",
+              "items":[{
+                "type":"horizontal",
+                "class":"no_padding",
+                "components":{
+                  "{{#each Table2_Headers}}":{
+                    "type":"label",
+                    "text":"{{value}}",
+                    "class":"{{styles}}"
+                  }
+                }
+              }]
+            },
+            {
               "type": "horizontal",
               "items": [
                 {
