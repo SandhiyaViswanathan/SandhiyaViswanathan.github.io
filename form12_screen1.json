@@ -764,7 +764,8 @@
                         "style":{
                           "width":"10%",
                           "border":"#FFFFFF",
-                          "border_width":"2"
+                          "border_width":"2",
+                          "background":"rgb(27,142,197)"
                         }
                       },
                         {
@@ -773,7 +774,8 @@
                           "style":{
                             "width":"10%",
                             "border":"#FFFFFF",
-                            "border_width":"2"
+                            "border_width":"2",
+                            "background":"rgb(27,142,197)"
                           }
                         },
                         {
@@ -782,7 +784,8 @@
                           "style":{
                             "width":"10%",
                             "border":"#FFFFFF",
-                            "border_width":"2"
+                            "border_width":"2",
+                            "background":"rgb(27,142,197)"
                           }
                         },
                         {
@@ -791,7 +794,8 @@
                           "style":{
                             "width":"10%",
                             "border":"#FFFFFF",
-                            "border_width":"2"
+                            "border_width":"2",
+                            "background":"rgb(27,142,197)"
                           }
                         },
                         {
@@ -800,7 +804,8 @@
                           "style":{
                             "width":"10%",
                             "border":"#FFFFFF",
-                            "border_width":"2"
+                            "border_width":"2",
+                            "background":"rgb(27,142,197)"
                           }
                         }],
                       "style":{
