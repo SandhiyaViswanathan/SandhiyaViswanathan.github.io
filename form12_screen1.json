@@ -93,7 +93,7 @@
           "font": "HelveticaHeader-Bold",
           "color": "rgb(255, 255, 255)",
           "background": "rgb(27, 142, 197)",
-          "height": "7%",
+          "height": "12%",
           "border": "#FFFFFF",
           "border_width": "2"
         },
@@ -711,6 +711,20 @@
                 "class":"no_padding",
                 "components":{
                   "{{#each Table2_Headers}}":{
+                    "type":"label",
+                    "text":"{{value}}",
+                    "class":"{{styles}}"
+                  }
+                }
+              }]
+            },
+            {
+              "type":"horizontal",
+              "items":[{
+                "type":"horizontal",
+                "class":"no_padding",
+                "components":{
+                  "{{#each Table3_Headers}}":{
                     "type":"label",
                     "text":"{{value}}",
                     "class":"{{styles}}"
