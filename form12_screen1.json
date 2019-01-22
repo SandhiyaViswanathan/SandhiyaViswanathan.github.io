@@ -97,10 +97,12 @@
           "padding":"2"
         },
         "width_style":{
-          "width":"9%"
+          "width":"9%",
+          "height":"10%"
         },
         "width_style1":{
-          "width":"12%"
+          "width":"12%",
+          "height":"10%"
         },
         "width_style2":{
           "width":"10%",
