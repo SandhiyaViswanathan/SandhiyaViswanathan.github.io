@@ -784,7 +784,7 @@
                           "type":"label",
                           "text":"Copper-Sulphate",
                           "style":{
-                            "width":"10%",
+                            "width":"14%",
                             "border":"#FFFFFF",
                             "border_width":"2",
                             "background":"rgb(27,142,197)",
@@ -795,7 +795,7 @@
                           "type":"label",
                           "text":"SMBS",
                           "style":{
-                            "width":"10%",
+                            "width":"8%",
                             "border":"#FFFFFF",
                             "border_width":"2",
                             "background":"rgb(27,142,197)",
@@ -806,7 +806,7 @@
                           "type":"label",
                           "text":"Floc",
                           "style":{
-                            "width":"10%",
+                            "width":"8%",
                             "border":"#FFFFFF",
                             "border_width":"2",
                             "background":"rgb(27,142,197)",
