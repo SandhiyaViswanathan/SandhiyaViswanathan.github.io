@@ -758,6 +758,7 @@
                   "components":[
                     {
                       "type":"horizontal",
+                      "class":"no_padding",
                       "components":[{
                         "type":"label",
                         "text":"Cyanide-Isotainers",
@@ -766,7 +767,7 @@
                           "border":"#FFFFFF",
                           "border_width":"2",
                           "background":"rgb(27,142,197)",
-                          "height":"20%",
+                          "height":"14%",
                           "padding":"0"
                         }
                       },
