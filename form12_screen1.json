@@ -709,31 +709,30 @@
               "items":[
                 {
                   "type":"horizontal",
-                  "items":[{
-                    "type":"horizontal",
-                    "class":"no_padding",
-                    "components":{
+                  "components":{
                       "{{#each Table2_Headers}}":{
                         "type":"label",
                         "text":"{{value}}",
                         "class":"{{styles}}"
                       }
-                    }
-                  }]
+                    },
+                  "style":{
+                    "width":"50%"
+                  }
+
                 },
                 {
                   "type":"horizontal",
-                  "items":[{
-                    "type":"horizontal",
-                    "class":"no_padding",
                     "components":{
                       "{{#each Table3_Headers}}":{
                         "type":"label",
                         "text":"{{value}}",
                         "class":"{{styles}}"
                       }
-                    }
-                  }]
+                    },
+                  "style":{
+                    "width":"50%"
+                  }
                 }
                 ]
             },
