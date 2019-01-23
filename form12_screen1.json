@@ -706,7 +706,7 @@
                           "text":"SMBS",
                           "class":"header_style",
                           "style":{
-                            "width":"12%"
+                            "width":"13%"
                           }
                         }
                       ]
@@ -720,7 +720,7 @@
                           "text":"Floc",
                           "class":"header_style",
                           "style":{
-                            "width":"12%"
+                            "width":"13%"
                           }
                         }
                       ]
@@ -852,7 +852,7 @@
                           "text":"Bags",
                           "class":"header_style1",
                           "style": {
-                            "width": "12%"
+                            "width": "13%"
                           }
                         }
                       ]
@@ -866,7 +866,7 @@
                           "text":"Bags",
                           "class":"header_style1",
                           "style": {
-                            "width": "12%"
+                            "width": "13%"
                           }
                         }
                       ]
@@ -998,7 +998,7 @@
                           "text":"7",
                           "class":"header_style2",
                           "style": {
-                            "width": "12%"
+                            "width": "13%"
                           }
                         }
                       ]
@@ -1012,7 +1012,7 @@
                           "text":"8",
                           "class":"header_style2",
                           "style": {
-                            "width": "12%"
+                            "width": "13%"
                           }
                         }
                       ]
@@ -1144,7 +1144,7 @@
                           "value":"",
                           "class":"header_textfield",
                           "style": {
-                            "width": "12%"
+                            "width": "13%"
                           }
                         }
                       ]
@@ -1158,7 +1158,7 @@
                           "value":"",
                           "class":"header_textfield",
                           "style": {
-                            "width": "12%"
+                            "width": "13%"
                           }
                         }
                       ]
