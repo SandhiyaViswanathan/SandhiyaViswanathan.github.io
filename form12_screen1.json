@@ -575,7 +575,7 @@
                       "components": [
                         {
                           "type": "label",
-                          "text": "Cyanide-Isotainers",
+                          "text": "Cyanide - Isotainers",
                           "class":"header_style",
                           "style": {
                             "width": "14%"
@@ -603,7 +603,7 @@
                       "components": [
                         {
                           "type":"label",
-                          "text":"Copper-Sulphate",
+                          "text":"Copper - Sulphate",
                           "class":"header_style",
                           "style":{
                             "width":"12%"
@@ -651,7 +651,7 @@
                       "components": [
                         {
                           "type": "label",
-                          "text": "Cyanide-Trucks",
+                          "text": "Cyanide - Trucks",
                           "class":"header_style"
                         }
                       ]
@@ -662,7 +662,7 @@
                       "components": [
                         {
                           "type":"label",
-                          "text":"SO2-Trucks",
+                          "text":"SO2 - Trucks",
                           "class":"header_style"
                         }
                       ]
