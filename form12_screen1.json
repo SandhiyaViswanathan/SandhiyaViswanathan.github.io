@@ -719,24 +719,31 @@
               "type":"horizontal",
               "items":[
                 {
-                  "type":"vertical",
+                  "type":"horizontal",
                   "class":"no_padding",
                   "components":[
                     {
-                      "type":"horizontal",
-                      "class":"no_padding",
-                      "components":[{
-                        "type":"label",
-                        "text":"Cyanide-Isotainers",
-                        "style":{
-                          "width":"10%",
-                          "border":"#FFFFFF",
-                          "border_width":"2",
-                          "background":"rgb(27,142,197)",
-                          "height":"14%",
-                          "padding":"0"
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type": "label",
+                          "text": "Cyanide-Isotainers",
+                          "style": {
+                            "width": "10%",
+                            "border": "#FFFFFF",
+                            "border_width": "2",
+                            "background": "rgb(27,142,197)",
+                            "height": "14%",
+                            "padding": "0"
+                          }
                         }
-                      },
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
                         {
                           "type":"label",
                           "text":"Carbon",
@@ -748,7 +755,13 @@
                             "height":"14%",
                             "padding":"0"
                           }
-                        },
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
                         {
                           "type":"label",
                           "text":"Copper-Sulphate",
@@ -759,7 +772,13 @@
                             "background":"rgb(27,142,197)",
                             "height":"14%"
                           }
-                        },
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
                         {
                           "type":"label",
                           "text":"SMBS",
@@ -771,7 +790,13 @@
                             "height":"10%",
                             "padding":"0"
                           }
-                        },
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
                         {
                           "type":"label",
                           "text":"Floc",
@@ -783,18 +808,13 @@
                             "height":"10%",
                             "padding":"0"
                           }
-                        }],
-                      "style":{
-                        "background":"rgb(27,142,197)"
-                      }
+                        }
+                      ]
+                    }
+                    ]
                     }
                   ]
                 },
-                {
-                  "type":"vertical"
-                }
-              ]
-            },
             {
               "type": "horizontal",
               "items": [
