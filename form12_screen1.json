@@ -119,8 +119,8 @@
           "border_width": "2",
           "background": "rgb(204,206,213)",
           "height": "5%",
-          "align": "center",
-          "color":"rgb(255,255,255)"
+          "color":"rgb(255,255,255)",
+          "padding":0
         }
       },
       "actions": {
@@ -1078,7 +1078,10 @@
                         {
                           "type": "textfield",
                           "value": "",
-                          "class":"header_textfield"
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "12%"
+                          }
                         }
                       ]
                     },
@@ -1089,7 +1092,10 @@
                         {
                           "type":"textfield",
                           "value":"",
-                          "class":"header_textfield"
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "12%"
+                          }
                         }
                       ]
                     },
@@ -1100,7 +1106,10 @@
                         {
                           "type":"textfield",
                           "value":"",
-                          "class":"header_textfield"
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "12%"
+                          }
                         }
                       ]
                     },
@@ -1111,7 +1120,10 @@
                         {
                           "type":"textfield",
                           "value":"",
-                          "class":"header_textfield"
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "12%"
+                          }
                         }
                       ]
                     }
