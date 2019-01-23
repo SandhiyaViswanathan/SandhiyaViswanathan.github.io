@@ -94,7 +94,7 @@
           "border": "#FFFFFF",
           "border_width": "2",
           "background": "rgb(27,142,197)",
-          "height": "14%",
+          "height": "11%",
           "align": "center",
           "color":"rgb(255,255,255)"
         }
@@ -603,7 +603,7 @@
                       "components": [
                         {
                           "type":"label",
-                          "text":"Copper - Sulphate",
+                          "text":"Copper Sulphate",
                           "class":"header_style",
                           "style":{
                             "width":"12%"
@@ -639,7 +639,10 @@
                         }
                       ]
                     }
-                    ]
+                    ],
+                  "style":{
+                    "width":"50%"
+                  }
                     },
                 {
                   "type":"horizontal",
