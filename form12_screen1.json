@@ -981,6 +981,140 @@
               ]
             },
             {
+              "type":"horizontal",
+              "items":[
+                {
+                  "type":"horizontal",
+                  "class":"no_padding",
+                  "components":[
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type": "textfield",
+                          "value": "",
+                          "class":"header_style",
+                          "style": {
+                            "width": "12%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_style",
+                          "style":{
+                            "width":"10%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_style",
+                          "style":{
+                            "width":"12%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_style",
+                          "style":{
+                            "width":"8%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_style",
+                          "style":{
+                            "width":"8%"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type":"horizontal",
+                  "class":"no_padding",
+                  "components":[
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type": "textfield",
+                          "value": "",
+                          "class":"header_style"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_style"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_style"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_style"
+                        }
+                      ]
+                    }
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
+                }
+              ]
+            },
+            {
               "type": "horizontal",
               "items": [
                 {
