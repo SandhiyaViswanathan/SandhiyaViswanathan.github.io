@@ -97,6 +97,22 @@
           "height": "12%",
           "align": "center",
           "color":"rgb(255,255,255)"
+        },
+        "header_style1":{
+          "border": "#FFFFFF",
+          "border_width": "2",
+          "background": "rgb(14, 53, 112)",
+          "height": "5%",
+          "align": "center",
+          "color":"rgb(255,255,255)"
+        },
+        "header_style2":{
+          "border": "#FFFFFF",
+          "border_width": "2",
+          "background": "rgb(14, 53, 112)",
+          "height": "5%",
+          "align": "center",
+          "color":"rgb(255,255,255)"
         }
       },
       "actions": {
