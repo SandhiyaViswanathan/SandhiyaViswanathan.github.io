@@ -812,7 +812,81 @@
                       ]
                     }
                     ]
+                    },
+                {
+                  "type":"horizontal",
+                  "class":"no_padding",
+                  "components":[
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type": "label",
+                          "text": "Cyanide-Trucks",
+                          "style": {
+                            "border": "#FFFFFF",
+                            "border_width": "2",
+                            "background": "rgb(27,142,197)",
+                            "height": "14%",
+                            "padding": "0"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"SO2-Trucks",
+                          "style":{
+                            "border":"#FFFFFF",
+                            "border_width":"2",
+                            "background":"rgb(27,142,197)",
+                            "height":"14%",
+                            "padding":"0"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"SMBS",
+                          "style":{
+                            "border":"#FFFFFF",
+                            "border_width":"2",
+                            "background":"rgb(27,142,197)",
+                            "height":"14%",
+                            "padding":"0"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"Floc",
+                          "style":{
+                            "border":"#FFFFFF",
+                            "border_width":"2",
+                            "background":"rgb(27,142,197)",
+                            "height":"14%",
+                            "padding":"0"
+                          }
+                        }
+                      ]
                     }
+                  ]
+                }
                   ]
                 },
             {
