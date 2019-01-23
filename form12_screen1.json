@@ -639,10 +639,7 @@
                         }
                       ]
                     }
-                    ],
-                  "style":{
-                    "width":"50%"
-                  }
+                    ]
                     },
                 {
                   "type":"horizontal",
