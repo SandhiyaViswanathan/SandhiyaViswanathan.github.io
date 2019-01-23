@@ -810,7 +810,10 @@
                         {
                           "type": "label",
                           "text": "tonnes",
-                          "class":"header_style1"
+                          "class":"header_style1",
+                          "style": {
+                            "width": "12%"
+                          }
                         }
                       ]
                     },
@@ -821,7 +824,10 @@
                         {
                           "type":"label",
                           "text":"tonnes",
-                          "class":"header_style1"
+                          "class":"header_style1",
+                          "style": {
+                            "width": "12%"
+                          }
                         }
                       ]
                     },
@@ -832,7 +838,10 @@
                         {
                           "type":"label",
                           "text":"Bags",
-                          "class":"header_style1"
+                          "class":"header_style1",
+                          "style": {
+                            "width": "12%"
+                          }
                         }
                       ]
                     },
@@ -843,7 +852,10 @@
                         {
                           "type":"label",
                           "text":"Bags",
-                          "class":"header_style1"
+                          "class":"header_style1",
+                          "style": {
+                            "width": "12%"
+                          }
                         }
                       ]
                     }
@@ -944,7 +956,10 @@
                         {
                           "type": "label",
                           "text": "5",
-                          "class":"header_style2"
+                          "class":"header_style2",
+                          "style": {
+                            "width": "12%"
+                          }
                         }
                       ]
                     },
@@ -955,7 +970,10 @@
                         {
                           "type":"label",
                           "text":"6",
-                          "class":"header_style2"
+                          "class":"header_style2",
+                          "style": {
+                            "width": "12%"
+                          }
                         }
                       ]
                     },
@@ -966,7 +984,10 @@
                         {
                           "type":"label",
                           "text":"7",
-                          "class":"header_style2"
+                          "class":"header_style2",
+                          "style": {
+                            "width": "12%"
+                          }
                         }
                       ]
                     },
@@ -977,7 +998,10 @@
                         {
                           "type":"label",
                           "text":"8",
-                          "class":"header_style2"
+                          "class":"header_style2",
+                          "style": {
+                            "width": "12%"
+                          }
                         }
                       ]
                     }
@@ -1080,7 +1104,7 @@
                           "value": "",
                           "class":"header_textfield",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1094,7 +1118,7 @@
                           "value":"",
                           "class":"header_textfield",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1108,7 +1132,7 @@
                           "value":"",
                           "class":"header_textfield",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1122,12 +1146,15 @@
                           "value":"",
                           "class":"header_textfield",
                           "style": {
-                            "width": "11%"
+                            "width": "12%"
                           }
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
                 }
               ]
             },
