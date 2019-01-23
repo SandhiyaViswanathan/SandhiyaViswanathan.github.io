@@ -87,35 +87,16 @@
           "border": "#FFFFFF",
           "border_width": "2"
         },
-        "table_header_styles2": {
-          "size": "15",
-          "font": "HelveticaHeader-Bold",
-          "color": "rgb(255, 255, 255)",
-          "background": "rgb(27, 142, 197)",
-          "border": "#FFFFFF",
-          "border_width": "2",
-          "padding":"0"
-        },
-        "width_style":{
-          "width":"9%",
-          "height":"10%"
-        },
-        "width_style1":{
-          "width":"12%",
-          "height":"10%"
-        },
-        "width_style2":{
-          "width":"10%",
-          "height":"10%"
-        },
         "table_header_name_styles":{
           "width":"50%"
         },
-        "table_header_name_styles1":{
-          "width":"10%"
-        },
-        "table_header_name_styles2":{
-          "width":"12%"
+        "header_style":{
+          "border": "#FFFFFF",
+          "border_width": "2",
+          "background": "rgb(27,142,197)",
+          "height": "14%",
+          "padding": "1",
+          "color":"rgb(255,255,255)"
         }
       },
       "actions": {
@@ -187,140 +168,6 @@
             "value": "Received",
             "col_type": "col_value",
             "styles": "table_header_styles center_align table_header_name_styles"
-          }
-        ],
-        "Table2_Headers": [
-          {
-            "type": "label",
-            "name": "isonaters",
-            "value": "Cyanide-isotainers",
-            "col_type": "col_name",
-            "styles": "table_header_styles2 center_align width_style1"
-          },
-          {
-            "type": "label",
-            "name": "carbon",
-            "value": "Carbon",
-            "col_type": "col_value",
-            "styles": "table_header_styles2 center_align width_style2"
-          },
-          {
-            "type": "label",
-            "name": "copper",
-            "value": "Copper Sulfate",
-            "col_type": "col_value",
-            "styles": "table_header_styles2 center_align width_style2"
-          },
-          {
-            "type": "label",
-            "name": "smbs",
-            "value": "SMBS",
-            "col_type": "col_value",
-            "styles": "table_header_styles2 center_align width_style"
-          },
-          {
-            "type": "label",
-            "name": "floc",
-            "value": "Floc",
-            "col_type": "col_value",
-            "styles": "table_header_styles2 center_align width_style"
-          }
-        ],
-        "Table3_Headers": [
-          {
-            "type": "label",
-            "name": "trucks",
-            "value": "Cyanide - Trucks",
-            "col_type": "col_name",
-            "styles": "table_header_styles2 center_align"
-          },
-          {
-            "type": "label",
-            "name": "so2",
-            "value": "SO2 - Trucks",
-            "col_type": "col_value",
-            "styles": "table_header_styles2 center_align"
-          },
-          {
-            "type": "label",
-            "name": "smbs",
-            "value": "SMBS",
-            "col_type": "col_value",
-            "styles": "table_header_styles2 center_align"
-          },
-          {
-            "type": "label",
-            "name": "floc",
-            "value": "Floc",
-            "col_type": "col_value",
-            "styles": "table_header_styles2 center_align"
-          }
-        ],
-        "Table4_Headers": [
-          {
-            "type": "label",
-            "name": "hash",
-            "value": "#",
-            "col_type": "col_name",
-            "styles": "table_header_styles center_align table_header_name_styles1"
-          },
-          {
-            "type": "label",
-            "name": "bags1",
-            "value": "Bags",
-            "col_type": "col_value",
-            "styles": "table_header_styles center_align table_header_name_styles1"
-          },
-          {
-            "type": "label",
-            "name": "bags2",
-            "value": "Bags",
-            "col_type": "col_value",
-            "styles": "table_header_styles center_align table_header_name_styles1"
-          },
-          {
-            "type": "label",
-            "name": "bags3",
-            "value": "Bags",
-            "col_type": "col_value",
-            "styles": "table_header_styles center_align table_header_name_styles1"
-          },
-          {
-            "type": "label",
-            "name": "bags4",
-            "value": "Bags",
-            "col_type": "col_value",
-            "styles": "table_header_styles center_align table_header_name_styles1"
-          }
-        ],
-        "Table5_Headers": [
-          {
-            "type": "label",
-            "name": "ton",
-            "value": "tonnes",
-            "col_type": "col_name",
-            "styles": "table_header_styles center_align table_header_name_styles2"
-          },
-          {
-            "type": "label",
-            "name": "ton2",
-            "value": "tonnes",
-            "col_type": "col_value",
-            "styles": "table_header_styles center_align table_header_name_styles2"
-          },
-          {
-            "type": "label",
-            "name": "bags5",
-            "value": "Bags",
-            "col_type": "col_value",
-            "styles": "table_header_styles center_align table_header_name_styles2"
-          },
-          {
-            "type": "label",
-            "name": "bags6",
-            "value": "Bags",
-            "col_type": "col_value",
-            "styles": "table_header_styles center_align table_header_name_styles2"
           }
         ]
       },
@@ -729,13 +576,9 @@
                         {
                           "type": "label",
                           "text": "Cyanide-Isotainers",
+                          "class":"header_style",
                           "style": {
-                            "width": "10%",
-                            "border": "#FFFFFF",
-                            "border_width": "2",
-                            "background": "rgb(27,142,197)",
-                            "height": "14%",
-                            "padding": "0"
+                            "width": "10%"
                           }
                         }
                       ]
@@ -747,13 +590,9 @@
                         {
                           "type":"label",
                           "text":"Carbon",
+                          "class":"header_style",
                           "style":{
-                            "width":"10%",
-                            "border":"#FFFFFF",
-                            "border_width":"2",
-                            "background":"rgb(27,142,197)",
-                            "height":"14%",
-                            "padding":"0"
+                            "width":"10%"
                           }
                         }
                       ]
@@ -765,12 +604,9 @@
                         {
                           "type":"label",
                           "text":"Copper-Sulphate",
+                          "class":"header_style",
                           "style":{
-                            "width":"14%",
-                            "border":"#FFFFFF",
-                            "border_width":"2",
-                            "background":"rgb(27,142,197)",
-                            "height":"14%"
+                            "width":"14%"
                           }
                         }
                       ]
@@ -782,13 +618,9 @@
                         {
                           "type":"label",
                           "text":"SMBS",
+                          "class":"header_style",
                           "style":{
-                            "width":"8%",
-                            "border":"#FFFFFF",
-                            "border_width":"2",
-                            "background":"rgb(27,142,197)",
-                            "height":"14%",
-                            "padding":"0"
+                            "width":"8%"
                           }
                         }
                       ]
@@ -800,13 +632,9 @@
                         {
                           "type":"label",
                           "text":"Floc",
+                          "class":"header_style",
                           "style":{
-                            "width":"8%",
-                            "border":"#FFFFFF",
-                            "border_width":"2",
-                            "background":"rgb(27,142,197)",
-                            "height":"14%",
-                            "padding":"0"
+                            "width":"8%"
                           }
                         }
                       ]
@@ -824,13 +652,7 @@
                         {
                           "type": "label",
                           "text": "Cyanide-Trucks",
-                          "style": {
-                            "border": "#FFFFFF",
-                            "border_width": "2",
-                            "background": "rgb(27,142,197)",
-                            "height": "14%",
-                            "padding": "0"
-                          }
+                          "class":"header_style"
                         }
                       ]
                     },
@@ -841,13 +663,7 @@
                         {
                           "type":"label",
                           "text":"SO2-Trucks",
-                          "style":{
-                            "border":"#FFFFFF",
-                            "border_width":"2",
-                            "background":"rgb(27,142,197)",
-                            "height":"14%",
-                            "padding":"0"
-                          }
+                          "class":"header_style"
                         }
                       ]
                     },
@@ -858,13 +674,7 @@
                         {
                           "type":"label",
                           "text":"SMBS",
-                          "style":{
-                            "border":"#FFFFFF",
-                            "border_width":"2",
-                            "background":"rgb(27,142,197)",
-                            "height":"14%",
-                            "padding":"0"
-                          }
+                          "class":"header_style"
                         }
                       ]
                     },
@@ -875,13 +685,7 @@
                         {
                           "type":"label",
                           "text":"Floc",
-                          "style":{
-                            "border":"#FFFFFF",
-                            "border_width":"2",
-                            "background":"rgb(27,142,197)",
-                            "height":"14%",
-                            "padding":"0"
-                          }
+                          "class":"header_style"
                         }
                       ]
                     }
