@@ -789,10 +789,7 @@
                         "background":"rgb(27,142,197)"
                       }
                     }
-                  ],
-                  "style":{
-                    "width":"50%"
-                  }
+                  ]
                 },
                 {
                   "type":"vertical"
