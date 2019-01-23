@@ -1171,6 +1171,590 @@
               ]
             },
             {
+              "type":"horizontal",
+              "items":[
+                {
+                  "type":"horizontal",
+                  "class":"no_padding",
+                  "components":[
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type": "label",
+                          "text": "",
+                          "class":"header_style2",
+                          "style": {
+                            "width": "12%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"1",
+                          "class":"header_style2",
+                          "style":{
+                            "width":"10%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"2",
+                          "class":"header_style2",
+                          "style":{
+                            "width":"12%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"3",
+                          "class":"header_style2",
+                          "style":{
+                            "width":"8%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"4",
+                          "class":"header_style2",
+                          "style":{
+                            "width":"8%"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type":"horizontal",
+                  "class":"no_padding",
+                  "components":[
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type": "label",
+                          "text": "5",
+                          "class":"header_style2",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"6",
+                          "class":"header_style2",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"7",
+                          "class":"header_style2",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"8",
+                          "class":"header_style2",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
+                }
+              ]
+            },
+            {
+              "type":"horizontal",
+              "items":[
+                {
+                  "type":"horizontal",
+                  "class":"no_padding",
+                  "components":[
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type": "textfield",
+                          "value": "",
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "12%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style":{
+                            "width":"10%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style":{
+                            "width":"12%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style":{
+                            "width":"8%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style":{
+                            "width":"8%"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type":"horizontal",
+                  "class":"no_padding",
+                  "components":[
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type": "textfield",
+                          "value": "",
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
+                }
+              ]
+            },
+            {
+              "type":"horizontal",
+              "items":[
+                {
+                  "type":"horizontal",
+                  "class":"no_padding",
+                  "components":[
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type": "label",
+                          "text": "",
+                          "class":"header_style2",
+                          "style": {
+                            "width": "12%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"1",
+                          "class":"header_style2",
+                          "style":{
+                            "width":"10%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"2",
+                          "class":"header_style2",
+                          "style":{
+                            "width":"12%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"3",
+                          "class":"header_style2",
+                          "style":{
+                            "width":"8%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"4",
+                          "class":"header_style2",
+                          "style":{
+                            "width":"8%"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type":"horizontal",
+                  "class":"no_padding",
+                  "components":[
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type": "label",
+                          "text": "5",
+                          "class":"header_style2",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"6",
+                          "class":"header_style2",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"7",
+                          "class":"header_style2",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"label",
+                          "text":"8",
+                          "class":"header_style2",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
+                }
+              ]
+            },
+            {
+              "type":"horizontal",
+              "items":[
+                {
+                  "type":"horizontal",
+                  "class":"no_padding",
+                  "components":[
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type": "textfield",
+                          "value": "",
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "12%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style":{
+                            "width":"10%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style":{
+                            "width":"12%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style":{
+                            "width":"8%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style":{
+                            "width":"8%"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type":"horizontal",
+                  "class":"no_padding",
+                  "components":[
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type": "textfield",
+                          "value": "",
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "vertical",
+                      "class": "no_padding",
+                      "components": [
+                        {
+                          "type":"textfield",
+                          "value":"",
+                          "class":"header_textfield",
+                          "style": {
+                            "width": "13%"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
+                }
+              ]
+            },
+            {
               "type": "horizontal",
               "items": [
                 {
