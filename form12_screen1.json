@@ -757,9 +757,7 @@
                             "border":"#FFFFFF",
                             "border_width":"2",
                             "background":"rgb(27,142,197)",
-                            "height":"14%",
-                            "padding":"0",
-                            "padding_top":"0"
+                            "height":"14%"
                           }
                         },
                         {
