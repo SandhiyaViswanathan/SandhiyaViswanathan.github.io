@@ -113,6 +113,14 @@
           "height": "5%",
           "align": "center",
           "color":"rgb(255,255,255)"
+        },
+        "header_textfield":{
+          "border": "#FFFFFF",
+          "border_width": "2",
+          "background": "rgb(204,206,213)",
+          "height": "5%",
+          "align": "center",
+          "color":"rgb(255,255,255)"
         }
       },
       "actions": {
