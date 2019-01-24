@@ -128,7 +128,8 @@
           "color":"rgb(0,0,0)",
           "padding":0,
           "size":15,
-          "font": "HelveticaHeader"
+          "font": "HelveticaHeader",
+          "background": "rgb(204,206,213)"
         }
       },
       "actions": {
@@ -1066,12 +1067,12 @@
                   "components":[
                     {
                       "type": "vertical",
-                      "class": "no_padding table_row_odd_styles",
+                      "class": "no_padding",
                       "components": [
                         {
                           "type": "label",
                           "text": "1",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "12%",
                             "height":"8%"
@@ -1088,7 +1089,7 @@
                           "name":"textfield1",
                           "contentDescription": "one",
                           "value":"{{$global.textfield1 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style":{
                             "width":"10%"
                           }
@@ -1104,7 +1105,7 @@
                           "name":"textfield2",
                           "contentDescription": "two",
                           "value":"{{$global.textfield2 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style":{
                             "width":"12%"
                           }
@@ -1120,7 +1121,7 @@
                           "name":"textfield3",
                           "contentDescription": "three",
                           "value":"{{$global.textfield3 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style":{
                             "width":"8%"
                           }
@@ -1136,7 +1137,7 @@
                           "name":"textfield4",
                           "contentDescription": "four",
                           "value":"{{$global.textfield4 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style":{
                             "width":"8%"
                           }
@@ -1158,7 +1159,7 @@
                           "name":"textfield5",
                           "contentDescription": "five",
                           "value":"{{$global.textfield5 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "13%"
                           }
@@ -1174,7 +1175,7 @@
                           "name":"textfield6",
                           "contentDescription": "six",
                           "value":"{{$global.textfield6 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "13%"
                           }
@@ -1190,7 +1191,7 @@
                           "name":"textfield7",
                           "contentDescription": "seven",
                           "value":"{{$global.textfield7 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "13%"
                           }
@@ -1206,7 +1207,7 @@
                           "name":"textfield8",
                           "contentDescription": "eight",
                           "value":"{{$global.textfield8 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "13%"
                           }
@@ -1375,12 +1376,12 @@
                   "components":[
                     {
                       "type": "vertical",
-                      "class": "no_padding table_row_even_styles",
+                      "class": "no_padding",
                       "components": [
                         {
                           "type": "label",
                           "text": "2",
-                          "class":"header_textfield table_row_even_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "12%",
                             "height":"9%"
@@ -1397,7 +1398,7 @@
                           "name":"textfield9",
                           "contentDescription": "nine",
                           "value":"{{$global.textfield9 || ''}}",
-                          "class":"header_textfield table_row_even_styles",
+                          "class":"header_textfield",
                           "style":{
                             "width":"10%"
                           }
@@ -1413,7 +1414,7 @@
                           "name":"textfield10",
                           "contentDescription": "ten",
                           "value":"{{$global.textfield10 || ''}}",
-                          "class":"header_textfield table_row_even_styles",
+                          "class":"header_textfield",
                           "style":{
                             "width":"12%"
                           }
@@ -1429,7 +1430,7 @@
                           "name":"textfield11",
                           "contentDescription": "eleven",
                           "value":"{{$global.textfield11 || ''}}",
-                          "class":"header_textfield table_row_even_styles",
+                          "class":"header_textfield",
                           "style":{
                             "width":"8%"
                           }
@@ -1445,7 +1446,7 @@
                           "name":"textfield12",
                           "contentDescription": "twelve",
                           "value":"{{$global.textfield12 || ''}}",
-                          "class":"header_textfield table_row_even_styles",
+                          "class":"header_textfield",
                           "style":{
                             "width":"8%"
                           }
@@ -1467,7 +1468,7 @@
                           "name":"textfield13",
                           "contentDescription": "thirteen",
                           "value":"{{$global.textfield13 || ''}}",
-                          "class":"header_textfield table_row_even_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "13%"
                           }
@@ -1483,7 +1484,7 @@
                           "name":"textfield14",
                           "contentDescription": "fourteen",
                           "value":"{{$global.textfield14 || ''}}",
-                          "class":"header_textfield table_row_even_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "13%"
                           }
@@ -1499,7 +1500,7 @@
                           "name":"textfield15",
                           "contentDescription": "fifteen",
                           "value":"{{$global.textfield15 || ''}}",
-                          "class":"header_textfield table_row_even_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "13%"
                           }
@@ -1515,7 +1516,7 @@
                           "name":"textfield16",
                           "contentDescription": "sixteen",
                           "value":"{{$global.textfield16 || ''}}",
-                          "class":"header_textfield table_row_even_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "13%"
                           }
@@ -1684,15 +1685,15 @@
                   "components":[
                     {
                       "type": "vertical",
-                      "class": "no_padding table_row_odd_styles",
+                      "class": "no_padding",
                       "components": [
                         {
                           "type": "label",
                           "text": "3",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "12%",
-                            "height":"8%"
+                            "height":"18"
                           }
                         }
                       ]
@@ -1706,7 +1707,7 @@
                           "name":"textfield17",
                           "contentDescription": "seventeen",
                           "value":"{{$global.textfield17 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style":{
                             "width":"10%"
                           }
@@ -1722,7 +1723,7 @@
                           "name":"textfield18",
                           "contentDescription": "eighteen",
                           "value":"{{$global.textfield18 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style":{
                             "width":"12%"
                           }
@@ -1738,7 +1739,7 @@
                           "name":"textfield19",
                           "contentDescription": "nineteen",
                           "value":"{{$global.textfield19 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style":{
                             "width":"8%"
                           }
@@ -1754,7 +1755,7 @@
                           "name":"textfield20",
                           "contentDescription": "twenty",
                           "value":"{{$global.textfield20 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style":{
                             "width":"8%"
                           }
@@ -1776,7 +1777,7 @@
                           "name":"textfield21",
                           "contentDescription": "twenty-one",
                           "value":"{{$global.textfield21 || ''}}",
-                          "class":"header_textfield table_row_odd_styles ",
+                          "class":"header_textfield ",
                           "style": {
                             "width": "13%"
                           }
@@ -1792,7 +1793,7 @@
                           "name":"textfield22",
                           "contentDescription": "twenty-two",
                           "value":"{{$global.textfield22 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "13%"
                           }
@@ -1808,7 +1809,7 @@
                           "name":"textfield23",
                           "contentDescription": "twenty-three",
                           "value":"{{$global.textfield23 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "13%"
                           }
@@ -1824,7 +1825,7 @@
                           "name":"textfield24",
                           "contentDescription": "twenty-four",
                           "value":"{{$global.textfield24 || ''}}",
-                          "class":"header_textfield table_row_odd_styles",
+                          "class":"header_textfield",
                           "style": {
                             "width": "13%"
                           }
