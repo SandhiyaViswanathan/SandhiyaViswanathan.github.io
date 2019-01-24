@@ -79,49 +79,12 @@
           "width": "20%",
           "size": "15"
         },
-        "table_header_styles": {
-          "size": "15",
-          "font": "HelveticaHeader-Bold",
-          "background": "rgb(14, 53, 112)",
-          "color": "rgb(255, 255, 255)",
-          "border": "#FFFFFF",
-          "border_width": "2",
-          "height":"5%"
-        },
-        "table_header_name_styles":{
-          "width":"50%"
-        },
-        "header_style":{
-          "border": "#FFFFFF",
-          "border_width": "2",
-          "background": "rgb(27,142,197)",
-          "height": "12%",
-          "align": "center",
-          "color":"rgb(255,255,255)"
-        },
-        "header_style1":{
-          "border": "#FFFFFF",
-          "border_width": "2",
-          "background": "rgb(14, 53, 112)",
-          "height": "5%",
-          "align": "center",
-          "color":"rgb(255,255,255)"
-        },
-        "header_style2":{
-          "border": "#FFFFFF",
-          "border_width": "2",
-          "background": "rgb(14, 53, 112)",
-          "height": "5%",
-          "align": "center",
-          "color":"rgb(255,255,255)"
-        },
-        "header_textfield":{
-          "border": "#FFFFFF",
-          "border_width": "2",
-          "background": "rgb(204,206,213)",
-          "height": "5%",
-          "color":"rgb(255,255,255)",
-          "padding":0
+        "submit_button_styles": {
+          "width": "15%",
+          "height": "7%",
+          "color": "rgb(255,255,255)",
+          "background": "rgb(0,147,215)",
+          "corner_radius": "1%"
         }
       },
       "actions": {
@@ -229,10 +192,10 @@
                   "style":{
                     "background": "rgb(204,206,213)",
                     "width": "100%",
-                    "height": "15%",
+                    "height": "50%",
                     "color":"rgb(0,0,0)",
                     "padding":"1",
-                    "font": "HelveticaNeue-Bold"
+                    "font": "HelveticaNeue"
                   }
                 }]
               }]
