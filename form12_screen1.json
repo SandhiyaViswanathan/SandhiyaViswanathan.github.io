@@ -696,10 +696,7 @@
                         }
                       ]
                     }
-                    ],
-                  "style":{
-                    "width":"50%"
-                  }
+                    ]
                     },
                 {
                   "type":"horizontal",
@@ -845,10 +842,7 @@
                         }
                       ]
                     }
-                  ],
-                  "style":{
-                    "width":"50%"
-                  }
+                  ]
                 },
                 {
                   "type":"horizontal",
@@ -994,10 +988,7 @@
                         }
                       ]
                     }
-                  ],
-                  "style":{
-                    "width":"50%"
-                  }
+                  ]
                 },
                 {
                   "type":"horizontal",
@@ -1152,10 +1143,7 @@
                         }
                       ]
                     }
-                  ],
-                  "style":{
-                    "width":"50%"
-                  }
+                  ]
                 },
                 {
                   "type":"horizontal",
@@ -1309,10 +1297,7 @@
                         }
                       ]
                     }
-                  ],
-                  "style":{
-                    "width":"50%"
-                  }
+                  ]
                 },
                 {
                   "type":"horizontal",
@@ -1467,10 +1452,7 @@
                         }
                       ]
                     }
-                  ],
-                  "style":{
-                    "width":"50%"
-                  }
+                  ]
                 },
                 {
                   "type":"horizontal",
@@ -1624,10 +1606,7 @@
                         }
                       ]
                     }
-                  ],
-                  "style":{
-                    "width":"50%"
-                  }
+                  ]
                 },
                 {
                   "type":"horizontal",
@@ -1705,7 +1684,7 @@
                   "components":[
                     {
                       "type": "vertical",
-                      "class": "no_padding",
+                      "class": "no_padding table_row_odd_styles",
                       "components": [
                         {
                           "type": "label",
@@ -1713,7 +1692,7 @@
                           "class":"header_textfield table_row_odd_styles",
                           "style": {
                             "width": "12%",
-                            "height":"9%"
+                            "height":"8%"
                           }
                         }
                       ]
@@ -1782,10 +1761,7 @@
                         }
                       ]
                     }
-                  ],
-                  "style":{
-                    "width":"50%"
-                  }
+                  ]
                 },
                 {
                   "type":"horizontal",
