@@ -1158,7 +1158,7 @@
                           "name":"textfield5",
                           "contentDescription": "five",
                           "value":"{{$global.textfield5 || ''}}",
-                          "class":"header_textfield",
+                          "class":"header_textfield table_row_odd_styles",
                           "style": {
                             "width": "13%"
                           }
@@ -1174,7 +1174,7 @@
                           "name":"textfield6",
                           "contentDescription": "six",
                           "value":"{{$global.textfield6 || ''}}",
-                          "class":"header_textfield",
+                          "class":"header_textfield table_row_odd_styles",
                           "style": {
                             "width": "13%"
                           }
@@ -1190,7 +1190,7 @@
                           "name":"textfield7",
                           "contentDescription": "seven",
                           "value":"{{$global.textfield7 || ''}}",
-                          "class":"header_textfield",
+                          "class":"header_textfield table_row_odd_styles",
                           "style": {
                             "width": "13%"
                           }
@@ -1206,7 +1206,7 @@
                           "name":"textfield8",
                           "contentDescription": "eight",
                           "value":"{{$global.textfield8 || ''}}",
-                          "class":"header_textfield",
+                          "class":"header_textfield table_row_odd_styles",
                           "style": {
                             "width": "13%"
                           }
@@ -1371,16 +1371,16 @@
               "items":[
                 {
                   "type":"horizontal",
-                  "class":"no_padding table_row_even_styles",
+                  "class":"no_padding",
                   "components":[
                     {
                       "type": "vertical",
-                      "class": "no_padding",
+                      "class": "no_padding table_row_even_styles",
                       "components": [
                         {
                           "type": "label",
                           "text": "2",
-                          "class":"header_textfield",
+                          "class":"header_textfield table_row_even_styles",
                           "style": {
                             "width": "12%",
                             "height":"9%"
