@@ -696,7 +696,10 @@
                         }
                       ]
                     }
-                    ]
+                    ],
+                  "style":{
+                    "width":"50%"
+                  }
                     },
                 {
                   "type":"horizontal",
@@ -842,7 +845,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
                 },
                 {
                   "type":"horizontal",
@@ -988,7 +994,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
                 },
                 {
                   "type":"horizontal",
@@ -1143,7 +1152,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
                 },
                 {
                   "type":"horizontal",
@@ -1297,7 +1309,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
                 },
                 {
                   "type":"horizontal",
@@ -1452,7 +1467,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
                 },
                 {
                   "type":"horizontal",
@@ -1606,7 +1624,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
                 },
                 {
                   "type":"horizontal",
@@ -1680,7 +1701,7 @@
               "items":[
                 {
                   "type":"horizontal",
-                  "class":"no_padding table_row_odd_styles",
+                  "class":"no_padding",
                   "components":[
                     {
                       "type": "vertical",
@@ -1761,7 +1782,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
                 },
                 {
                   "type":"horizontal",
