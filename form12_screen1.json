@@ -1072,13 +1072,10 @@
                         {
                           "type": "label",
                           "text": "1",
+                          "class":"header_textfield",
                           "style": {
                             "width": "12%",
-                            "height":"9%",
-                            "color":"rgb(0,0,0)",
-                            "padding":0,
-                            "border": "#FFFFFF",
-                            "border_width": "2"
+                            "height":"8%"
                           }
                         }
                       ]
