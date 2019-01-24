@@ -740,7 +740,7 @@
                           "text":"SMBS",
                           "class":"header_style",
                           "style":{
-                            "width":"13%"
+                            "width":"12%"
                           }
                         }
                       ]
@@ -754,7 +754,7 @@
                           "text":"Floc",
                           "class":"header_style",
                           "style":{
-                            "width":"13%"
+                            "width":"12%"
                           }
                         }
                       ]
@@ -886,7 +886,7 @@
                           "text":"Bags",
                           "class":"header_style1",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -900,7 +900,7 @@
                           "text":"Bags",
                           "class":"header_style1",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1032,7 +1032,7 @@
                           "text":"7",
                           "class":"header_style2",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1046,7 +1046,7 @@
                           "text":"8",
                           "class":"header_style2",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1070,8 +1070,8 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type": "textfield",
-                          "value": "",
+                          "type": "label",
+                          "text": "1",
                           "class":"header_textfield",
                           "style": {
                             "width": "12%"
@@ -1192,7 +1192,7 @@
                           "value":"{{$global.textfield7 || ''}}",
                           "class":"header_textfield",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1208,7 +1208,7 @@
                           "value":"{{$global.textfield8 || ''}}",
                           "class":"header_textfield",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1340,7 +1340,7 @@
                           "text":"15",
                           "class":"header_style2",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1354,7 +1354,7 @@
                           "text":"16",
                           "class":"header_style2",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1378,8 +1378,8 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type": "textfield",
-                          "value": "",
+                          "type": "label",
+                          "text": "2",
                           "class":"header_textfield",
                           "style": {
                             "width": "12%"
@@ -1500,7 +1500,7 @@
                           "value":"{{$global.textfield15 || ''}}",
                           "class":"header_textfield",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1516,7 +1516,7 @@
                           "value":"{{$global.textfield16 || ''}}",
                           "class":"header_textfield",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1648,7 +1648,7 @@
                           "text":"23",
                           "class":"header_style2",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1662,7 +1662,7 @@
                           "text":"24",
                           "class":"header_style2",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1686,8 +1686,8 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type": "textfield",
-                          "value": "",
+                          "type": "label",
+                          "text": "3",
                           "class":"header_textfield",
                           "style": {
                             "width": "12%"
@@ -1808,7 +1808,7 @@
                           "value":"{{$global.textfield23 || ''}}",
                           "class":"header_textfield",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1824,7 +1824,7 @@
                           "value":"{{$global.textfield24 || ''}}",
                           "class":"header_textfield",
                           "style": {
-                            "width": "13%"
+                            "width": "12%"
                           }
                         }
                       ]
