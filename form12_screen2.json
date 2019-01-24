@@ -203,6 +203,7 @@
               "type":"horizontal",
               "items":[{
                 "type":"horizontal",
+                "class": "no_padding",
                 "components":[{
                   "type":"label",
                   "text":"Comments",
@@ -215,10 +216,7 @@
                     "font": "HelveticaNeue-Bold"
                   }
                 }]
-              }],
-              "style":{
-                "padding":"0"
-              }
+              }]
             },
             {
               "type": "horizontal",
