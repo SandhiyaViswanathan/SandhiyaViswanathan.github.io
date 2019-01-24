@@ -91,7 +91,7 @@
         "$load": {
           "type": "$global.set",
           "options": {
-            "section_id": "form12_page1"
+            "section_id": "form12_page2"
           },
           "success": {
             "type": "$render",
@@ -123,13 +123,8 @@
         "handleSave": {
           "type": "$global.set",
           "options": {
-            "section_id": "form7_page1",
-            "f7_s1_sign": "{{$get.sign || ''}}",
-            "f7_s1_day": "{{$get.day}}",
-            "f7_s1_month": "{{$get.month}}",
-            "f7_s1_year": "{{$get.year}}",
-            "f7_s1_shift": "{{$get.shift}}",
-            "f7_s1_operator": "{{$get.operator}}"
+            "section_id": "form12_page2",
+            "comments":"$get.comments || ''"
           },
           "success": {
             "type": "$util.toast",
@@ -188,7 +183,9 @@
                 "class": "no_padding",
                 "components":[{
                   "type":"textarea",
-                  "value":"",
+                  "name":"comments",
+                  "contentDescription": "comments",
+                  "value":"{{$global.comments || ''}}",
                   "style":{
                     "background": "rgb(204,206,213)",
                     "width": "100%",
@@ -319,12 +316,37 @@
                           "options": {
                             "items": [
                               "section_id",
-                              "f7_s1_sign",
-                              "f7_s1_day",
-                              "f7_s1_month",
-                              "f7_s1_year",
-                              "f7_s1_shift",
-                              "f7_s1_operator"
+                              "f12_s1_sign",
+                              "f12_s1_day",
+                              "f12_s1_month",
+                              "f12_s1_year",
+                              "f12_s1_shift",
+                              "f12_s1_operator",
+                              "textfield1",
+                              "textfield2",
+                              "textfield3",
+                              "textfield4",
+                              "textfield5",
+                              "textfield6",
+                              "textfield7",
+                              "textfield8",
+                              "textfield9",
+                              "textfield10",
+                              "textfield11",
+                              "textfield12",
+                              "textfield13",
+                              "textfield14",
+                              "textfield15",
+                              "textfield16",
+                              "textfield17",
+                              "textfield18",
+                              "textfield19",
+                              "textfield20",
+                              "textfield21",
+                              "textfield22",
+                              "textfield23",
+                              "textfield24"
+
                             ]
                           },
                           "success": {

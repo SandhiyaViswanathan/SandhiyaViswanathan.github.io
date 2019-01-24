@@ -160,14 +160,39 @@
         "handleSave": {
           "type": "$global.set",
           "options": {
-            "section_id": "form7_page1",
-            "f7_s1_sign": "{{$get.sign || ''}}",
-            "f7_s1_day": "{{$get.day}}",
-            "f7_s1_month": "{{$get.month}}",
-            "f7_s1_year": "{{$get.year}}",
-            "f7_s1_shift": "{{$get.shift}}",
-            "f7_s1_operator": "{{$get.operator}}"
-          },
+            "section_id": "form12_page1",
+            "f12_s1_sign": "{{$get.sign || ''}}",
+            "f12_s1_day": "{{$get.day}}",
+            "f12_s1_month": "{{$get.month}}",
+            "f12_s1_year": "{{$get.year}}",
+            "f12_s1_shift": "{{$get.shift}}",
+            "f12_s1_operator": "{{$get.operator}}",
+            "textfield1":"{{$get.textfield1 || ''}}",
+            "textfield2":"{{$get.textfield2 || ''}}",
+            "textfield3":"{{$get.textfield3 || ''}}",
+            "textfield4":"{{$get.textfield4 || ''}}",
+            "textfield5":"{{$get.textfield5 || ''}}",
+            "textfield6":"{{$get.textfield6 || ''}}",
+            "textfield7":"{{$get.textfield7 || ''}}",
+            "textfield8":"{{$get.textfield8 || ''}}",
+            "textfield9":"{{$get.textfield9 || ''}}",
+            "textfield10":"{{$get.textfield10 || ''}}",
+            "textfield11":"{{$get.textfield11 || ''}}",
+            "textfield12":"{{$get.textfield12 || ''}}",
+            "textfield13":"{{$get.textfield13 || ''}}",
+            "textfield14":"{{$get.textfield14 || ''}}",
+            "textfield15":"{{$get.textfield15 || ''}}",
+            "textfield16":"{{$get.textfield16 || ''}}",
+            "textfield17":"{{$get.textfield17 || ''}}",
+            "textfield18":"{{$get.textfield18 || ''}}",
+            "textfield19":"{{$get.textfield19 || ''}}",
+            "textfield20":"{{$get.textfield20 || ''}}",
+            "textfield21":"{{$get.textfield21 || ''}}",
+            "textfield22":"{{$get.textfield22 || ''}}",
+            "textfield23":"{{$get.textfield23 || ''}}",
+            "textfield24":"{{$get.textfield24 || ''}}"
+
+            },
           "success": {
             "type": "$util.toast",
             "options": {
@@ -229,7 +254,7 @@
                     {
                       "type": "dropdown",
                       "name": "day",
-                      "value": "{{$global.f7_s1_day}}",
+                      "value": "{{$global.f12_s1_day}}",
                       "contentDescription": "Day",
                       "class": "dropdown_date_style center_align",
                       "options": [
@@ -371,7 +396,7 @@
                     {
                       "type": "dropdown",
                       "name": "month",
-                      "value": "{{$global.f7_s1_month}}",
+                      "value": "{{$global.f12_s1_month}}",
                       "contentDescription": "month",
                       "class": "dropdown_date_style center_align",
                       "options": [
@@ -438,7 +463,7 @@
                       "type": "dropdown",
                       "name": "year",
                       "contentDescription": "year",
-                      "value": "{{$global.f7_s1_year}}",
+                      "value": "{{$global.f12_s1_year}}",
                       "class": "dropdown_date_style center_align",
                       "options": [
                         {
@@ -477,7 +502,7 @@
                     {
                       "type": "dropdown",
                       "name": "shift",
-                      "value": "{{$global.f7_s1_shift}}",
+                      "value": "{{$global.f12_s1_shift}}",
                       "contentDescription": "shift",
                       "class": "center_align black_color dropdown_shift_style",
                       "options": [
@@ -517,7 +542,7 @@
                     {
                       "type": "dropdown",
                       "name": "operator",
-                      "value": "{{$global.f7_s1_operator}}",
+                      "value": "{{$global.f12_s1_operator}}",
                       "contentDescription": "operator",
                       "class": "center_align black_color dropdown_operator_style",
                       "options": [
@@ -560,7 +585,7 @@
                     },
                     {
                       "type": "textfield",
-                      "value": "{{$global.f7_s1_sign || ''}}",
+                      "value": "{{$global.f12_s1_sign || ''}}",
                       "name": "sign",
                       "placeholder": "Sign",
                       "class": "sign_style center_align black_color",
@@ -1052,7 +1077,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield1",
+                          "contentDescription": "one",
+                          "value":"{{$global.textfield1 || ''}}",
                           "class":"header_textfield",
                           "style":{
                             "width":"10%"
@@ -1066,7 +1093,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield2",
+                          "contentDescription": "two",
+                          "value":"{{$global.textfield2 || ''}}",
                           "class":"header_textfield",
                           "style":{
                             "width":"12%"
@@ -1080,7 +1109,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield3",
+                          "contentDescription": "three",
+                          "value":"{{$global.textfield3 || ''}}",
                           "class":"header_textfield",
                           "style":{
                             "width":"8%"
@@ -1094,7 +1125,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield4",
+                          "contentDescription": "four",
+                          "value":"{{$global.textfield4 || ''}}",
                           "class":"header_textfield",
                           "style":{
                             "width":"8%"
@@ -1114,7 +1147,9 @@
                       "components": [
                         {
                           "type": "textfield",
-                          "value": "",
+                          "name":"textfield5",
+                          "contentDescription": "five",
+                          "value":"{{$global.textfield5 || ''}}",
                           "class":"header_textfield",
                           "style": {
                             "width": "13%"
@@ -1128,7 +1163,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield6",
+                          "contentDescription": "six",
+                          "value":"{{$global.textfield6 || ''}}",
                           "class":"header_textfield",
                           "style": {
                             "width": "13%"
@@ -1142,7 +1179,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield7",
+                          "contentDescription": "seven",
+                          "value":"{{$global.textfield7 || ''}}",
                           "class":"header_textfield",
                           "style": {
                             "width": "13%"
@@ -1156,7 +1195,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield8",
+                          "contentDescription": "eight",
+                          "value":"{{$global.textfield8 || ''}}",
                           "class":"header_textfield",
                           "style": {
                             "width": "13%"
@@ -1344,7 +1385,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield9",
+                          "contentDescription": "nine",
+                          "value":"{{$global.textfield9 || ''}}",
                           "class":"header_textfield",
                           "style":{
                             "width":"10%"
@@ -1358,7 +1401,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield10",
+                          "contentDescription": "ten",
+                          "value":"{{$global.textfield10 || ''}}",
                           "class":"header_textfield",
                           "style":{
                             "width":"12%"
@@ -1372,7 +1417,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield11",
+                          "contentDescription": "eleven",
+                          "value":"{{$global.textfield11 || ''}}",
                           "class":"header_textfield",
                           "style":{
                             "width":"8%"
@@ -1386,7 +1433,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield12",
+                          "contentDescription": "twelve",
+                          "value":"{{$global.textfield12 || ''}}",
                           "class":"header_textfield",
                           "style":{
                             "width":"8%"
@@ -1406,7 +1455,9 @@
                       "components": [
                         {
                           "type": "textfield",
-                          "value": "",
+                          "name":"textfield13",
+                          "contentDescription": "thirteen",
+                          "value":"{{$global.textfield13 || ''}}",
                           "class":"header_textfield",
                           "style": {
                             "width": "13%"
@@ -1420,7 +1471,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield14",
+                          "contentDescription": "fourteen",
+                          "value":"{{$global.textfield14 || ''}}",
                           "class":"header_textfield",
                           "style": {
                             "width": "13%"
@@ -1434,7 +1487,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield15",
+                          "contentDescription": "fifteen",
+                          "value":"{{$global.textfield15 || ''}}",
                           "class":"header_textfield",
                           "style": {
                             "width": "13%"
@@ -1448,7 +1503,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield16",
+                          "contentDescription": "sixteen",
+                          "value":"{{$global.textfield16 || ''}}",
                           "class":"header_textfield",
                           "style": {
                             "width": "13%"
@@ -1636,7 +1693,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield17",
+                          "contentDescription": "seventeen",
+                          "value":"{{$global.textfield17 || ''}}",
                           "class":"header_textfield",
                           "style":{
                             "width":"10%"
@@ -1650,7 +1709,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield18",
+                          "contentDescription": "eighteen",
+                          "value":"{{$global.textfield18 || ''}}",
                           "class":"header_textfield",
                           "style":{
                             "width":"12%"
@@ -1664,7 +1725,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield19",
+                          "contentDescription": "nineteen",
+                          "value":"{{$global.textfield19 || ''}}",
                           "class":"header_textfield",
                           "style":{
                             "width":"8%"
@@ -1678,7 +1741,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield20",
+                          "contentDescription": "twenty",
+                          "value":"{{$global.textfield20 || ''}}",
                           "class":"header_textfield",
                           "style":{
                             "width":"8%"
@@ -1698,7 +1763,9 @@
                       "components": [
                         {
                           "type": "textfield",
-                          "value": "",
+                          "name":"textfield21",
+                          "contentDescription": "twenty-one",
+                          "value":"{{$global.textfield21 || ''}}",
                           "class":"header_textfield",
                           "style": {
                             "width": "13%"
@@ -1712,7 +1779,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield22",
+                          "contentDescription": "twenty-two",
+                          "value":"{{$global.textfield22 || ''}}",
                           "class":"header_textfield",
                           "style": {
                             "width": "13%"
@@ -1726,7 +1795,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield23",
+                          "contentDescription": "twenty-three",
+                          "value":"{{$global.textfield23 || ''}}",
                           "class":"header_textfield",
                           "style": {
                             "width": "13%"
@@ -1740,7 +1811,9 @@
                       "components": [
                         {
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield24",
+                          "contentDescription": "twenty-four",
+                          "value":"{{$global.textfield24 || ''}}",
                           "class":"header_textfield",
                           "style": {
                             "width": "13%"
