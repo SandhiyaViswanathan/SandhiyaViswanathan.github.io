@@ -125,9 +125,9 @@
           "border": "#FFFFFF",
           "border_width": "2",
           "background": "rgb(204,206,213)",
-          "height": "4%",
+          "height": "4.5%",
           "color":"rgb(0,0,0)",
-          "padding":1,
+          "padding":0,
           "size":15,
           "font": "HelveticaHeader"
         }
