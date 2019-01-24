@@ -44,32 +44,40 @@
           "border_width": "2"
         },
         "check_style": {
-          "size": "14",
+          "size": "15",
           "font": "HelveticaHeader",
           "color": "rgb(0, 0, 0)",
           "width": "50%"
         },
         "number_style": {
-          "size": "14",
-          "font": "HelveticaHeader",
+          "size": "15",
+          "font": "HelveticaHeader-Bold",
+          "color": "rgb(0, 0, 0)",
+          "width": "8%",
+          "align": "center"
+        },
+        "number_style1": {
+          "size": "15",
+          "font": "HelveticaHeader-Bold",
           "color": "rgb(0, 0, 0)",
           "width": "5%",
           "align": "center"
         },
         "switch_label": {
-          "width": "15%",
+          "width": "8%",
           "align": "center"
         },
         "comments_label": {
           "width": "25%",
-          "size": "14",
+          "size": "15",
           "font": "HelveticaHeader",
           "color": "rgb(0, 0, 0)",
           "padding": "0"
         },
         "switch_styles": {
-          "color": "#00ff00",
-          "color:disabled": "#ff0000"
+          "color": "rgb(0,255,0)",
+          "color:disabled": "rgb(255,0,0)",
+          "align": "center"
         },
         "table_row_odd_styles": {
           "background": "rgb(204,206,213)"
@@ -135,7 +143,27 @@
       },
       "actions": {
         "$load": {
-          "type": "$render"
+          "type": "$global.set",
+          "options": {
+            "section_id": "form7_page2",
+            "reagent_operator_switch8": "{{$global.reagent_operator_switch8 == null ? true : $global.reagent_operator_switch8}}",
+            "reagent_operator_switch9": "{{$global.reagent_operator_switch9 == null ? true : $global.reagent_operator_switch9}}",
+            "reagent_operator_switch10": "{{$global.reagent_operator_switch10 == null ? true : $global.reagent_operator_switch10}}",
+            "reagent_operator_switch11": "{{$global.reagent_operator_switch11 == null ? true : $global.reagent_operator_switch11}}",
+            "reagent_operator_switch12": "{{$global.reagent_operator_switch12 == null ? true : $global.reagent_operator_switch12}}",
+            "reagent_operator_switch13": "{{$global.reagent_operator_switch13 == null ? true : $global.reagent_operator_switch13}}",
+            "reagent_operator_switch14": "{{$global.reagent_operator_switch14 == null ? true : $global.reagent_operator_switch14}}"
+          },
+          "success": {
+            "type": "$render",
+            "success": {
+              "type": "$util.toast",
+              "options": {
+                "text": "Page loaded successfully",
+                "type": "warning"
+              }
+            }
+          }
         },
         "$show": {
           "type": "$render"
@@ -156,20 +184,15 @@
         "handleSave": {
           "type": "$global.set",
           "options": {
-            "section_id": "form7_page1",
-            "f7_s1_sign": "{{$get.sign || ''}}",
-            "f7_s1_day": "{{$get.day}}",
-            "f7_s1_month": "{{$get.month}}",
-            "f7_s1_year": "{{$get.year}}",
-            "f7_s1_shift": "{{$get.shift}}",
-            "f7_s1_operator": "{{$get.operator}}",
-            "comments_eight": "{{$get.comments_eight}}",
-            "comments_nine": "{{$get.comments_nine}}",
-            "comments_ten": "{{$get.comments_ten}}",
-            "comments_eleven": "{{$get.comments_eleven}}",
-            "comments_twelve": "{{$get.comments_twelve}}",
-            "comments_thirteen": "{{$get.comments_thirteen}}",
-            "reagent_operator_switch8": "{{$global.reagent_operator_switch8 == null ? true : $global.reagent_operator_switch8}}",
+            "section_id": "form7_page2",
+            "comments_eight": "{{$get.comments_eight || ''}}",
+            "comments_nine": "{{$get.comments_nine || ''}}",
+            "comments_ten": "{{$get.comments_ten || ''}}",
+            "comments_eleven": "{{$get.comments_eleven || ''}}",
+            "comments_twelve": "{{$get.comments_twelve || ''}}",
+            "comments_thirteen": "{{$get.comments_thirteen || ''}}",
+            "comments_fourteen":"{{$get.comments_fourteen || ''}}",
+            "reagent_operator_switch8": "{{$get.reagent_operator_switch8}}",
             "reagent_operator_switch9": "{{$global.reagent_operator_switch9 == null ? true : $global.reagent_operator_switch9}}",
             "reagent_operator_switch10": "{{$global.reagent_operator_switch10 == null ? true : $global.reagent_operator_switch10}}",
             "reagent_operator_switch11": "{{$global.reagent_operator_switch11 == null ? true : $global.reagent_operator_switch11}}",
@@ -187,7 +210,7 @@
         }
       },
       "data": {
-        "Page_Heading": "Reagent Operator - SO2 Offload Checklist",
+        "Page_Heading": "Reagent Operator - Nitrate Checklist",
         "Table1_Headers": [
           {
             "type": "label",
@@ -214,505 +237,656 @@
       },
       "templates": {
         "body": {
+          "header": {
+            "title": {
+              "type": "label",
+              "text": "{{Page_Heading}}",
+              "align": "left"
+            },
+            "style": {
+              "font": "HelveticaHeader-Bold",
+              "size": 15,
+              "background": "rgb(154,205,50)",
+              "color": "rgb(255,255,255)",
+              "height": "0%",
+              "padding": "0",
+              "align": "left"
+            }
+          },
           "sections": [
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "vertical",
+                  "class": "no_padding",
+                  "components": [
                     {
                       "type": "horizontal",
-                      "items": [
-                        {
-                          "type": "vertical",
-                          "class": "no_padding",
-                          "components": [
-                            {
-                              "type": "horizontal",
-                              "components": {
-                                "{{#each Table1_Headers}}": {
-                                  "type": "label",
-                                  "text": "{{value}}",
-                                  "class": "{{styles}}"
-                                }
-                              }
-                            }
-                          ]
+                      "components": {
+                        "{{#each Table1_Headers}}": {
+                          "type": "label",
+                          "text": "{{value}}",
+                          "class": "{{styles}}"
                         }
-                      ]
-                    },
-                    {
-                      "type": "horizontal",
-                      "items": [
-                        {
-                          "type": "horizontal",
-                          "class": "no_padding",
-                          "components": [
-                            {
-                              "type": "label",
-                              "name": "checks_description_8",
-                              "text": "Floor cleaned (including no ice).Do not hose down metering pumps",
-                              "class": "check_style"
-                            },
-                            {
-                              "type": "label",
-                              "text": "15",
-                              "class": "number_style"
-                            },
-                            {
-                              "type": "switch",
-                              "name": "reagent_operator_switch8",
-                              "value": "{{$global.reagent_operator_switch8}}",
-                              "class": "switch_label",
-                              "contentDescription": "15",
-                              "action": {
-                                "type": "$global.set",
-                                "options": {
-                                  "section_id": "form7_screen1",
-                                  "reagent_operator_switch1": "{{$get.reagent_operator_switch8}}"
-                                }
-                              }
-                            },
-                            {
-                              "type": "label",
-                              "text": "21",
-                              "class": "number_style"
-                            },
-                            {
-                              "type": "textfield",
-                              "name": "comments_eight",
-                              "value": "{{$global.comments_eight || ''}}",
-                              "contentDescription": "21",
-                              "class": "comments_label table_row_even_styles"
-                            }
-                          ],
-                          "class": "no_padding table_row_even_styles",
-                          "style": {
-                            "height": "11%"
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "type": "horizontal",
-                      "items": [
-                        {
-                          "type": "horizontal",
-                          "class": "no_padding",
-                          "components": [
-                            {
-                              "type": "label",
-                              "name": "checks_description_9",
-                              "text": "Ensure gland seal water is flowing into the sumps (next to the recirculating pump and high shear mixer)",
-                              "class": "check_style"
-                            },
-                            {
-                              "type": "label",
-                              "text": "16",
-                              "class": "number_style"
-                            },
-                            {
-                              "type": "switch",
-                              "name": "reagent_operator_switch9",
-                              "value": "{{$global.reagent_operator_switch9}}",
-                              "class": "switch_label",
-                              "contentDescription": "16",
-                              "action": {
-                                "type": "$global.set",
-                                "options": {
-                                  "section_id": "form7_screen1",
-                                  "reagent_operator_switch1": "{{$get.reagent_operator_switch9}}"
-                                }
-                              }
-                            },
-                            {
-                              "type": "label",
-                              "text": "22",
-                              "class": "number_style"
-                            },
-                            {
-                              "type": "textfield",
-                              "name": "comments_nine",
-                              "value": "{{$global.comments_nine || ''}}",
-                              "contentDescription": "22",
-                              "class": "comments_label table_row_odd_styles"
-                            }
-                          ],
-                          "class": "no_padding table_row_odd_styles",
-                          "style": {
-                            "height": "15%"
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "type": "horizontal",
-                      "items": [
-                        {
-                          "type": "horizontal",
-                          "class": "no_padding",
-                          "components": [
-                            {
-                              "type": "label",
-                              "name": "checks_description_10",
-                              "text": "Catch basin next to leach berm: check for presence of liquid",
-                              "class": "check_style"
-                            },
-                            {
-                              "type": "label",
-                              "text": "17",
-                              "class": "number_style"
-                            },
-                            {
-                              "type": "switch",
-                              "name": "reagent_operator_switch10",
-                              "value": "{{$global.reagent_operator_switch10}}",
-                              "class": "switch_label",
-                              "contentDescription": "17",
-                              "action": {
-                                "type": "$global.set",
-                                "options": {
-                                  "section_id": "form7_screen1",
-                                  "reagent_operator_switch1": "{{$get.reagent_operator_switch10}}"
-                                }
-                              }
-                            },
-                            {
-                              "type": "label",
-                              "text": "23",
-                              "class": "number_style"
-                            },
-                            {
-                              "type": "textfield",
-                              "name": "comments_ten",
-                              "value": "{{$global.comments_ten || ''}}",
-                              "contentDescription": "23",
-                              "class": "comments_label table_row_even_styles"
-                            }
-                          ],
-                          "class": "no_padding table_row_even_styles",
-                          "style": {
-                            "height": "11%"
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "type": "horizontal",
-                      "items": [
-                        {
-                          "type": "horizontal",
-                          "class": "no_padding",
-                          "components": [
-                            {
-                              "type": "label",
-                              "name": "checks_description_11",
-                              "text": "Hazardous waste bags deposited on top of sea can in plant or dedicated sea can outside, when full",
-                              "class": "check_style"
-                            },
-                            {
-                              "type": "label",
-                              "text": "18",
-                              "class": "number_style"
-                            },
-                            {
-                              "type": "switch",
-                              "name": "reagent_operator_switch11",
-                              "value": "{{$global.reagent_operator_switch11}}",
-                              "class": "switch_label",
-                              "contentDescription": "18",
-                              "action": {
-                                "type": "$global.set",
-                                "options": {
-                                  "section_id": "form7_screen1",
-                                  "reagent_operator_switch1": "{{$get.reagent_operator_switch11}}"
-                                }
-                              }
-                            },
-                            {
-                              "type": "label",
-                              "text": "24",
-                              "class": "number_style"
-                            },
-                            {
-                              "type": "textfield",
-                              "name": "comments_eleven",
-                              "value": "{{$global.comments_eleven || ''}}",
-                              "contentDescription": "24",
-                              "class": "comments_label table_row_odd_styles"
-                            }
-                          ],
-                          "class": "no_padding table_row_odd_styles",
-                          "style": {
-                            "height": "15%"
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "type": "horizontal",
-                      "items": [
-                        {
-                          "type": "horizontal",
-                          "class": "no_padding",
-                          "components": [
-                            {
-                              "type": "label",
-                              "name": "checks_description_12",
-                              "text": "PPE stocked in dry (Tychem and nitrile gloves)",
-                              "class": "check_style"
-                            },
-                            {
-                              "type": "label",
-                              "text": "19",
-                              "class": "number_style"
-                            },
-                            {
-                              "type": "switch",
-                              "name": "reagent_operator_switch12",
-                              "value": "{{$global.reagent_operator_switch12}}",
-                              "class": "switch_label switch_styles",
-                              "contentDescription": "19",
-                              "action": {
-                                "type": "$global.set",
-                                "options": {
-                                  "section_id": "form7_screen1",
-                                  "reagent_operator_switch1": "{{$get.reagent_operator_switch12}}"
-                                }
-                              }
-                            },
-                            {
-                              "type": "label",
-                              "text": "25",
-                              "class": "number_style"
-                            },
-                            {
-                              "type": "textfield",
-                              "name": "comments_twelve",
-                              "value": "{{$global.comments_twelve || ''}}",
-                              "contentDescription": "25",
-                              "class": "comments_label table_row_even_styles"
-                            }
-                          ],
-                          "class": "no_padding table_row_even_styles",
-                          "style": {
-                            "height": "9%"
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "type": "horizontal",
-                      "items": [
-                        {
-                          "type": "horizontal",
-                          "class": "no_padding",
-                          "components": [
-                            {
-                              "type": "label",
-                              "name": "checks_description_13",
-                              "text": "Dry is left clean, full garbage emptied.Mandatory cleaning of floors, sinks and table/shelves required on Sunday nightshift",
-                              "class": "check_style"
-                            },
-                            {
-                              "type": "label",
-                              "text": "20",
-                              "class": "number_style"
-                            },
-                            {
-                              "type": "switch",
-                              "name": "reagent_operator_switch13",
-                              "value": "{{$global.reagent_operator_switch13}}",
-                              "class": "switch_label switch_styles",
-                              "contentDescription": "20",
-                              "action": {
-                                "type": "$global.set",
-                                "options": {
-                                  "section_id": "form7_screen1",
-                                  "reagent_operator_switch1": "{{$get.reagent_operator_switch13}}"
-                                }
-                              }
-                            },
-                            {
-                              "type": "label",
-                              "text": "26",
-                              "class": "number_style"
-                            },
-                            {
-                              "type": "textfield",
-                              "name": "comments_thirteen",
-                              "value": "{{$global.comments_thirteen || ''}}",
-                              "contentDescription": "26",
-                              "class": "comments_label table_row_odd_styles"
-                            }
-                          ],
-                          "class": "no_padding table_row_odd_styles",
-                          "style": {
-                            "height": "15%"
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "type": "horizontal",
-                      "items": [
-                        {
-                          "type": "horizontal",
-                          "class": "no_padding center_align",
-                          "style": {
-                            "padding_top": "1%",
-                            "padding_bottom": "1%"
-                          },
-                          "components": [
-                            {
-                              "type": "space",
-                              "style": {
-                                "width": "20%"
-                              }
-                            },
-                            {
-                              "type": "button",
-                              "name": "previous",
-                              "text": "Previous",
-                              "class": "next_button_styles center_align",
-                              "action": {
-                                "type": "$href",
-                                "options": {
-                                  "url": "https://sandhiyaviswanathan.github.io/Form7_screen1.json",
-                                  "preload": {
-                                    "style": {
-                                      "background": "#ff0000"
-                                    },
-                                    "layers": [
-                                      {
-                                        "type": "image",
-                                        "url": "file://infinit.gif",
-                                        "style": {
-                                          "top": "50%-25",
-                                          "left": "50%-25",
-                                          "width": "50",
-                                          "height": "50"
-                                        }
-                                      }
-                                    ]
-                                  }
-                                }
-                              }
-                            },
-                            {
-                              "type": "space",
-                              "style": {
-                                "width": "5%"
-                              }
-                            },
-                            {
-                              "type": "button",
-                              "name": "home",
-                              "text": "Home",
-                              "class": "home_button_styles center_align",
-                              "action": {
-                                "type": "$href",
-                                "options": {
-                                  "url": "https://sandhiyaviswanathan.github.io/Form7_screen1.json",
-                                  "preload": {
-                                    "style": {
-                                      "background": "#ff0000"
-                                    },
-                                    "layers": [
-                                      {
-                                        "type": "image",
-                                        "url": "file://infinit.gif",
-                                        "style": {
-                                          "top": "50%-25",
-                                          "left": "50%-25",
-                                          "width": "50",
-                                          "height": "50"
-                                        }
-                                      }
-                                    ]
-                                  }
-                                }
-                              }
-                            },
-                            {
-                              "type": "space",
-                              "style": {
-                                "width": "5%"
-                              }
-                            },
-                            {
-                              "type": "button",
-                              "name": "save",
-                              "text": "Save",
-                              "class": "save_button_styles center_align",
-                              "action": {
-                                "trigger": "handleSave"
-                              }
-                            },
-                            {
-                              "type": "space",
-                              "style": {
-                                "width": "5%"
-                              }
-                            },
-                            {
-                              "type": "button",
-                              "name": "submit",
-                              "text": "submit",
-                              "class": "center_align submit_button_styles",
-                              "contentDescription": "submit",
-                              "action": {
-                                "type": "$global.reset",
-                                "options": {
-                                  "save": "true",
-                                  "filename": "Reagent Operator"
-                                },
-                                "success": {
-                                  "type": "$global.reset",
-                                  "options": {
-                                    "items": [
-                                      "section_id",
-                                      "f5_s1_sign",
-                                      "f5_s1_day",
-                                      "f5_s1_month",
-                                      "f5_s1_year",
-                                      "f5_s1_shift",
-                                      "f5_s1_operator",
-                                      "f5_Sop_title",
-                                      "f5_Sop_number",
-                                      "comments_one",
-                                      "comments_two",
-                                      "comments_three",
-                                      "comments_four",
-                                      "comments_five",
-                                      "comments_six",
-                                      "comments_seven",
-                                      "comments_eight",
-                                      "comments_nine",
-                                      "comments_ten",
-                                      "comments_eleven",
-                                      "comments_twelve",
-                                      "comments_thirteen"
-                                    ]
-                                  },
-                                  "success": {
-                                    "type": "$util.toast",
-                                    "options": {
-                                      "text": "Data Submitted successfully",
-                                      "type": "warning"
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            {
-                              "type": "space",
-                              "style": {
-                                "width": "5%"
-                              }
-                            }
-                          ]
-                        }
-                      ]
+                      }
                     }
                   ]
                 }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "components": [
+                    {
+                      "type":"vertical",
+                      "components":[{
+                        "type": "label",
+                        "name": "checks_description_8",
+                        "text": "Floor cleaned (including no ice).",
+                        "class": "check_style",
+                        "style":{
+                          "padding_left":"2%",
+                          "padding_right":"2%"
+                        }
+                      },
+                        {
+                          "type": "label",
+                          "name": "checks_description_8",
+                          "text": "Do not hose down metering pumps.",
+                          "class": "check_style",
+                          "style":{
+                            "padding_left":"2%",
+                            "padding_right":"2%",
+                            "font": "HelveticaNeue-Bold"
+                          }
+                        }]
+                    },
+                    {
+                      "type": "label",
+                      "text": "15",
+                      "class": "number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch8",
+                      "value": "{{$global.reagent_operator_switch8}}",
+                      "class": "switch_label switch_styles table_row_even_styles",
+                      "contentDescription": "fifteen",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "reagent_operator_switch8": "{{$get.reagent_operator_switch8}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "4%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "22",
+                      "class": "number_style1"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_eight",
+                      "value": "{{$global.comments_eight || ''}}",
+                      "contentDescription": "twenty-two",
+                      "class": "comments_label table_row_even_styles"
+                    }
+                  ],
+                  "class": "no_padding table_row_even_styles",
+                  "style": {
+                    "height": "10%"
+                  }
                 }
-              }
-              }
-              }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "components": [
+                    {
+                      "type": "label",
+                      "name": "checks_description_9",
+                      "text": "Ensure gland seal water is flowing into the sumps (next to the recirculating pump and high shear mixer)",
+                      "class": "check_style",
+                      "style":{
+                        "padding_left":"2%",
+                        "padding_right":"2%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "16",
+                      "class": "number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch9",
+                      "value": "{{$global.reagent_operator_switch9}}",
+                      "class": "switch_label switch_styles table_row_odd_styles",
+                      "contentDescription": "sixteen",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "reagent_operator_switch9": "{{$get.reagent_operator_switch9}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "4%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "23",
+                      "class": "number_style1"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_nine",
+                      "value": "{{$global.comments_nine || ''}}",
+                      "contentDescription": "twenty-three",
+                      "class": "comments_label table_row_odd_styles"
+                    }
+                  ],
+                  "class": "no_padding table_row_odd_styles",
+                  "style": {
+                    "height": "11%"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "components": [
+                    {
+                      "type": "label",
+                      "name": "checks_description_10",
+                      "text": "Catch basin next to leach berm: check for presence of liquid",
+                      "class": "check_style",
+                      "style":{
+                        "padding_left":"2%",
+                        "padding_right":"2%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "17",
+                      "class": "number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch10",
+                      "value": "{{$global.reagent_operator_switch10}}",
+                      "class": "switch_label switch_styles table_row_even_styles",
+                      "contentDescription": "seventeen",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "reagent_operator_switch10": "{{$get.reagent_operator_switch10}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "4%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "24",
+                      "class": "number_style1"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_ten",
+                      "value": "{{$global.comments_ten || ''}}",
+                      "contentDescription": "twenty-four",
+                      "class": "comments_label table_row_even_styles"
+                    }
+                  ],
+                  "class": "no_padding table_row_even_styles",
+                  "style": {
+                    "height": "9%"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "components": [
+                    {
+                      "type": "label",
+                      "name": "checks_description_11",
+                      "text": "Hazardous waste bags deposited on top of sea can in plant or dedicated sea can outside, when full",
+                      "class": "check_style",
+                      "style":{
+                        "padding_left":"2%",
+                        "padding_right":"2%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "18",
+                      "class": "number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch11",
+                      "value": "{{$global.reagent_operator_switch11}}",
+                      "class": "switch_label switch_styles table_row_odd_styles",
+                      "contentDescription": "eighteen",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "reagent_operator_switch11": "{{$get.reagent_operator_switch11}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "4%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "25",
+                      "class": "number_style1"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_eleven",
+                      "value": "{{$global.comments_eleven || ''}}",
+                      "contentDescription": "twenty-five",
+                      "class": "comments_label table_row_odd_styles"
+                    }
+                  ],
+                  "class": "no_padding table_row_odd_styles",
+                  "style": {
+                    "height": "11%"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "components": [
+                    {
+                      "type": "label",
+                      "name": "checks_description_12",
+                      "text": "PPE stocked in dry (Tychem and nitrile gloves)",
+                      "class": "check_style",
+                      "style":{
+                        "padding_left":"2%",
+                        "padding_right":"2%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "19",
+                      "class": "number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch12",
+                      "value": "{{$global.reagent_operator_switch12}}",
+                      "class": "switch_label switch_styles table_row_even_styles",
+                      "contentDescription": "nineteen",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "reagent_operator_switch12": "{{$get.reagent_operator_switch12}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "4%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "26",
+                      "class": "number_style1"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_twelve",
+                      "value": "{{$global.comments_twelve || ''}}",
+                      "contentDescription": "twenty-six",
+                      "class": "comments_label table_row_even_styles"
+                    }
+                  ],
+                  "class": "no_padding table_row_even_styles",
+                  "style": {
+                    "height": "8%"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "components": [
+                    {
+                      "type": "label",
+                      "name": "checks_description_13",
+                      "text": "Dry is left clean, full garbage emptied",
+                      "class": "check_style",
+                      "style":{
+                        "padding_left":"2%",
+                        "padding_right":"2%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "20",
+                      "class": "number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch13",
+                      "value": "{{$global.reagent_operator_switch13}}",
+                      "class": "switch_label switch_styles table_row_odd_styles",
+                      "contentDescription": "twenty",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "reagent_operator_switch13": "{{$get.reagent_operator_switch13}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "4%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "27",
+                      "class": "number_style1"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_thirteen",
+                      "value": "{{$global.comments_thirteen || ''}}",
+                      "contentDescription": "twenty-seven",
+                      "class": "comments_label table_row_odd_styles"
+                    }
+                  ],
+                  "class": "no_padding table_row_odd_styles",
+                  "style": {
+                    "height": "8%"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "components": [
+                    {
+                      "type": "label",
+                      "name": "checks_description_14",
+                      "text": "Mandatory cleaning of floors, sinks and table/shelves required on Sunday nightshift",
+                      "class": "check_style",
+                      "style":{
+                        "padding_left":"2%",
+                        "padding_right":"2%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "21",
+                      "class": "number_style"
+                    },
+                    {
+                      "type": "switch",
+                      "name": "reagent_operator_switch14",
+                      "value": "{{$global.reagent_operator_switch14}}",
+                      "class": "switch_label switch_styles table_row_even_styles",
+                      "contentDescription": "twenty-one",
+                      "action": {
+                        "type": "$global.set",
+                        "options": {
+                          "reagent_operator_switch14": "{{$get.reagent_operator_switch14}}"
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "4%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "28",
+                      "class": "number_style1"
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "comments_fourteen",
+                      "value": "{{$global.comments_fourteen || ''}}",
+                      "contentDescription": "twenty-eight",
+                      "class": "comments_label table_row_even_styles"
+                    }
+                  ],
+                  "class": "no_padding table_row_even_styles",
+                  "style": {
+                    "height": "11%"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "class": "no_padding center_align",
+                  "style": {
+                    "padding_top": "1%",
+                    "padding_bottom": "1%"
+                  },
+                  "components": [
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "20%"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "previous",
+                      "text": "Previous",
+                      "class": "next_button_styles center_align",
+                      "action": {
+                        "type": "$href",
+                        "options": {
+                          "url": "file://Form7_screen1.json",
+                          "preload": {
+                            "style": {
+                              "background": "#ff0000"
+                            },
+                            "layers": [
+                              {
+                                "type": "image",
+                                "url": "file://infinit.gif",
+                                "style": {
+                                  "top": "50%-25",
+                                  "left": "50%-25",
+                                  "width": "50",
+                                  "height": "50"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "5%"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "home",
+                      "text": "Home",
+                      "class": "home_button_styles center_align",
+                      "action": {
+                        "type": "$href",
+                        "options": {
+                          "url": "file://Form7_screen1.json",
+                          "preload": {
+                            "style": {
+                              "background": "#ff0000"
+                            },
+                            "layers": [
+                              {
+                                "type": "image",
+                                "url": "file://infinit.gif",
+                                "style": {
+                                  "top": "50%-25",
+                                  "left": "50%-25",
+                                  "width": "50",
+                                  "height": "50"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "5%"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "save",
+                      "text": "Save",
+                      "class": "save_button_styles center_align",
+                      "action": {
+                        "trigger": "handleSave"
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "5%"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "submit",
+                      "text": "submit",
+                      "class": "center_align submit_button_styles",
+                      "contentDescription": "submit",
+                      "action": {
+                        "type": "$global.reset",
+                        "options": {
+                          "save": "true",
+                          "filename": "Lead_Nitrate_Checklist"
+                        },
+                        "success": {
+                          "type": "$global.reset",
+                          "options": {
+                            "items": [
+                              "section_id",
+                              "f7_s1_sign",
+                              "f7_s1_day",
+                              "f7_s1_month",
+                              "f7_s1_year",
+                              "f7_s1_shift",
+                              "f7_s1_operator",
+                              "comments_one",
+                              "comments_two",
+                              "comments_three",
+                              "comments_four",
+                              "comments_five",
+                              "comments_six",
+                              "comments_seven",
+                              "comments_eight",
+                              "comments_nine",
+                              "comments_ten",
+                              "comments_eleven",
+                              "comments_twelve",
+                              "comments_thirteen",
+                              "comments_fourteen",
+                              "reagent_operator_switch1",
+                              "reagent_operator_switch2",
+                              "reagent_operator_switch3",
+                              "reagent_operator_switch4",
+                              "reagent_operator_switch5",
+                              "reagent_operator_switch6",
+                              "reagent_operator_switch7",
+                              "reagent_operator_switch8",
+                              "reagent_operator_switch9",
+                              "reagent_operator_switch10",
+                              "reagent_operator_switch11",
+                              "reagent_operator_switch12",
+                              "reagent_operator_switch13",
+                              "reagent_operator_switch14"
+                            ]
+                          },
+                          "success": {
+                            "type": "$util.toast",
+                            "options": {
+                              "text": "Data Submitted successfully",
+                              "type": "warning"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "5%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
