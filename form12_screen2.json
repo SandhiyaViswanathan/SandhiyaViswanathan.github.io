@@ -124,7 +124,7 @@
           "type": "$global.set",
           "options": {
             "section_id": "form12_page2",
-            "comments":"$get.comments || ''"
+            "comments":"{{$get.comments || ''}}"
           },
           "success": {
             "type": "$util.toast",
@@ -171,7 +171,8 @@
                     "height": "8%",
                     "color":"rgb(255,255,255)",
                     "padding":"1",
-                    "font": "HelveticaNeue-Bold"
+                    "font": "HelveticaNeue-Bold",
+                    "size":15
                   }
                 }]
               }]

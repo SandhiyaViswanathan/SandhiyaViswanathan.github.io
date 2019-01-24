@@ -97,7 +97,9 @@
           "background": "rgb(27,142,197)",
           "height": "12%",
           "align": "center",
-          "color":"rgb(255,255,255)"
+          "color":"rgb(255,255,255)",
+          "size":15,
+          "font": "HelveticaHeader"
         },
         "header_style1":{
           "border": "#FFFFFF",
@@ -105,7 +107,9 @@
           "background": "rgb(14, 53, 112)",
           "height": "5%",
           "align": "center",
-          "color":"rgb(255,255,255)"
+          "color":"rgb(255,255,255)",
+          "size":15,
+          "font": "HelveticaHeader"
         },
         "header_style2":{
           "border": "#FFFFFF",
@@ -113,15 +117,19 @@
           "background": "rgb(14, 53, 112)",
           "height": "5%",
           "align": "center",
-          "color":"rgb(255,255,255)"
+          "color":"rgb(255,255,255)",
+          "size":15,
+          "font": "HelveticaHeader"
         },
         "header_textfield":{
           "border": "#FFFFFF",
           "border_width": "2",
           "background": "rgb(204,206,213)",
           "height": "5%",
-          "color":"rgb(255,255,255)",
-          "padding":0
+          "color":"rgb(0,0,0)",
+          "padding":0,
+          "size":15,
+          "font": "HelveticaHeader"
         }
       },
       "actions": {
