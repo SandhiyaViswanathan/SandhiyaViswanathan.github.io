@@ -1075,7 +1075,7 @@
                           "class":"header_textfield",
                           "style": {
                             "width": "12%",
-                            "height":"49",
+                            "height":"9%",
                             "align":"center"
                           }
                         }
@@ -1385,7 +1385,7 @@
                           "class":"header_textfield",
                           "style": {
                             "width": "12%",
-                            "height":"49",
+                            "height":"9%",
                             "align":"center"
                           }
                         }
@@ -1695,7 +1695,7 @@
                           "class":"header_textfield",
                           "style": {
                             "width": "12%",
-                            "height":"49",
+                            "height":"9%",
                             "align":"center"
                           }
                         }
