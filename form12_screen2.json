@@ -224,7 +224,7 @@
                 "type":"horizontal",
                 "class": "no_padding",
                 "components":[{
-                  "type":"textfield",
+                  "type":"textarea",
                   "value":"",
                   "style":{
                     "background": "rgb(204,206,213)",
