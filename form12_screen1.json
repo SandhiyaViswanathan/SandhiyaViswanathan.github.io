@@ -125,7 +125,7 @@
           "border": "#FFFFFF",
           "border_width": "2",
           "background": "rgb(204,206,213)",
-          "height": "4.5%",
+          "height": "5%",
           "color":"rgb(0,0,0)",
           "padding":0,
           "size":15,
@@ -1075,7 +1075,7 @@
                           "class":"header_textfield",
                           "style": {
                             "width": "12%",
-                            "height":"8%"
+                            "height":"8"
                           }
                         }
                       ]
