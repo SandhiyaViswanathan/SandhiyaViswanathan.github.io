@@ -201,15 +201,18 @@
           "sections": [
             {
               "type":"horizontal",
-              "components":[{
-                "type":"label",
-                "text":"comments",
-                "style":{
-                  "background": "rgb(0, 102, 204)",
-                  "width": "100%",
-                  "height": "3%",
-                  "color":"rgb(255,255,255)"
-                }
+              "items":[{
+                "type":"horizontal",
+                "components":[{
+                  "type":"label",
+                  "text":"Comments",
+                  "style":{
+                    "background": "rgb(14, 53, 112)",
+                    "width": "100%",
+                    "height": "3%",
+                    "color":"rgb(255,255,255)"
+                  }
+                }]
               }]
             },
             {
