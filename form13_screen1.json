@@ -686,11 +686,13 @@
             },
             {
               "type":"horizontal",
+              "class":"no_padding",
               "items":[
                 {
                 "type":"vertical",
                 "components":[{
                   "type":"horizontal",
+                  "class":"no_padding",
                   "components":[
                     {
                       "type": "dropdown",
@@ -946,6 +948,7 @@
                 },
                 {
                   "type":"vertical",
+                  "class":"no_padding",
                   "components":[{
                     "type":"label",
                     "text":"Day Shift",
@@ -963,6 +966,7 @@
                 },
                 {
                   "type":"vertical",
+                  "class":"no_padding",
                   "components":[{
                       "type":"label",
                       "text":"Previous Shift",
