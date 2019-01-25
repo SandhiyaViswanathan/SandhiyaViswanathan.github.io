@@ -885,7 +885,9 @@
                   "text":"Carbon Count (g/L)",
                   "style":{
                     "background":"rgb(204,206,213)",
-                    "color":"#FFFFFF"
+                    "color":"#000000",
+                    "border":"#FFFFFF",
+                    "border_width":"2"
                   }
                 }],
                   "style":{
@@ -900,7 +902,9 @@
                     "text":"Carbon Count (g/L)",
                     "style":{
                       "background":"rgb(204,206,213)",
-                      "color":"#FFFFFF"
+                      "color":"#000000",
+                      "border":"#FFFFFF",
+                      "border_width":"2"
                     }
                   }],
                   "style":{
