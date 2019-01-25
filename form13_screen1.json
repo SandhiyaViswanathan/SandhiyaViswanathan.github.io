@@ -1065,7 +1065,8 @@
                       "border":"#FFFFFF",
                       "border_width":"2",
                       "align":"center",
-                      "padding":1
+                      "padding":1,
+                      "size":15
                     }
                   }],
                   "style":{
