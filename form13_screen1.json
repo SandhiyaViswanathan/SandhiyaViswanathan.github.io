@@ -690,7 +690,8 @@
               "items":[
                 {
                 "type":"vertical",
-                "items":[{
+                "class":"no_padding",
+                "components":[{
                   "type":"horizontal",
                   "class":"no_padding",
                   "components":[
@@ -939,8 +940,7 @@
                   ]
                 }],
                   "style":{
-                    "width":"50%",
-                    "background":"rgb(14,53,112)"
+                    "width":"40%"
                   }
                 },
                 {
@@ -958,7 +958,7 @@
                     }
                   }],
                   "style":{
-                    "width":"25%"
+                    "width":"10%"
                   }
                 },
                 {
