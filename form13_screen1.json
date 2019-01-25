@@ -1026,11 +1026,12 @@
                       "color":"#000000",
                       "border":"#FFFFFF",
                       "border_width":"2",
-                      "align":"center"
+                      "align":"center",
+                      "height":"5%"
                     }
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"13%"
                   }
                 },
                 {
@@ -1066,7 +1067,7 @@
                     }
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"13%"
                   }
                 },
                 {
@@ -1098,11 +1099,12 @@
                       "color":"#000000",
                       "border":"#FFFFFF",
                       "border_width":"2",
-                      "align":"center"
+                      "align":"center",
+                      "padding":0
                     }
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"13%"
                   }
                 },
                 {
@@ -1138,7 +1140,7 @@
                     }
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"13%"
                   }
                 }
               ]
