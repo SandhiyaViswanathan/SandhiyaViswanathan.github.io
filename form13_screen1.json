@@ -686,7 +686,7 @@
             },
             {
               "type":"horizontal",
-              "components":[
+              "items":[
                 {
                 "type":"vertical",
                 "components":[{
