@@ -874,6 +874,42 @@
               }
             },
             {
+              "type":"horizontal",
+              "class":"no_padding",
+              "items":[
+                {
+                "type":"vertical",
+                "class":"no_padding",
+                "components":[{
+                  "type":"label",
+                  "text":"Carbon Count (g/L)",
+                  "style":{
+                    "background":"rgb(204,206,213)",
+                    "color":"#FFFFFF"
+                  }
+                }],
+                  "style":{
+                    "width":"50%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"Carbon Count (g/L)",
+                    "style":{
+                      "background":"rgb(204,206,213)",
+                      "color":"#FFFFFF"
+                    }
+                  }],
+                  "style":{
+                    "width":"50%"
+                  }
+                }
+              ]
+            },
+            {
               "type": "horizontal",
               "items": [
                 {
@@ -975,39 +1011,6 @@
                       }
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "type":"horizontal",
-              "items":[
-                {
-                "type":"vertical",
-                "components":[{
-                  "type":"label",
-                  "text":"Carbon Count (g/L)",
-                  "style":{
-                    "background":"rgb(204,206,213)",
-                    "color":"#FFFFFF"
-                  }
-                }],
-                  "style":{
-                    "width":"50%"
-                  }
-                },
-                {
-                  "type":"vertical",
-                  "components":[{
-                    "type":"label",
-                    "text":"Carbon Count (g/L)",
-                    "style":{
-                      "background":"rgb(204,206,213)",
-                      "color":"#FFFFFF"
-                    }
-                  }],
-                  "style":{
-                    "width":"50%"
-                  }
                 }
               ]
             }
