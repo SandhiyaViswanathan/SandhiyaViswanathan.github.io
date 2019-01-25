@@ -948,30 +948,34 @@
                   "type":"vertical",
                   "components":[{
                     "type":"label",
-                    "text":"Day Shift"
+                    "text":"Day Shift",
+                    "style":{
+                      "border":"#FFFFFF",
+                      "border_width":"2",
+                      "color":"#FFFFFF",
+                      "align":"center"
+                    }
                   }],
                   "style":{
                     "width":"25%",
-                    "background":"rgb(14,53,112)",
-                    "border":"#FFFFFF",
-                    "border_width":"2",
-                    "color":"#FFFFFF",
-                    "align":"center"
+                    "background":"rgb(14,53,112)"
                   }
                 },
                 {
                   "type":"vertical",
                   "components":[{
                       "type":"label",
-                      "text":"Previous Shift"
+                      "text":"Previous Shift",
+                      "style":{
+                        "border":"#FFFFFF",
+                        "border_width":"2",
+                        "color":"#FFFFFF",
+                        "align":"center"
+                      }
                   }],
                   "style":{
                     "width":"50%",
-                    "background":"rgb(14,53,112)",
-                    "border":"#FFFFFF",
-                    "border_width":"2",
-                    "color":"#FFFFFF",
-                    "align":"center"
+                    "background":"rgb(14,53,112)"
                   }
                 }
               ],
