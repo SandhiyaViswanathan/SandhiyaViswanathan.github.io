@@ -1026,12 +1026,12 @@
                       "color":"#000000",
                       "border":"#FFFFFF",
                       "border_width":"2",
-                      "align":"center",
-                      "height":"5%"
+                      "align":"center"
                     }
                   }],
                   "style":{
-                    "width":"13%"
+                    "width":"13%",
+                    "height":"5%"
                   }
                 },
                 {
