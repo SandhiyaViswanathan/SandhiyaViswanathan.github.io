@@ -938,7 +938,10 @@
                 }],
                   "style":{
                     "width":"25%",
-                    "background":"rgb(14,53,112)"
+                    "background":"rgb(14,53,112)",
+                    "border":"#FFFFFF",
+                    "border_width":"2",
+                    "color":"#FFFFFF"
                   }
                 },
                 {
@@ -949,7 +952,11 @@
                   }],
                   "style":{
                     "width":"25%",
-                    "background":"rgb(14,53,112)"
+                    "background":"rgb(14,53,112)",
+                    "border":"#FFFFFF",
+                    "border_width":"2",
+                    "color":"#FFFFFF",
+                    "align":"center"
                   }
                 },
                 {
@@ -960,7 +967,11 @@
                   }],
                   "style":{
                     "width":"50%",
-                    "background":"rgb(14,53,112)"
+                    "background":"rgb(14,53,112)",
+                    "border":"#FFFFFF",
+                    "border_width":"2",
+                    "color":"#FFFFFF",
+                    "align":"center"
                   }
                 }
               ],
