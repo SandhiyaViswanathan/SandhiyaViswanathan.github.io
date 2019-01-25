@@ -990,17 +990,23 @@
                     "background":"rgb(204,206,213)",
                     "color":"#FFFFFF"
                   }
-                }]
+                }],
+                  "style":{
+                    "width":"50%"
+                  }
                 },
                 {
                   "type":"vertical",
                   "components":[{
                     "type":"label",
-                    "text":"Carbon Count (g/L)"
+                    "text":"Carbon Count (g/L)",
+                    "style":{
+                      "background":"rgb(204,206,213)",
+                      "color":"#FFFFFF"
+                    }
                   }],
                   "style":{
-                    "background":"rgb(204,206,213)",
-                    "color":"#FFFFFF"
+                    "width":"50%"
                   }
                 }
               ]
