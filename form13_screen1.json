@@ -580,111 +580,6 @@
               "class": "no_padding"
             },
             {
-              "type": "horizontal",
-              "items": [
-                {
-                  "type": "horizontal",
-                  "class": "no_padding center_align",
-                  "style": {
-                    "padding_top": "1%"
-                  },
-                  "components": [
-                    {
-                      "type": "space",
-                      "style": {
-                        "width": "40%"
-                      }
-                    },
-                    {
-                      "type": "button",
-                      "name": "home",
-                      "text": "Home",
-                      "class": "home_button_styles center_align",
-                      "action": {
-                        "type": "$href",
-                        "options": {
-                          "url": "file://form12_screen1.json",
-                          "preload": {
-                            "style": {
-                              "background": "#ff0000"
-                            },
-                            "layers": [
-                              {
-                                "type": "image",
-                                "url": "file://infinit.gif",
-                                "style": {
-                                  "top": "50%-25",
-                                  "left": "50%-25",
-                                  "width": "50",
-                                  "height": "50"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "type": "space",
-                      "style": {
-                        "width": "5%"
-                      }
-                    },
-                    {
-                      "type": "button",
-                      "name": "next",
-                      "text": "Next",
-                      "class": "next_button_styles center_align",
-                      "action": {
-                        "type": "$href",
-                        "options": {
-                          "url": "https://sandhiyaviswanathan.github.io/form12_screen2.json",
-                          "preload": {
-                            "style": {
-                              "background": "#ff0000"
-                            },
-                            "layers": [
-                              {
-                                "type": "image",
-                                "url": "file://infinit.gif",
-                                "style": {
-                                  "top": "50%-25",
-                                  "left": "50%-25",
-                                  "width": "50",
-                                  "height": "50"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "type": "space",
-                      "style": {
-                        "width": "5%"
-                      }
-                    },
-                    {
-                      "type": "button",
-                      "name": "save",
-                      "text": "Save",
-                      "class": "save_button_styles center_align",
-                      "action": {
-                        "trigger": "handleSave"
-                      }
-                    },
-                    {
-                      "type": "space",
-                      "style": {
-                        "width": "10%"
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "type":"horizontal",
               "class":"no_padding",
               "items":[
@@ -833,11 +728,6 @@
                       ]
                     },
                     {
-                      "type": "label",
-                      "text": "▼",
-                      "class": "right_padding"
-                    },
-                    {
                       "type": "dropdown",
                       "name": "month",
                       "value": "month",
@@ -899,11 +789,6 @@
                       ]
                     },
                     {
-                      "type": "label",
-                      "text": "▼",
-                      "class": "right_padding"
-                    },
-                    {
                       "type": "dropdown",
                       "name": "year",
                       "contentDescription": "year",
@@ -931,11 +816,6 @@
                           "defaultSelected": "false"
                         }
                       ]
-                    },
-                    {
-                      "type": "label",
-                      "text": "▼",
-                      "class": "right_padding"
                     }
                   ]
                 }],
@@ -983,8 +863,112 @@
               "style":{
                 "background":"rgb(14,53,112)"
               }
+            },
+            {
+              "type": "horizontal",
+              "items": [
+                {
+                  "type": "horizontal",
+                  "class": "no_padding center_align",
+                  "style": {
+                    "padding_top": "1%"
+                  },
+                  "components": [
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "40%"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "home",
+                      "text": "Home",
+                      "class": "home_button_styles center_align",
+                      "action": {
+                        "type": "$href",
+                        "options": {
+                          "url": "file://form12_screen1.json",
+                          "preload": {
+                            "style": {
+                              "background": "#ff0000"
+                            },
+                            "layers": [
+                              {
+                                "type": "image",
+                                "url": "file://infinit.gif",
+                                "style": {
+                                  "top": "50%-25",
+                                  "left": "50%-25",
+                                  "width": "50",
+                                  "height": "50"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "5%"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "next",
+                      "text": "Next",
+                      "class": "next_button_styles center_align",
+                      "action": {
+                        "type": "$href",
+                        "options": {
+                          "url": "https://sandhiyaviswanathan.github.io/form12_screen2.json",
+                          "preload": {
+                            "style": {
+                              "background": "#ff0000"
+                            },
+                            "layers": [
+                              {
+                                "type": "image",
+                                "url": "file://infinit.gif",
+                                "style": {
+                                  "top": "50%-25",
+                                  "left": "50%-25",
+                                  "width": "50",
+                                  "height": "50"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "5%"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "save",
+                      "text": "Save",
+                      "class": "save_button_styles center_align",
+                      "action": {
+                        "trigger": "handleSave"
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "10%"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
-
           ]
         }
       }
