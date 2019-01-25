@@ -887,7 +887,8 @@
                     "background":"rgb(204,206,213)",
                     "color":"#000000",
                     "border":"#FFFFFF",
-                    "border_width":"2"
+                    "border_width":"2",
+                    "align":"center"
                   }
                 }],
                   "style":{
@@ -904,11 +905,90 @@
                       "background":"rgb(204,206,213)",
                       "color":"#000000",
                       "border":"#FFFFFF",
-                      "border_width":"2"
+                      "border_width":"2",
+                      "align":"center"
                     }
                   }],
                   "style":{
                     "width":"50%"
+                  }
+                }
+              ]
+            },
+            {
+              "type":"horizontal",
+              "class":"no_padding",
+              "items":[
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"Line1",
+                    "style":{
+                      "background":"rgb(167,218,147)",
+                      "color":"#000000",
+                      "border":"#FFFFFF",
+                      "border_width":"2",
+                      "align":"center"
+                    }
+                  }],
+                  "style":{
+                    "width":"25%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"Line2",
+                    "style":{
+                      "background":"rgb(83,208,255)",
+                      "color":"#000000",
+                      "border":"#FFFFFF",
+                      "border_width":"2",
+                      "align":"center"
+                    }
+                  }],
+                  "style":{
+                    "width":"25%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"Line1",
+                    "style":{
+                      "background":"rgb(167,218,147)",
+                      "color":"#000000",
+                      "border":"#FFFFFF",
+                      "border_width":"2",
+                      "align":"center"
+                    }
+                  }],
+                  "style":{
+                    "width":"25%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"Line2",
+                    "style":{
+                      "background":"rgb(83,208,255)",
+                      "color":"#000000",
+                      "border":"#FFFFFF",
+                      "border_width":"2",
+                      "align":"center"
+                    }
+                  }],
+                  "style":{
+                    "width":"25%"
                   }
                 }
               ]
