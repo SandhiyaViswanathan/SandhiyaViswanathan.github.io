@@ -937,7 +937,8 @@
                   ]
                 }],
                   "style":{
-                    "width":"25%"
+                    "width":"25%",
+                    "background":"rgb(14,53,112)"
                   }
                 },
                 {
@@ -947,7 +948,8 @@
                     "text":"Day Shift"
                   }],
                   "style":{
-                    "width":"25%"
+                    "width":"25%",
+                    "background":"rgb(14,53,112)"
                   }
                 },
                 {
@@ -957,7 +959,8 @@
                       "text":"Previous Shift"
                   }],
                   "style":{
-                    "width":"50%"
+                    "width":"50%",
+                    "background":"rgb(14,53,112)"
                   }
                 }
               ],
