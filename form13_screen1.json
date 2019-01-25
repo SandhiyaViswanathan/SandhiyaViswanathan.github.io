@@ -953,12 +953,12 @@
                       "border":"#FFFFFF",
                       "border_width":"2",
                       "color":"#FFFFFF",
-                      "align":"center"
+                      "align":"center",
+                      "background":"rgb(14,53,112)"
                     }
                   }],
                   "style":{
-                    "width":"25%",
-                    "background":"rgb(14,53,112)"
+                    "width":"25%"
                   }
                 },
                 {
@@ -970,12 +970,12 @@
                         "border":"#FFFFFF",
                         "border_width":"2",
                         "color":"#FFFFFF",
-                        "align":"center"
+                        "align":"center",
+                        "background":"rgb(14,53,112)"
                       }
                   }],
                   "style":{
-                    "width":"50%",
-                    "background":"rgb(14,53,112)"
+                    "width":"50%"
                   }
                 }
               ],
