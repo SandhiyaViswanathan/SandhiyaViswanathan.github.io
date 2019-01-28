@@ -1415,8 +1415,9 @@
                           "class":"header_textfield",
                           "style": {
                             "width": "12%",
-                            "height":"9%",
-                            "align":"center"
+                            "height":"8%",
+                            "align":"center",
+                            "padding":0
                           }
                         }
                       ]
@@ -1725,8 +1726,9 @@
                           "class":"header_textfield",
                           "style": {
                             "width": "12%",
-                            "height":"9%",
-                            "align":"center"
+                            "height":"8%",
+                            "align":"center",
+                            "padding":0
                           }
                         }
                       ]
