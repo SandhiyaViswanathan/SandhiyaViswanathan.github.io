@@ -1068,13 +1068,16 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type": "label",
-                          "text": "1",
-                          "class":"header_textfield",
-                          "style": {
-                            "width": "12%",
-                            "align":"center"
-                          }
+                          "type":"horizontal",
+                          "components":[
+                            {
+                              "type": "label",
+                              "text": "1",
+                              "style": {
+                                "width": "12%",
+                                "align": "center"
+                              }
+                            }]
                         }
                       ],
                       "style":{
@@ -1165,10 +1168,7 @@
                         }
                       ]
                     }
-                  ],
-                  "style":{
-                    "height":"9%"
-                  }
+                  ]
                 },
                 {
                   "type":"horizontal",
