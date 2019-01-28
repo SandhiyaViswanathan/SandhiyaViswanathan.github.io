@@ -1069,7 +1069,8 @@
                               "style": {
                                 "width": "12%",
                                 "align": "center",
-                                "height":"7%"
+                                "height":"7%",
+                                "color":"rgb(0,0,0)"
                               }
                     },
                     {
@@ -1410,7 +1411,8 @@
                           "style": {
                             "width": "12%",
                             "align": "center",
-                            "height":"7%"
+                            "height":"7%",
+                            "color":"rgb(0,0,0)"
                           }
                     },
                     {
@@ -1720,7 +1722,8 @@
                           "style": {
                             "width": "12%",
                             "align":"center",
-                            "height":"7%"
+                            "height":"7%",
+                            "color":"rgb(0,0,0)"
                           }
                     },
                     {
