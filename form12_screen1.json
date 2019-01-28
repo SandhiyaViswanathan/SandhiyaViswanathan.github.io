@@ -1066,7 +1066,6 @@
                     {
                               "type": "label",
                               "text": "1",
-                              "class":"header_textfield",
                               "style": {
                                 "width": "12%",
                                 "align": "center",
@@ -1408,11 +1407,10 @@
                     {
                           "type": "label",
                           "text": "2",
-                          "class":"header_textfield",
                           "style": {
                             "width": "12%",
                             "align": "center",
-                            "padding": 0
+                            "height":"7%"
                           }
                     },
                     {
@@ -1719,11 +1717,10 @@
                     {
                           "type": "label",
                           "text": "3",
-                          "class":"header_textfield",
                           "style": {
                             "width": "12%",
                             "align":"center",
-                            "padding":0
+                            "height":"7%"
                           }
                     },
                     {
