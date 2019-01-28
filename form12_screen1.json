@@ -127,8 +127,7 @@
           "color":"rgb(0,0,0)",
           "size":15,
           "font": "HelveticaHeader",
-          "background": "rgb(204,206,213)",
-          "height":"5%"
+          "background": "rgb(204,206,213)"
         }
       },
       "actions": {
@@ -1159,7 +1158,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "height":"9%"
+                  }
                 },
                 {
                   "type":"horizontal",
@@ -1247,7 +1249,8 @@
                     }
                   ],
                   "style":{
-                    "width":"50%"
+                    "width":"50%",
+                    "height":"9%"
                   }
                 }
               ]
@@ -1415,7 +1418,6 @@
                           "class":"header_textfield",
                           "style": {
                             "width": "12%",
-                            "height":"9%",
                             "align":"center",
                             "padding":0
                           }
@@ -1486,7 +1488,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "height":"9%"
+                  }
                 },
                 {
                   "type":"horizontal",
@@ -1558,7 +1563,8 @@
                     }
                   ],
                   "style":{
-                    "width":"50%"
+                    "width":"50%",
+                    "height":"9%"
                   }
                 }
               ]
@@ -1726,7 +1732,6 @@
                           "class":"header_textfield",
                           "style": {
                             "width": "12%",
-                            "height":"9%",
                             "align":"center",
                             "padding":0
                           }
@@ -1797,7 +1802,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "height":"9%"
+                  }
                 },
                 {
                   "type":"horizontal",
@@ -1869,7 +1877,8 @@
                     }
                   ],
                   "style":{
-                    "width":"50%"
+                    "width":"50%",
+                    "height":"9%"
                   }
                 }
               ]
