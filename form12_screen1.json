@@ -124,7 +124,6 @@
         "header_textfield":{
           "border": "#FFFFFF",
           "border_width": "2",
-          "height": "6%",
           "color":"rgb(0,0,0)",
           "padding":0,
           "size":15,
@@ -1096,7 +1095,10 @@
                             "style":{
                               "width":"10%"
                             }
-                          }]
+                          }],
+                          "style":{
+                            "height":"9%"
+                          }
                         }
                       ]
                     },
@@ -1116,7 +1118,10 @@
                               "style": {
                                 "width": "12%"
                               }
-                            }]
+                            }],
+                          "style":{
+                            "height":"9%"
+                          }
                         }
                       ]
                     },
@@ -1136,7 +1141,10 @@
                               "style": {
                                 "width": "8%"
                               }
-                            }]
+                            }],
+                          "style":{
+                            "height":"9%"
+                          }
                         }
                       ]
                     },
@@ -1156,7 +1164,10 @@
                               "style": {
                                 "width": "8%"
                               }
-                            }]
+                            }],
+                          "style":{
+                            "height":"9%"
+                          }
                         }
                       ]
                     }
@@ -1182,7 +1193,10 @@
                               "style": {
                                 "width": "13%"
                               }
-                            }]
+                            }],
+                          "style":{
+                            "height":"9%"
+                          }
                         }
                       ]
                     },
@@ -1202,7 +1216,10 @@
                               "style": {
                                 "width": "13%"
                               }
-                            }]
+                            }],
+                          "style":{
+                            "height":"9%"
+                          }
                         }
                       ]
                     },
@@ -1222,7 +1239,10 @@
                               "style": {
                                 "width": "13%"
                               }
-                            }]
+                            }],
+                          "style":{
+                            "height":"9%"
+                          }
                         }
                       ]
                     },
@@ -1242,7 +1262,10 @@
                               "style": {
                                 "width": "13%"
                               }
-                            }]
+                            }],
+                          "style":{
+                            "height":"9%"
+                          }
                         }
                       ]
                     }
