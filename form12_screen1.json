@@ -1066,10 +1066,10 @@
                     {
                               "type": "label",
                               "text": "1",
+                              "class":"header_textfield",
                               "style": {
                                 "width": "12%",
                                 "align": "center",
-                                "background": "rgb(204,206,213)",
                                 "height":"7%"
                               }
                     },
@@ -1090,10 +1090,7 @@
                             }
                           }]
                         }
-                      ],
-                      "style":{
-                        "background": "rgb(204,206,213)"
-                      }
+                      ]
                     },
                     {
                       "type": "vertical",
@@ -1482,7 +1479,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "background": "rgb(204,206,213)"
+                  }
                 },
                 {
                   "type":"horizontal",
@@ -1554,10 +1554,14 @@
                     }
                   ],
                   "style":{
-                    "width":"50%"
+                    "width":"50%",
+                    "background": "rgb(204,206,213)"
                   }
                 }
-              ]
+              ],
+              "style":{
+                "background": "rgb(204,206,213)"
+              }
             },
             {
               "type":"horizontal",
@@ -1786,7 +1790,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "background": "rgb(204,206,213)"
+                  }
                 },
                 {
                   "type":"horizontal",
@@ -1858,10 +1865,14 @@
                     }
                   ],
                   "style":{
-                    "width":"50%"
+                    "width":"50%",
+                    "background": "rgb(204,206,213)"
                   }
                 }
-              ]
+              ],
+              "style":{
+                "background": "rgb(204,206,213)"
+              }
             },
             {
               "type": "horizontal",
