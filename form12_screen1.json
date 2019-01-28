@@ -128,7 +128,8 @@
           "padding":0,
           "size":15,
           "font": "HelveticaHeader",
-          "background": "rgb(204,206,213)"
+          "background": "rgb(204,206,213)",
+          "height":"4%"
         }
       },
       "actions": {
@@ -1074,7 +1075,7 @@
                           "class":"header_textfield",
                           "style": {
                             "width": "12%",
-                            "height":"9%",
+                            "height":"8%",
                             "align":"center"
                           }
                         }
@@ -1095,10 +1096,7 @@
                             "style":{
                               "width":"10%"
                             }
-                          }],
-                          "style":{
-                            "height":"9%"
-                          }
+                          }]
                         }
                       ]
                     },
@@ -1118,10 +1116,7 @@
                               "style": {
                                 "width": "12%"
                               }
-                            }],
-                          "style":{
-                            "height":"9%"
-                          }
+                            }]
                         }
                       ]
                     },
@@ -1141,10 +1136,7 @@
                               "style": {
                                 "width": "8%"
                               }
-                            }],
-                          "style":{
-                            "height":"9%"
-                          }
+                            }]
                         }
                       ]
                     },
@@ -1164,10 +1156,7 @@
                               "style": {
                                 "width": "8%"
                               }
-                            }],
-                          "style":{
-                            "height":"9%"
-                          }
+                            }]
                         }
                       ]
                     }
@@ -1193,10 +1182,7 @@
                               "style": {
                                 "width": "13%"
                               }
-                            }],
-                          "style":{
-                            "height":"19%"
-                          }
+                            }]
                         }
                       ]
                     },
@@ -1216,10 +1202,7 @@
                               "style": {
                                 "width": "13%"
                               }
-                            }],
-                          "style":{
-                            "height":"19%"
-                          }
+                            }]
                         }
                       ]
                     },
@@ -1239,10 +1222,7 @@
                               "style": {
                                 "width": "13%"
                               }
-                            }],
-                          "style":{
-                            "height":"19%"
-                          }
+                            }]
                         }
                       ]
                     },
@@ -1262,10 +1242,7 @@
                               "style": {
                                 "width": "13%"
                               }
-                            }],
-                          "style":{
-                            "height":"19%"
-                          }
+                            }]
                         }
                       ]
                     }
