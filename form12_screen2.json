@@ -310,7 +310,7 @@
                         "type": "$global.reset",
                         "options": {
                           "save": "true",
-                          "filename": "Lead_Nitrate_Checklist"
+                          "filename": "Reagent_log_sheet"
                         },
                         "success": {
                           "type": "$global.reset",
@@ -346,8 +346,8 @@
                               "textfield21",
                               "textfield22",
                               "textfield23",
-                              "textfield24"
-
+                              "textfield24",
+                              "comments"
                             ]
                           },
                           "success": {

@@ -1898,7 +1898,7 @@
                       "action": {
                         "type": "$href",
                         "options": {
-                          "url": "file://form12_screen1.json",
+                          "url": "https://sandhiyaviswanathan.github.io/form12_screen1.json",
                           "preload": {
                             "style": {
                               "background": "#ff0000"
