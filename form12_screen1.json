@@ -124,7 +124,7 @@
         "header_textfield":{
           "border": "#FFFFFF",
           "border_width": "2",
-          "height": "5%",
+          "height": "6%",
           "color":"rgb(0,0,0)",
           "padding":0,
           "size":15,
