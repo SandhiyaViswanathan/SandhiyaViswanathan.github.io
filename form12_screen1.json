@@ -1064,10 +1064,6 @@
                   "class":"no_padding",
                   "components":[
                     {
-                      "type": "vertical",
-                      "class": "no_padding",
-                      "components": [
-                        {
                               "type": "label",
                               "text": "1",
                               "style": {
@@ -1075,11 +1071,6 @@
                                 "align": "center",
                                 "background": "rgb(204,206,213)"
                               }
-                        }
-                      ],
-                      "style":{
-                        "background": "rgb(204,206,213)"
-                      }
                     },
                     {
                       "type": "vertical",
