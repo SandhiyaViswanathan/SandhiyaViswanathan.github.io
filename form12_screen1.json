@@ -1086,14 +1086,27 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"textfield",
-                          "name":"textfield1",
-                          "contentDescription": "one",
-                          "value":"{{$global.textfield1 || ''}}",
-                          "class":"header_textfield",
+                          "type":"horizontal",
+                          "components":[{
+                            "type":"textfield",
+                            "name":"textfield1",
+                            "contentDescription": "one",
+                            "value":"{{$global.textfield1 || ''}}",
+                            "style":{
+                              "width":"10%",
+                              "border": "#FFFFFF",
+                              "border_width": "2",
+                              "color":"rgb(0,0,0)",
+                              "padding":0,
+                              "size":15,
+                              "font": "HelveticaHeader",
+                              "background": "rgb(204,206,213)"
+                            }
+                          }],
                           "style":{
-                            "width":"10%"
+                            "height":"5%"
                           }
+
                         }
                       ]
                     },
