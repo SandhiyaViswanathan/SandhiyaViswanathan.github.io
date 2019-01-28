@@ -1068,16 +1068,12 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"horizontal",
-                          "components":[
-                            {
                               "type": "label",
                               "text": "1",
                               "style": {
                                 "width": "12%",
                                 "align": "center"
                               }
-                            }]
                         }
                       ],
                       "style":{
@@ -1103,7 +1099,6 @@
                         }
                       ],
                       "style":{
-                        "height":"9%",
                         "background": "rgb(204,206,213)"
                       }
                     },
