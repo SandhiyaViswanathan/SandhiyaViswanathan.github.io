@@ -1078,7 +1078,8 @@
                         }
                       ],
                       "style":{
-                        "height":"9%"
+                        "height":"9%",
+                        "background": "rgb(204,206,213)"
                       }
                     },
                     {
@@ -1100,7 +1101,8 @@
                         }
                       ],
                       "style":{
-                        "height":"9%"
+                        "height":"9%",
+                        "background": "rgb(204,206,213)"
                       }
                     },
                     {
