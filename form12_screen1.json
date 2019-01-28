@@ -1070,7 +1070,7 @@
                                 "width": "12%",
                                 "align": "center",
                                 "background": "rgb(204,206,213)",
-                                "height":"5%"
+                                "height":"7%"
                               }
                     },
                     {
@@ -1155,7 +1155,10 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "style":{
+                    "background": "rgb(204,206,213)"
+                  }
                 },
                 {
                   "type":"horizontal",
@@ -1243,7 +1246,8 @@
                     }
                   ],
                   "style":{
-                    "width":"50%"
+                    "width":"50%",
+                    "background": "rgb(204,206,213)"
                   }
                 }
               ],
