@@ -1072,7 +1072,8 @@
                               "text": "1",
                               "style": {
                                 "width": "12%",
-                                "align": "center"
+                                "align": "center",
+                                "background": "rgb(204,206,213)"
                               }
                         }
                       ],
@@ -1253,7 +1254,10 @@
                     "width":"50%"
                   }
                 }
-              ]
+              ],
+              "style":{
+                "background": "rgb(204,206,213)"
+              }
             },
             {
               "type":"horizontal",
