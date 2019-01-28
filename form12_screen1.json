@@ -1092,22 +1092,11 @@
                             "name":"textfield1",
                             "contentDescription": "one",
                             "value":"{{$global.textfield1 || ''}}",
+                            "class":"header_textfield",
                             "style":{
-                              "width":"10%",
-                              "border": "#FFFFFF",
-                              "border_width": "2",
-                              "color":"rgb(0,0,0)",
-                              "padding":0,
-                              "size":15,
-                              "font": "HelveticaHeader",
-                              "background": "rgb(204,206,213)",
-                              "height":"9%"
+                              "width":"10%"
                             }
-                          }],
-                          "style":{
-                            "height":"9%"
-                          }
-
+                          }]
                         }
                       ]
                     },
@@ -1116,14 +1105,18 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"textfield",
-                          "name":"textfield2",
-                          "contentDescription": "two",
-                          "value":"{{$global.textfield2 || ''}}",
-                          "class":"header_textfield",
-                          "style":{
-                            "width":"12%"
-                          }
+                          "type":"horizontal",
+                          "components":[
+                            {
+                              "type": "textfield",
+                              "name": "textfield2",
+                              "contentDescription": "two",
+                              "value": "{{$global.textfield2 || ''}}",
+                              "class": "header_textfield",
+                              "style": {
+                                "width": "12%"
+                              }
+                            }]
                         }
                       ]
                     },
@@ -1132,14 +1125,18 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"textfield",
-                          "name":"textfield3",
-                          "contentDescription": "three",
-                          "value":"{{$global.textfield3 || ''}}",
-                          "class":"header_textfield",
-                          "style":{
-                            "width":"8%"
-                          }
+                          "type":"horizontal",
+                          "components":[
+                            {
+                              "type": "textfield",
+                              "name": "textfield3",
+                              "contentDescription": "three",
+                              "value": "{{$global.textfield3 || ''}}",
+                              "class": "header_textfield",
+                              "style": {
+                                "width": "8%"
+                              }
+                            }]
                         }
                       ]
                     },
@@ -1148,14 +1145,18 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"textfield",
-                          "name":"textfield4",
-                          "contentDescription": "four",
-                          "value":"{{$global.textfield4 || ''}}",
-                          "class":"header_textfield",
-                          "style":{
-                            "width":"8%"
-                          }
+                          "type":"horizontal",
+                          "components":[
+                            {
+                              "type": "textfield",
+                              "name": "textfield4",
+                              "contentDescription": "four",
+                              "value": "{{$global.textfield4 || ''}}",
+                              "class": "header_textfield",
+                              "style": {
+                                "width": "8%"
+                              }
+                            }]
                         }
                       ]
                     }
@@ -1170,14 +1171,18 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type": "textfield",
-                          "name":"textfield5",
-                          "contentDescription": "five",
-                          "value":"{{$global.textfield5 || ''}}",
-                          "class":"header_textfield",
-                          "style": {
-                            "width": "13%"
-                          }
+                          "type":"horizontal",
+                          "components":[
+                            {
+                              "type": "textfield",
+                              "name": "textfield5",
+                              "contentDescription": "five",
+                              "value": "{{$global.textfield5 || ''}}",
+                              "class": "header_textfield",
+                              "style": {
+                                "width": "13%"
+                              }
+                            }]
                         }
                       ]
                     },
@@ -1186,14 +1191,18 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"textfield",
-                          "name":"textfield6",
-                          "contentDescription": "six",
-                          "value":"{{$global.textfield6 || ''}}",
-                          "class":"header_textfield",
-                          "style": {
-                            "width": "13%"
-                          }
+                          "type":"horizontal",
+                          "components":[
+                            {
+                              "type": "textfield",
+                              "name": "textfield6",
+                              "contentDescription": "six",
+                              "value": "{{$global.textfield6 || ''}}",
+                              "class": "header_textfield",
+                              "style": {
+                                "width": "13%"
+                              }
+                            }]
                         }
                       ]
                     },
@@ -1202,14 +1211,18 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"textfield",
-                          "name":"textfield7",
-                          "contentDescription": "seven",
-                          "value":"{{$global.textfield7 || ''}}",
-                          "class":"header_textfield",
-                          "style": {
-                            "width": "13%"
-                          }
+                          "type":"horizontal",
+                          "components":[
+                            {
+                              "type": "textfield",
+                              "name": "textfield7",
+                              "contentDescription": "seven",
+                              "value": "{{$global.textfield7 || ''}}",
+                              "class": "header_textfield",
+                              "style": {
+                                "width": "13%"
+                              }
+                            }]
                         }
                       ]
                     },
@@ -1218,14 +1231,18 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"textfield",
-                          "name":"textfield8",
-                          "contentDescription": "eight",
-                          "value":"{{$global.textfield8 || ''}}",
-                          "class":"header_textfield",
-                          "style": {
-                            "width": "13%"
-                          }
+                          "type":"horizontal",
+                          "components":[
+                            {
+                              "type": "textfield",
+                              "name": "textfield8",
+                              "contentDescription": "eight",
+                              "value": "{{$global.textfield8 || ''}}",
+                              "class": "header_textfield",
+                              "style": {
+                                "width": "13%"
+                              }
+                            }]
                         }
                       ]
                     }
