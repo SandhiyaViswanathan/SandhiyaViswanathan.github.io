@@ -1076,7 +1076,9 @@
                               "text": "1",
                               "style":{
                                 "height":"3%",
-                                "background": "rgb(235,246,243)"
+                                "background": "rgb(235,246,243)",
+                                "border_top":"#FFFFFF",
+                                "border_width": "2"
                               }
                             },
                             {
