@@ -164,7 +164,7 @@
                 "class": "no_padding",
                 "components":[{
                   "type":"label",
-                  "text":"Comments",
+                  "text":"Comments(1)",
                   "style":{
                     "background": "rgb(14, 53, 112)",
                     "width": "100%",
@@ -185,7 +185,7 @@
                 "components":[{
                   "type":"textarea",
                   "name":"comments",
-                  "contentDescription": "comments",
+                  "contentDescription": "one",
                   "value":"{{$global.comments || ''}}",
                   "style":{
                     "background": "rgb(204,206,213)",
