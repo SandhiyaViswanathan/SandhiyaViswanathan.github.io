@@ -122,7 +122,7 @@
         "header_style3":{
           "border": "#FFFFFF",
           "border_width": "2",
-         "background": "rgb(239,240,242)",
+         "background": "rgb(204,206,213)",
           "height": "5%",
           "align": "center",
           "color":"rgb(255,255,255)",
