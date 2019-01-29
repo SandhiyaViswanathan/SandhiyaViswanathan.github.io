@@ -1246,13 +1246,10 @@
                   ],
                   "style":{
                     "width":"50%",
-                    "background": "rgb(14, 53, 112)"
+                    "background": "rgb(239,240,242)"
                   }
                 }
-              ],
-              "style":{
-                "background": "rgb(14, 53, 112)"
-              }
+              ]
             },
             {
               "type":"horizontal",
@@ -1484,7 +1481,7 @@
                     }
                   ],
                   "style":{
-                   "background": "rgb(239,240,242)"
+                    "background": "rgb(14, 53, 112)"
                   }
                 },
                 {
@@ -1558,13 +1555,10 @@
                   ],
                   "style":{
                     "width":"50%",
-                   "background": "rgb(239,240,242)"
+                     "background": "rgb(239,240,242)"
                   }
                 }
-              ],
-              "style":{
-               "background": "rgb(239,240,242)"
-              }
+              ]
             },
             {
               "type":"horizontal",
@@ -1796,7 +1790,7 @@
                     }
                   ],
                   "style":{
-                   "background": "rgb(239,240,242)"
+                    "background": "rgb(14, 53, 112)"
                   }
                 },
                 {
@@ -1870,13 +1864,10 @@
                   ],
                   "style":{
                     "width":"50%",
-                   "background": "rgb(239,240,242)"
+                    "background": "rgb(239,240,242)"
                   }
                 }
-              ],
-              "style":{
-               "background": "rgb(239,240,242)"
-              }
+              ]
             },
             {
               "type": "horizontal",
