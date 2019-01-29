@@ -1083,7 +1083,6 @@
                             "name":"textfield1",
                             "contentDescription": "one",
                             "value":"{{$global.textfield1 || ''}}",
-                            "class":"header_textfield",
                             "style":{
                               "width":"10%",
                               "height":"7%"
@@ -1092,7 +1091,13 @@
                         }
                       ],
                       "style":{
-                        "height":"10%"
+                        "height":"10%",
+                        "border": "#FFFFFF",
+                        "border_width": "2",
+                        "color":"rgb(0,0,0)",
+                        "size":15,
+                        "font": "HelveticaHeader",
+                        "background": "rgb(204,206,213)"
                       }
                     },
                     {
