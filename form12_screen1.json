@@ -926,7 +926,8 @@
                           "text": "",
                           "class":"header_style3",
                           "style": {
-                            "width": "12%"
+                            "width": "12%",
+                            "background": "rgb(14, 53, 112)"
                           }
                         }
                       ]
@@ -1070,7 +1071,8 @@
                                 "width": "12%",
                                 "align": "center",
                                 "height":"7%",
-                                "color":"rgb(0,0,0)"
+                                "color":"rgb(0,0,0)",
+                                "background": "rgb(14, 53, 112)",
                               }
                     },
                     {
