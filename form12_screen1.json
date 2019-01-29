@@ -1076,7 +1076,9 @@
                               "text": "1",
                               "style": {
                                 "width": "10%",
-                                "color":"#000000"
+                                "color":"#000000",
+                                "align":"center",
+                                "padding":0
                               }
                             },
                             {
