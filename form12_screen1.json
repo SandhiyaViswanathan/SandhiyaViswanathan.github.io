@@ -926,8 +926,7 @@
                           "text": "",
                           "class":"header_style3",
                           "style": {
-                            "width": "12%",
-                            "background": "rgb(14, 53, 112)"
+                            "width": "12%"
                           }
                         }
                       ]
@@ -1252,7 +1251,7 @@
                 }
               ],
               "style":{
-               "background": "rgb(239,240,242)"
+                "background": "rgb(14, 53, 112)"
               }
             },
             {
