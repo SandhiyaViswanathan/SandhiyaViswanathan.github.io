@@ -111,16 +111,6 @@
           "size":15,
           "font": "HelveticaHeader"
         },
-        "header_style2":{
-          "border": "#FFFFFF",
-          "border_width": "2",
-          "background": "rgb(14, 53, 112)",
-          "height": "5%",
-          "align": "center",
-          "color":"rgb(255,255,255)",
-          "size":15,
-          "font": "HelveticaHeader"
-        },
         "header_textfield":{
           "border": "#FFFFFF",
           "border_width": "2",
@@ -128,6 +118,16 @@
           "size":15,
           "font": "HelveticaHeader",
           "background": "rgb(204,206,213)"
+        },
+        "header_style3":{
+          "border": "#FFFFFF",
+          "border_width": "2",
+          "background": "rgb(204,206,213)",
+          "height": "5%",
+          "align": "center",
+          "color":"rgb(255,255,255)",
+          "size":15,
+          "font": "HelveticaHeader"
         }
       },
       "actions": {
@@ -924,6 +924,7 @@
                         {
                           "type": "label",
                           "text": "",
+                          "class":"header_style3",
                           "style": {
                             "width": "12%"
                           }
@@ -937,6 +938,7 @@
                         {
                           "type":"label",
                           "text":"1",
+                          "class":"header_style3",
                           "style":{
                             "width":"10%"
                           }
@@ -950,6 +952,7 @@
                         {
                           "type":"label",
                           "text":"2",
+                          "class":"header_style3",
                           "style":{
                             "width":"12%"
                           }
@@ -963,6 +966,7 @@
                         {
                           "type":"label",
                           "text":"3",
+                          "class":"header_style3",
                           "style":{
                             "width":"8%"
                           }
@@ -976,6 +980,7 @@
                         {
                           "type":"label",
                           "text":"4",
+                          "class":"header_style3",
                           "style":{
                             "width":"8%"
                           }
@@ -995,6 +1000,7 @@
                         {
                           "type": "label",
                           "text": "5",
+                          "class":"header_style3",
                           "style": {
                             "width": "13%"
                           }
@@ -1008,6 +1014,7 @@
                         {
                           "type":"label",
                           "text":"6",
+                          "class":"header_style3",
                           "style": {
                             "width": "13%"
                           }
@@ -1021,6 +1028,7 @@
                         {
                           "type":"label",
                           "text":"7",
+                          "class":"header_style3",
                           "style": {
                             "width": "13%"
                           }
@@ -1034,6 +1042,7 @@
                         {
                           "type":"label",
                           "text":"8",
+                          "class":"header_style3",
                           "style": {
                             "width": "13%"
                           }
@@ -1072,51 +1081,25 @@
                           "type":"vertical",
                           "components":[
                             {
-                              "type": "label",
-                              "text": "1",
-                              "style":{
-                                "height":"3%",
-                                "background": "rgb(235,246,243)"
-                              }
-                            },
-                            {
                             "type":"textfield",
                             "name":"textfield1",
                             "contentDescription": "one",
                             "value":"{{$global.textfield1 || ''}}",
+                            "class":"header_textfield",
                             "style":{
-                              "width":"10%",
-                              "height":"7%",
-                              "background": "rgb(204,206,213)"
+                              "width":"10%"
                             }
                           }]
                         }
-                      ],
-                      "style":{
-                        "height":"10%",
-                        "border": "#FFFFFF",
-                        "border_width": "2",
-                        "color":"rgb(0,0,0)",
-                        "size":15,
-                        "font": "HelveticaHeader",
-                        "background": "rgb(204,206,213)"
-                      }
+                      ]
                     },
                     {
                       "type": "vertical",
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"vertical",
+                          "type":"horizontal",
                           "components":[
-                            {
-                              "type": "label",
-                              "text": "1",
-                              "style":{
-                                "height":"3%",
-                                "background": "rgb(235,246,243)"
-                              }
-                            },
                             {
                               "type": "textfield",
                               "name": "textfield2",
@@ -1128,32 +1111,15 @@
                               }
                             }]
                         }
-                      ],
-                      "style":{
-                        "height":"10%",
-                        "border": "#FFFFFF",
-                        "border_width": "2",
-                        "color":"rgb(0,0,0)",
-                        "size":15,
-                        "font": "HelveticaHeader",
-                        "background": "rgb(204,206,213)"
-                      }
+                      ]
                     },
                     {
                       "type": "vertical",
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"vertical",
+                          "type":"horizontal",
                           "components":[
-                            {
-                              "type": "label",
-                              "text": "1",
-                              "style":{
-                                "height":"3%",
-                                "background": "rgb(235,246,243)"
-                              }
-                            },
                             {
                               "type": "textfield",
                               "name": "textfield3",
@@ -1165,32 +1131,15 @@
                               }
                             }]
                         }
-                      ],
-                      "style":{
-                        "height":"10%",
-                        "border": "#FFFFFF",
-                        "border_width": "2",
-                        "color":"rgb(0,0,0)",
-                        "size":15,
-                        "font": "HelveticaHeader",
-                        "background": "rgb(204,206,213)"
-                      }
+                      ]
                     },
                     {
                       "type": "vertical",
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"vertical",
+                          "type":"horizontal",
                           "components":[
-                            {
-                              "type": "label",
-                              "text": "1",
-                              "style":{
-                                "height":"3%",
-                                "background": "rgb(235,246,243)"
-                              }
-                            },
                             {
                               "type": "textfield",
                               "name": "textfield4",
@@ -1202,16 +1151,7 @@
                               }
                             }]
                         }
-                      ],
-                      "style":{
-                        "height":"10%",
-                        "border": "#FFFFFF",
-                        "border_width": "2",
-                        "color":"rgb(0,0,0)",
-                        "size":15,
-                        "font": "HelveticaHeader",
-                        "background": "rgb(204,206,213)"
-                      }
+                      ]
                     }
                   ],
                   "style":{
@@ -1227,16 +1167,8 @@
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"vertical",
+                          "type":"horizontal",
                           "components":[
-                            {
-                              "type": "label",
-                              "text": "1",
-                              "style":{
-                                "height":"3%",
-                                "background": "rgb(235,246,243)"
-                              }
-                            },
                             {
                               "type": "textfield",
                               "name": "textfield5",
@@ -1248,32 +1180,15 @@
                               }
                             }]
                         }
-                      ],
-                      "style":{
-                        "height":"10%",
-                        "border": "#FFFFFF",
-                        "border_width": "2",
-                        "color":"rgb(0,0,0)",
-                        "size":15,
-                        "font": "HelveticaHeader",
-                        "background": "rgb(204,206,213)"
-                      }
+                      ]
                     },
                     {
                       "type": "vertical",
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"vertical",
+                          "type":"horizontal",
                           "components":[
-                            {
-                              "type": "label",
-                              "text": "1",
-                              "style":{
-                                "height":"3%",
-                                "background": "rgb(235,246,243)"
-                              }
-                            },
                             {
                               "type": "textfield",
                               "name": "textfield6",
@@ -1285,32 +1200,15 @@
                               }
                             }]
                         }
-                      ],
-                      "style":{
-                        "height":"10%",
-                        "border": "#FFFFFF",
-                        "border_width": "2",
-                        "color":"rgb(0,0,0)",
-                        "size":15,
-                        "font": "HelveticaHeader",
-                        "background": "rgb(204,206,213)"
-                      }
+                      ]
                     },
                     {
                       "type": "vertical",
                       "class": "no_padding",
                       "components": [
                         {
-                          "type":"vertical",
+                          "type":"horizontal",
                           "components":[
-                            {
-                              "type": "label",
-                              "text": "1",
-                              "style":{
-                                "height":"3%",
-                                "background": "rgb(235,246,243)"
-                              }
-                            },
                             {
                               "type": "textfield",
                               "name": "textfield7",
@@ -1322,16 +1220,7 @@
                               }
                             }]
                         }
-                      ],
-                      "style":{
-                        "height":"10%",
-                        "border": "#FFFFFF",
-                        "border_width": "2",
-                        "color":"rgb(0,0,0)",
-                        "size":15,
-                        "font": "HelveticaHeader",
-                        "background": "rgb(204,206,213)"
-                      }
+                      ]
                     },
                     {
                       "type": "vertical",
@@ -1340,14 +1229,6 @@
                         {
                           "type":"horizontal",
                           "components":[
-                            {
-                              "type": "label",
-                              "text": "1",
-                              "style":{
-                                "height":"3%",
-                                "background": "rgb(235,246,243)"
-                              }
-                            },
                             {
                               "type": "textfield",
                               "name": "textfield8",
@@ -1359,16 +1240,7 @@
                               }
                             }]
                         }
-                      ],
-                      "style":{
-                        "height":"10%",
-                        "border": "#FFFFFF",
-                        "border_width": "2",
-                        "color":"rgb(0,0,0)",
-                        "size":15,
-                        "font": "HelveticaHeader",
-                        "background": "rgb(204,206,213)"
-                      }
+                      ]
                     }
                   ],
                   "style":{
@@ -1395,7 +1267,7 @@
                         {
                           "type": "label",
                           "text": "",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style": {
                             "width": "12%"
                           }
@@ -1409,7 +1281,7 @@
                         {
                           "type":"label",
                           "text":"9",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style":{
                             "width":"10%"
                           }
@@ -1423,7 +1295,7 @@
                         {
                           "type":"label",
                           "text":"10",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style":{
                             "width":"12%"
                           }
@@ -1437,7 +1309,7 @@
                         {
                           "type":"label",
                           "text":"11",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style":{
                             "width":"8%"
                           }
@@ -1451,7 +1323,7 @@
                         {
                           "type":"label",
                           "text":"12",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style":{
                             "width":"8%"
                           }
@@ -1471,7 +1343,7 @@
                         {
                           "type": "label",
                           "text": "13",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style": {
                             "width": "13%"
                           }
@@ -1485,7 +1357,7 @@
                         {
                           "type":"label",
                           "text":"14",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style": {
                             "width": "13%"
                           }
@@ -1499,7 +1371,7 @@
                         {
                           "type":"label",
                           "text":"15",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style": {
                             "width": "13%"
                           }
@@ -1513,7 +1385,7 @@
                         {
                           "type":"label",
                           "text":"16",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style": {
                             "width": "13%"
                           }
@@ -1706,7 +1578,7 @@
                         {
                           "type": "label",
                           "text": "",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style": {
                             "width": "12%"
                           }
@@ -1720,7 +1592,7 @@
                         {
                           "type":"label",
                           "text":"17",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style":{
                             "width":"10%"
                           }
@@ -1734,7 +1606,7 @@
                         {
                           "type":"label",
                           "text":"18",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style":{
                             "width":"12%"
                           }
@@ -1748,7 +1620,7 @@
                         {
                           "type":"label",
                           "text":"19",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style":{
                             "width":"8%"
                           }
@@ -1762,7 +1634,7 @@
                         {
                           "type":"label",
                           "text":"20",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style":{
                             "width":"8%"
                           }
@@ -1782,7 +1654,7 @@
                         {
                           "type": "label",
                           "text": "21",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style": {
                             "width": "13%"
                           }
@@ -1796,7 +1668,7 @@
                         {
                           "type":"label",
                           "text":"22",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style": {
                             "width": "13%"
                           }
@@ -1810,7 +1682,7 @@
                         {
                           "type":"label",
                           "text":"23",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style": {
                             "width": "13%"
                           }
@@ -1824,7 +1696,7 @@
                         {
                           "type":"label",
                           "text":"24",
-                          "class":"header_style2",
+                          "class":"header_style3",
                           "style": {
                             "width": "13%"
                           }
