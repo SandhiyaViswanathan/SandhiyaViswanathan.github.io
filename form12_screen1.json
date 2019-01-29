@@ -1070,7 +1070,16 @@
                       "components": [
                         {
                           "type":"horizontal",
-                          "components":[{
+                          "components":[
+                            {
+                              "type": "label",
+                              "text": "1",
+                              "style": {
+                                "width": "10%",
+                                "color":"#000000"
+                              }
+                            },
+                            {
                             "type":"textfield",
                             "name":"textfield1",
                             "contentDescription": "one",
