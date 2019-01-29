@@ -1156,7 +1156,7 @@
                     }
                   ],
                   "style":{
-                   "background": "rgb(239,240,242)"
+                    "background": "rgb(14, 53, 112)"
                   }
                 },
                 {
@@ -1246,7 +1246,7 @@
                   ],
                   "style":{
                     "width":"50%",
-                   "background": "rgb(239,240,242)"
+                    "background": "rgb(14, 53, 112)"
                   }
                 }
               ],
