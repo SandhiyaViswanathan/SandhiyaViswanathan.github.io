@@ -1089,7 +1089,12 @@
                               "height":"7%",
                               "background": "rgb(204,206,213)"
                             }
-                          }]
+                          }],
+                          "style":{
+                            "height":"10%",
+                            "border": "#FFFFFF",
+                            "border_width": "2"
+                          }
                         }
                       ],
                       "style":{
