@@ -1076,9 +1076,7 @@
                               "text": "1",
                               "style":{
                                 "height":"3%",
-                                "background": "rgb(235,246,243)",
-                                "border_top":"#FFFFFF",
-                                "border_width": "2"
+                                "background": "rgb(235,246,243)"
                               }
                             },
                             {
@@ -1091,12 +1089,7 @@
                               "height":"7%",
                               "background": "rgb(204,206,213)"
                             }
-                          }],
-                          "style":{
-                            "height":"10%",
-                            "border": "#FFFFFF",
-                            "border_width": "2"
-                          }
+                          }]
                         }
                       ],
                       "style":{
@@ -1117,6 +1110,14 @@
                           "type":"horizontal",
                           "components":[
                             {
+                              "type": "label",
+                              "text": "1",
+                              "style":{
+                                "height":"3%",
+                                "background": "rgb(235,246,243)"
+                              }
+                            },
+                            {
                               "type": "textfield",
                               "name": "textfield2",
                               "contentDescription": "two",
@@ -1127,7 +1128,16 @@
                               }
                             }]
                         }
-                      ]
+                      ],
+                      "style":{
+                        "height":"10%",
+                        "border": "#FFFFFF",
+                        "border_width": "2",
+                        "color":"rgb(0,0,0)",
+                        "size":15,
+                        "font": "HelveticaHeader",
+                        "background": "rgb(204,206,213)"
+                      }
                     },
                     {
                       "type": "vertical",
@@ -1136,6 +1146,14 @@
                         {
                           "type":"horizontal",
                           "components":[
+                            {
+                              "type": "label",
+                              "text": "1",
+                              "style":{
+                                "height":"3%",
+                                "background": "rgb(235,246,243)"
+                              }
+                            },
                             {
                               "type": "textfield",
                               "name": "textfield3",
@@ -1147,7 +1165,16 @@
                               }
                             }]
                         }
-                      ]
+                      ],
+                      "style":{
+                        "height":"10%",
+                        "border": "#FFFFFF",
+                        "border_width": "2",
+                        "color":"rgb(0,0,0)",
+                        "size":15,
+                        "font": "HelveticaHeader",
+                        "background": "rgb(204,206,213)"
+                      }
                     },
                     {
                       "type": "vertical",
@@ -1156,6 +1183,14 @@
                         {
                           "type":"horizontal",
                           "components":[
+                            {
+                              "type": "label",
+                              "text": "1",
+                              "style":{
+                                "height":"3%",
+                                "background": "rgb(235,246,243)"
+                              }
+                            },
                             {
                               "type": "textfield",
                               "name": "textfield4",
@@ -1167,7 +1202,16 @@
                               }
                             }]
                         }
-                      ]
+                      ],
+                      "style":{
+                        "height":"10%",
+                        "border": "#FFFFFF",
+                        "border_width": "2",
+                        "color":"rgb(0,0,0)",
+                        "size":15,
+                        "font": "HelveticaHeader",
+                        "background": "rgb(204,206,213)"
+                      }
                     }
                   ],
                   "style":{
