@@ -86,7 +86,7 @@
           "color": "rgb(255, 255, 255)",
           "border": "#FFFFFF",
           "border_width": "2",
-          "height":"10%"
+          "height":"8%"
         },
         "table_header_name_styles":{
           "width":"50%"
@@ -924,7 +924,6 @@
                         {
                           "type": "label",
                           "text": "",
-                          "class":"header_style2",
                           "style": {
                             "width": "12%"
                           }
@@ -938,7 +937,6 @@
                         {
                           "type":"label",
                           "text":"1",
-                          "class":"header_style2",
                           "style":{
                             "width":"10%"
                           }
@@ -952,7 +950,6 @@
                         {
                           "type":"label",
                           "text":"2",
-                          "class":"header_style2",
                           "style":{
                             "width":"12%"
                           }
@@ -966,7 +963,6 @@
                         {
                           "type":"label",
                           "text":"3",
-                          "class":"header_style2",
                           "style":{
                             "width":"8%"
                           }
@@ -980,7 +976,6 @@
                         {
                           "type":"label",
                           "text":"4",
-                          "class":"header_style2",
                           "style":{
                             "width":"8%"
                           }
@@ -1000,7 +995,6 @@
                         {
                           "type": "label",
                           "text": "5",
-                          "class":"header_style2",
                           "style": {
                             "width": "13%"
                           }
@@ -1014,7 +1008,6 @@
                         {
                           "type":"label",
                           "text":"6",
-                          "class":"header_style2",
                           "style": {
                             "width": "13%"
                           }
@@ -1028,7 +1021,6 @@
                         {
                           "type":"label",
                           "text":"7",
-                          "class":"header_style2",
                           "style": {
                             "width": "13%"
                           }
@@ -1042,7 +1034,6 @@
                         {
                           "type":"label",
                           "text":"8",
-                          "class":"header_style2",
                           "style": {
                             "width": "13%"
                           }
