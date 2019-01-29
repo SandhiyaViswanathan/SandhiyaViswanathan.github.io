@@ -26,7 +26,7 @@
           "background": "rgb(0, 102, 204)"
         },
         "table_row_odd_styles": {
-          "background": "rgb(204,206,213)"
+         "background": "rgb(239,240,242)"
         },
         "table_row_even_styles": {
           "background": "rgb(231,232,235)"
@@ -117,12 +117,12 @@
           "color":"rgb(0,0,0)",
           "size":15,
           "font": "HelveticaHeader",
-          "background": "rgb(204,206,213)"
+         "background": "rgb(239,240,242)"
         },
         "header_style3":{
           "border": "#FFFFFF",
           "border_width": "2",
-          "background": "rgb(204,206,213)",
+         "background": "rgb(239,240,242)",
           "height": "5%",
           "align": "center",
           "color":"rgb(255,255,255)",
@@ -1155,7 +1155,7 @@
                     }
                   ],
                   "style":{
-                    "background": "rgb(204,206,213)"
+                   "background": "rgb(239,240,242)"
                   }
                 },
                 {
@@ -1245,12 +1245,12 @@
                   ],
                   "style":{
                     "width":"50%",
-                    "background": "rgb(204,206,213)"
+                   "background": "rgb(239,240,242)"
                   }
                 }
               ],
               "style":{
-                "background": "rgb(204,206,213)"
+               "background": "rgb(239,240,242)"
               }
             },
             {
@@ -1482,7 +1482,7 @@
                     }
                   ],
                   "style":{
-                    "background": "rgb(204,206,213)"
+                   "background": "rgb(239,240,242)"
                   }
                 },
                 {
@@ -1556,12 +1556,12 @@
                   ],
                   "style":{
                     "width":"50%",
-                    "background": "rgb(204,206,213)"
+                   "background": "rgb(239,240,242)"
                   }
                 }
               ],
               "style":{
-                "background": "rgb(204,206,213)"
+               "background": "rgb(239,240,242)"
               }
             },
             {
@@ -1793,7 +1793,7 @@
                     }
                   ],
                   "style":{
-                    "background": "rgb(204,206,213)"
+                   "background": "rgb(239,240,242)"
                   }
                 },
                 {
@@ -1867,12 +1867,12 @@
                   ],
                   "style":{
                     "width":"50%",
-                    "background": "rgb(204,206,213)"
+                   "background": "rgb(239,240,242)"
                   }
                 }
               ],
               "style":{
-                "background": "rgb(204,206,213)"
+               "background": "rgb(239,240,242)"
               }
             },
             {
