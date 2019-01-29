@@ -1075,7 +1075,8 @@
                               "type": "label",
                               "text": "1",
                               "style":{
-                                "height":"3%"
+                                "height":"3%",
+                                "background": "rgb(235,246,243)"
                               }
                             },
                             {
@@ -1085,7 +1086,8 @@
                             "value":"{{$global.textfield1 || ''}}",
                             "style":{
                               "width":"10%",
-                              "height":"7%"
+                              "height":"7%",
+                              "background": "rgb(204,206,213)"
                             }
                           }]
                         }
