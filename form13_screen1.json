@@ -591,8 +591,10 @@
               "items":[
                 {
                 "type":"vertical",
+                "class":"no_padding",
                 "components":[{
                   "type":"horizontal",
+                  "class":"no_padding",
                   "components":[
                     {
                       "type": "dropdown",
