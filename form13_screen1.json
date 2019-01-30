@@ -1018,7 +1018,8 @@
                       "color":"#000000",
                       "border":"#FFFFFF",
                       "border_width":"2",
-                      "align":"center"
+                      "align":"center",
+                      "height":"5%"
                     }
                   }],
                   "style":{
