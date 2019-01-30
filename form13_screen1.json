@@ -148,8 +148,6 @@
         "cip2_style":{
           "background":"rgb(141,223,255)",
           "color":"#000000",
-          "border":"#FFFFFF",
-          "border_width":"2",
           "align":"center",
           "height":"5%"
         },
@@ -164,8 +162,6 @@
         "cip2text_style":{
           "background":"rgb(198,239,255)",
           "color":"#000000",
-          "border":"#FFFFFF",
-          "border_width":"2",
           "align":"center",
           "padding":1
         }
