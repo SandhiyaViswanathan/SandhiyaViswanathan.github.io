@@ -1039,7 +1039,6 @@
               "type":"horizontal",
               "class":"no_padding",
               "items":[
-                [
                   {
                     "type":"horizontal",
                     "class":"no_padding",
@@ -1205,8 +1204,7 @@
                     "style":{
                       "width":"100%"
                     }
-                }]
-
+                }
 
               ],
               "style":{
