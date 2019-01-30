@@ -844,7 +844,7 @@
                       "color":"#FFFFFF",
                       "align":"center",
                       "background":"rgb(14,53,112)",
-                      "height":"5%"
+                      "height":"8%"
                     }
                   }],
                   "style":{
@@ -862,7 +862,8 @@
                         "border_width":"2",
                         "color":"#FFFFFF",
                         "align":"center",
-                        "background":"rgb(14,53,112)"
+                        "background":"rgb(14,53,112)",
+                        "height":"8%"
                       }
                   }],
                   "style":{
