@@ -58,6 +58,12 @@
           "width": "7%",
           "height": "3%"
         },
+        "dropdown_date_style1": {
+          "color": "rgb(0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "width": "7%",
+          "height": "4%"
+        },
         "right_padding": {
           "padding_left": "-2",
           "padding_right": "2"
@@ -595,7 +601,7 @@
                       "name": "day",
                       "value": "Date",
                       "contentDescription": "Day",
-                      "class": "dropdown_date_style center_align",
+                      "class": "dropdown_date_style1 center_align",
                       "style":{
                         "width":"8%"
                       },
@@ -735,7 +741,7 @@
                       "name": "month",
                       "value": "month",
                       "contentDescription": "month",
-                      "class": "dropdown_date_style center_align",
+                      "class": "dropdown_date_style1 center_align",
                       "style":{
                         "width":"8%"
                       },
@@ -799,7 +805,7 @@
                       "name": "year",
                       "contentDescription": "year",
                       "value": "year",
-                      "class": "dropdown_date_style center_align",
+                      "class": "dropdown_date_style1 center_align",
                       "style":{
                         "width":"9%"
                       },
