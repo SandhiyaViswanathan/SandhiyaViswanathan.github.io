@@ -1008,7 +1008,7 @@
               "class":"no_padding",
               "items":[
                 {
-                  "type":"vertical",
+                  "type":"horizontal",
                   "class":"no_padding",
                   "components":[{
                     "type":"label",
@@ -1023,7 +1023,8 @@
                   }],
                   "style":{
                     "width":"12%",
-                    "background":"rgb(167,218,147)"
+                    "background":"rgb(167,218,147)",
+                    "height":"5%"
                   }
                 },
                 {
