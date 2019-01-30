@@ -601,7 +601,7 @@
                       "name": "day",
                       "value": "Date",
                       "contentDescription": "Day",
-                      "class": "dropdown_date_style1 center_align",
+                      "class": "dropdown_date_style center_align",
                       "style":{
                         "width":"8%"
                       },
@@ -741,7 +741,7 @@
                       "name": "month",
                       "value": "month",
                       "contentDescription": "month",
-                      "class": "dropdown_date_style1 center_align",
+                      "class": "dropdown_date_style center_align",
                       "style":{
                         "width":"8%"
                       },
@@ -805,7 +805,7 @@
                       "name": "year",
                       "contentDescription": "year",
                       "value": "year",
-                      "class": "dropdown_date_style1 center_align",
+                      "class": "dropdown_date_style center_align",
                       "style":{
                         "width":"9%"
                       },
@@ -850,11 +850,12 @@
                       "color":"#FFFFFF",
                       "align":"center",
                       "background":"rgb(14,53,112)",
-                      "height":"6%"
+                      "height":"5%"
                     }
                   }],
                   "style":{
-                    "width":"25%"
+                    "width":"25%",
+                    "background":"rgb(14,53,112)"
                   }
                 },
                 {
@@ -873,7 +874,8 @@
                       }
                   }],
                   "style":{
-                    "width":"50%"
+                    "width":"50%",
+                    "background":"rgb(14,53,112)"
                   }
                 }
               ],
