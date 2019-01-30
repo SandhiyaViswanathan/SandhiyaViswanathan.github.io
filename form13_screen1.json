@@ -1060,7 +1060,7 @@
                     "class":"cip_style"
                   }],
                   "style":{
-                    "width":"4%"
+                    "width":"3%"
                   }
                 },
                 {
@@ -1097,7 +1097,7 @@
                     "class":"cip2_style"
                   }],
                   "style":{
-                    "width":"4%"
+                    "width":"3%"
                   }
                 },
                 {
@@ -1134,7 +1134,7 @@
                     "class":"cip_style"
                   }],
                   "style":{
-                    "width":"4%"
+                    "width":"3%"
                   }
                 },
                 {
@@ -1171,7 +1171,7 @@
                     "class":"cip2_style"
                   }],
                   "style":{
-                    "width":"4%"
+                    "width":"3%"
                   }
                 },
                 {
@@ -1202,7 +1202,19 @@
                     "class":"cip_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"2",
+                    "class":"cip_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
@@ -1227,7 +1239,19 @@
                     "class":"cip2_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"3",
+                    "class":"cip2_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
@@ -1252,7 +1276,19 @@
                     "class":"cip_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"3",
+                    "class":"cip_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
@@ -1277,7 +1313,19 @@
                     "class":"cip2_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"3",
+                    "class":"cip2_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
@@ -1308,7 +1356,19 @@
                     "class":"cip_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"4",
+                    "class":"cip_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
@@ -1333,7 +1393,19 @@
                     "class":"cip2_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"4",
+                    "class":"cip2_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
@@ -1358,7 +1430,19 @@
                     "class":"cip_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"4",
+                    "class":"cip_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
@@ -1383,7 +1467,19 @@
                     "class":"cip2_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"4",
+                    "class":"cip2_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
@@ -1414,7 +1510,19 @@
                     "class":"cip_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"4",
+                    "class":"cip_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
@@ -1439,7 +1547,19 @@
                     "class":"cip2_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"4",
+                    "class":"cip2_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
@@ -1464,7 +1584,19 @@
                     "class":"cip_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"5",
+                    "class":"cip_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
@@ -1489,7 +1621,19 @@
                     "class":"cip2_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"5",
+                    "class":"cip2_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
@@ -1520,7 +1664,19 @@
                     "class":"cip_style"
                   }],
                   "style":{
-                    "width":"12%"
+                    "width":"9%"
+                  }
+                },
+                {
+                  "type":"vertical",
+                  "class":"no_padding",
+                  "components":[{
+                    "type":"label",
+                    "text":"6",
+                    "class":"cip_style"
+                  }],
+                  "style":{
+                    "width":"3%"
                   }
                 },
                 {
