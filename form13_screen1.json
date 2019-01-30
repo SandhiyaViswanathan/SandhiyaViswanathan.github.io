@@ -136,6 +136,38 @@
           "size":15,
           "font": "HelveticaHeader",
           "background": "rgb(204,206,213)"
+        },
+        "cip_style":{
+          "background":"rgb(167,218,147)",
+          "color":"#000000",
+          "border":"#FFFFFF",
+          "border_width":"2",
+          "align":"center",
+          "height":"5%"
+        },
+        "cip2_style":{
+          "background":"rgb(83,208,255)",
+          "color":"#000000",
+          "border":"#FFFFFF",
+          "border_width":"2",
+          "align":"center",
+          "height":"5%"
+        },
+        "ciptext_style":{
+          "background":"rgb(167,218,147)",
+          "color":"#000000",
+          "border":"#FFFFFF",
+          "border_width":"2",
+          "align":"center",
+          "padding":1
+        },
+        "cip2text_style":{
+          "background":"rgb(167,218,147)",
+          "color":"#000000",
+          "border":"#FFFFFF",
+          "border_width":"2",
+          "align":"center",
+          "padding":1
         }
       },
       "actions": {
@@ -1008,23 +1040,15 @@
               "class":"no_padding",
               "items":[
                 {
-                  "type":"horizontal",
+                  "type":"vertical",
                   "class":"no_padding",
                   "components":[{
                     "type":"label",
                     "text":"CIP101",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "height":"5%"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
-                    "width":"12%",
-                    "background":"rgb(167,218,147)"
+                    "width":"12%"
                   }
                 },
                 {
@@ -1033,14 +1057,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1053,13 +1070,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1071,15 +1082,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1,
-                      "size":15
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1091,14 +1094,8 @@
                   "class":"no_padding",
                   "components":[{
                     "type":"label",
-                    "text":"Line1",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "text":"CIP101",
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1110,14 +1107,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1130,13 +1120,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1148,14 +1132,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1174,13 +1151,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP101",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1192,14 +1163,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1212,13 +1176,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1230,15 +1188,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1,
-                      "size":15
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1251,13 +1201,7 @@
                   "components":[{
                     "type":"label",
                     "text":"Line1",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1269,14 +1213,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1289,13 +1226,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1307,14 +1238,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1333,13 +1257,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP101",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1351,14 +1269,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1371,13 +1282,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1389,15 +1294,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1,
-                      "size":15
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1410,13 +1307,7 @@
                   "components":[{
                     "type":"label",
                     "text":"Line1",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1428,14 +1319,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1448,13 +1332,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1466,14 +1344,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1492,13 +1363,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP101",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1510,14 +1375,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1530,13 +1388,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1548,15 +1400,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1,
-                      "size":15
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1569,13 +1413,7 @@
                   "components":[{
                     "type":"label",
                     "text":"Line1",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1587,14 +1425,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1607,13 +1438,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1625,14 +1450,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1651,13 +1469,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP101",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1669,14 +1481,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1689,13 +1494,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1707,15 +1506,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1,
-                      "size":15
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1728,13 +1519,7 @@
                   "components":[{
                     "type":"label",
                     "text":"Line1",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1746,14 +1531,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1766,13 +1544,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1784,14 +1556,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1810,13 +1575,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP101",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1828,14 +1587,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1848,13 +1600,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1866,15 +1612,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1,
-                      "size":15
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1887,13 +1625,7 @@
                   "components":[{
                     "type":"label",
                     "text":"Line1",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1905,14 +1637,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1925,13 +1650,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1943,14 +1662,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -1969,13 +1681,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP101",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -1987,14 +1693,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -2007,13 +1706,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -2025,15 +1718,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1,
-                      "size":15
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -2046,13 +1731,7 @@
                   "components":[{
                     "type":"label",
                     "text":"Line1",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -2064,14 +1743,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -2084,13 +1756,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -2102,14 +1768,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -2128,13 +1787,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP101",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -2146,14 +1799,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -2166,13 +1812,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -2184,15 +1824,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1,
-                      "size":15
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -2205,13 +1837,7 @@
                   "components":[{
                     "type":"label",
                     "text":"Line1",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -2223,14 +1849,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -2243,13 +1862,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -2261,14 +1874,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -2287,13 +1893,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP101",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -2305,14 +1905,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -2325,13 +1918,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -2343,15 +1930,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1,
-                      "size":15
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -2364,13 +1943,7 @@
                   "components":[{
                     "type":"label",
                     "text":"Line1",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -2382,14 +1955,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -2402,13 +1968,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP201",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"12%"
@@ -2420,14 +1980,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(83,208,255)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"13%",
@@ -2446,13 +1999,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP Fine Carbon Bags(Full, Removed from stand)",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip_style"
                   }],
                   "style":{
                     "width":"25%"
@@ -2464,14 +2011,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"12%",
@@ -2484,12 +2024,7 @@
                   "components":[{
                     "type":"label",
                     "text":"",
-                    "style":{
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2_style"
                   }],
                   "style":{
                     "width":"13%"
@@ -2501,13 +2036,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP Fine Carbon Bags(Full, Removed from stand)",
-                    "style":{
-                      "background":"rgb(167,218,147)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center"
-                    }
+                    "class":"cip2text_style"
                   }],
                   "style":{
                     "width":"25%"
