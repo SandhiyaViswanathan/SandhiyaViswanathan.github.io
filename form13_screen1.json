@@ -1038,155 +1038,171 @@
             {
               "type":"horizontal",
               "class":"no_padding",
-              "items":[
+              "items":[{
+                "type":"horizontal",
+                "components":[
                 {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"label",
-                    "text":"CIP 101",
-                    "class":"cip_style"
-                  }],
-                  "style":{
-                    "width":"9%"
-                  }
+                "type":"vertical",
+                "class":"no_padding",
+                "components":[{
+                "type":"label",
+                "text":"CIP 101",
+                "class":"cip_style"
+                }],
+                "style":{
+                "width":"9%"
+                }
                 },
                 {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"label",
-                    "text":"1",
-                    "class":"cip_style"
-                  }],
-                  "style":{
-                    "width":"3%"
-                  }
+                "type":"vertical",
+                "class":"no_padding",
+                "components":[{
+                "type":"label",
+                "text":"1",
+                "class":"cip_style"
+                }],
+                "style":{
+                "width":"3%"
+                }
                 },
                 {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"textfield",
-                    "value":"",
-                    "class":"ciptext_style"
-                  }],
-                  "style":{
-                    "width":"13%",
-                    "height":"5%"
-                  }
+                "type":"vertical",
+                "class":"no_padding",
+                "components":[{
+                "type":"textfield",
+                "value":"",
+                "class":"ciptext_style"
+                }],
+                "style":{
+                "width":"13%",
+                "height":"5%"
+                }
                 },
                 {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"label",
-                    "text":"CIP 201",
-                    "class":"cip2_style"
-                  }],
-                  "style":{
-                    "width":"9%"
-                  }
+                "type":"vertical",
+                "class":"no_padding",
+                "components":[{
+                "type":"label",
+                "text":"CIP 201",
+                "class":"cip2_style"
+                }],
+                "style":{
+                "width":"9%"
+                }
                 },
                 {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"label",
-                    "text":"2",
-                    "class":"cip2_style"
-                  }],
-                  "style":{
-                    "width":"3%"
-                  }
+                "type":"vertical",
+                "class":"no_padding",
+                "components":[{
+                "type":"label",
+                "text":"2",
+                "class":"cip2_style"
+                }],
+                "style":{
+                "width":"3%"
+                }
                 },
                 {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"textfield",
-                    "value":"",
-                    "class":"cip2text_style"
-                  }],
-                  "style":{
-                    "width":"13%",
-                    "height":"5%"
-                  }
-                },
+                "type":"vertical",
+                "class":"no_padding",
+                "components":[{
+                "type":"textfield",
+                "value":"",
+                "class":"cip2text_style"
+                }],
+                "style":{
+                "width":"13%",
+                "height":"5%"
+                }
+                }
+                  ],
+                "style":{
+                  "width":"50%"
+                }
+              },
                 {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"label",
-                    "text":"CIP 101",
-                    "class":"cip_style"
-                  }],
+                  "type":"horizontal",
+                  "components":[
+                    {
+                    "type":"vertical",
+                    "class":"no_padding",
+                    "components":[{
+                      "type":"label",
+                      "text":"CIP 101",
+                      "class":"cip_style"
+                    }],
+                    "style":{
+                      "width":"9%"
+                    }
+                  },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"label",
+                        "text":"3",
+                        "class":"cip_style"
+                      }],
+                      "style":{
+                        "width":"3%"
+                      }
+                    },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"textfield",
+                        "value":"",
+                        "class":"ciptext_style"
+                      }],
+                      "style":{
+                        "width":"13%",
+                        "height":"5%"
+                      }
+                    },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"label",
+                        "text":"CIP 201",
+                        "class":"cip2_style"
+                      }],
+                      "style":{
+                        "width":"9%"
+                      }
+                    },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"label",
+                        "text":"4",
+                        "class":"cip2_style"
+                      }],
+                      "style":{
+                        "width":"3%"
+                      }
+                    },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"textfield",
+                        "value":"",
+                        "class":"cip2text_style"
+                      }],
+                      "style":{
+                        "width":"13%",
+                        "height":"5%"
+                      }
+                    }
+                    ],
                   "style":{
-                    "width":"9%"
-                  }
-                },
-                {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"label",
-                    "text":"3",
-                    "class":"cip_style"
-                  }],
-                  "style":{
-                    "width":"3%"
-                  }
-                },
-                {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"textfield",
-                    "value":"",
-                    "class":"ciptext_style"
-                  }],
-                  "style":{
-                    "width":"13%",
-                    "height":"5%"
-                  }
-                },
-                {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"label",
-                    "text":"CIP 201",
-                    "class":"cip2_style"
-                  }],
-                  "style":{
-                    "width":"9%"
-                  }
-                },
-                {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"label",
-                    "text":"4",
-                    "class":"cip2_style"
-                  }],
-                  "style":{
-                    "width":"3%"
-                  }
-                },
-                {
-                  "type":"vertical",
-                  "class":"no_padding",
-                  "components":[{
-                    "type":"textfield",
-                    "value":"",
-                    "class":"cip2text_style"
-                  }],
-                  "style":{
-                    "width":"13%",
-                    "height":"5%"
+                    "width":"50%"
                   }
                 }
+
               ]
             },
             {
