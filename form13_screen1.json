@@ -86,7 +86,7 @@
           "color": "rgb(255, 255, 255)",
           "border": "#FFFFFF",
           "border_width": "2",
-          "height":"5%"
+          "height":"9%"
         },
         "table_header_name_styles":{
           "width":"50%"
