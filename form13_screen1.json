@@ -143,7 +143,9 @@
           "border":"#FFFFFF",
           "border_width":"1",
           "align":"center",
-          "height":"5%"
+          "height":"5%",
+          "size":15,
+          "font": "HelveticaHeader"
         },
         "cip2_style":{
           "background":"rgb(141,223,255)",
@@ -151,7 +153,9 @@
           "border":"#FFFFFF",
           "border_width":"1",
           "align":"center",
-          "height":"5%"
+          "height":"5%",
+          "size":15,
+          "font": "HelveticaHeader"
         },
         "ciptext_style":{
           "background":"rgb(226,243,219)",
@@ -159,7 +163,9 @@
           "border":"#FFFFFF",
           "border_width":"2",
           "align":"center",
-          "padding":1
+          "padding":0,
+          "size":15,
+          "font": "HelveticaHeader"
         },
         "cip2text_style":{
           "background":"rgb(198,239,255)",
@@ -167,7 +173,9 @@
           "border":"#FFFFFF",
           "border_width":"2",
           "align":"center",
-          "padding":1
+          "padding":0,
+          "size":15,
+          "font": "HelveticaHeader"
         },
         "submit_button_styles": {
           "width": "15%",
@@ -676,7 +684,7 @@
                       "name": "day",
                       "value": "Date",
                       "contentDescription": "Day",
-                      "class": "dropdown_date_style center_align",
+                      "class": "dropdown_date_style1 center_align",
                       "style":{
                         "width":"8%"
                       },
@@ -816,7 +824,7 @@
                       "name": "month",
                       "value": "month",
                       "contentDescription": "month",
-                      "class": "dropdown_date_style center_align",
+                      "class": "dropdown_date_style1 center_align",
                       "style":{
                         "width":"8%"
                       },
@@ -880,7 +888,7 @@
                       "name": "year",
                       "contentDescription": "year",
                       "value": "year",
-                      "class": "dropdown_date_style center_align",
+                      "class": "dropdown_date_style1 center_align",
                       "style":{
                         "width":"9%"
                       },
@@ -2802,7 +2810,11 @@
                       "components":[{
                         "type":"textfield",
                         "value":"ssfdff",
-                        "class":"ciptext_style"
+                        "class":"ciptext_style",
+                        "style":{
+                          "height":"9%",
+                          "width":"12%"
+                        }
                       }],
                       "style":{
                         "width":"12%",
