@@ -691,9 +691,6 @@
                       "value": "Date",
                       "contentDescription": "Day",
                       "class": "dropdown_date_style1 center_align",
-                      "style":{
-                        "width":"8%"
-                      },
                       "options": [
                         {
                           "value": "Day",
@@ -836,9 +833,6 @@
                       "value": "month",
                       "contentDescription": "month",
                       "class": "dropdown_date_style1 center_align",
-                      "style":{
-                        "width":"8%"
-                      },
                       "options": [
                         {
                           "value": "Month",
@@ -905,9 +899,6 @@
                       "contentDescription": "year",
                       "value": "year",
                       "class": "dropdown_date_style1 center_align",
-                      "style":{
-                        "width":"9%"
-                      },
                       "options": [
                         {
                           "value": "Year",
