@@ -61,7 +61,7 @@
         "dropdown_date_style1": {
           "color": "rgb(0, 0, 0)",
           "border": "rgb(0, 0, 0)",
-          "width": "5%",
+          "width": "6%",
           "height": "3%"
         },
         "right_padding": {
