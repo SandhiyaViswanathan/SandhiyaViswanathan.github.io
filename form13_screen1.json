@@ -324,10 +324,6 @@
                 {
                   "type": "horizontal",
                   "class": "no_padding center_align",
-                  "style": {
-                    "padding_left": "1%",
-                    "padding_right": "1%"
-                  },
                   "components": [
                     {
                       "type": "dropdown",
@@ -681,10 +677,6 @@
                 {
                 "type":"vertical",
                 "class":"no_padding",
-                  "style": {
-                    "padding_left": "1%",
-                    "padding_right": "1%"
-                  },
                 "components":[{
                   "type":"horizontal",
                   "class":"no_padding",
@@ -3005,7 +2997,9 @@
                               "textfield33",
                               "textfield34",
                               "textfield35",
-                              "textfield36"
+                              "textfield36",
+                              "textfield37",
+                              "textfield38"
                             ]
                           },
                           "success": {
