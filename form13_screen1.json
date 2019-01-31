@@ -2740,7 +2740,14 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP Fine Carbon Bags(Full, Removed from stand)",
-                    "class":"ciptext_style"
+                    "style":{
+                      "background":"rgb(197,231,183)",
+                      "color":"#000000",
+                      "border":"#FFFFFF",
+                      "border_width":"2",
+                      "align":"center",
+                      "height":"9%"
+                    }
                   }],
                   "style":{
                     "width":"25%"
@@ -2752,15 +2759,7 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "style":{
-                      "background":"rgb(197,231,183)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1,
-                      "height":"9%"
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"12%"
