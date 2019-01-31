@@ -2534,7 +2534,7 @@
                       "type":"vertical",
                       "class":"no_padding",
                       "components":[{
-                        "type":"textfield",
+                        "type":"textarea",
                         "name":"textfield37",
                         "value":"{{$global.textfield37 || ''}}",
                         "contentDescription": "thirty-seven",
@@ -2594,7 +2594,7 @@
                       "type":"vertical",
                       "class":"no_padding",
                       "components":[{
-                        "type":"textfield",
+                        "type":"textarea",
                         "name":"textfield38",
                         "value":"{{$global.textfield38 || ''}}",
                         "contentDescription": "thirty-eight",
