@@ -168,6 +168,13 @@
           "border_width":"2",
           "align":"center",
           "padding":1
+        },
+        "submit_button_styles": {
+          "width": "15%",
+          "height": "7%",
+          "color": "rgb(255,255,255)",
+          "background": "rgb(0,147,215)",
+          "corner_radius": "1%"
         }
       },
       "actions": {
@@ -1782,7 +1789,7 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"{{$global.textfield31 || }}",
+                        "value":"{{$global.textfield31 || ''}}",
                         "name":"textfield31",
                         "contentDescription": "thirty-one",
                         "class":"cip2text_style"
