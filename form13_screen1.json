@@ -2760,7 +2760,10 @@
                       "components":[{
                         "type":"textfield",
                         "value":"sddd",
-                        "class":"ciptext_style"
+                        "class":"ciptext_style",
+                        "style":{
+                          "height":"9%"
+                        }
                       }],
                       "style":{
                         "width":"12%",
