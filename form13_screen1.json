@@ -2541,7 +2541,8 @@
                         "class":"ciptext_style",
                         "style":{
                           "height":"9%",
-                          "width":"12%"
+                          "width":"12%",
+                          "border":"#FFFFFF"
                         }
                       }],
                       "style":{
@@ -2601,7 +2602,8 @@
                         "class":"ciptext_style",
                         "style":{
                           "height":"9%",
-                          "width":"12%"
+                          "width":"12%",
+                          "border":"#FFFFFF"
                         }
                       }],
                       "style":{
