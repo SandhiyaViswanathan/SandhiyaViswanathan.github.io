@@ -2746,7 +2746,7 @@
                       "border":"#FFFFFF",
                       "border_width":"2",
                       "align":"center",
-                      "height":"9%"
+                      "height":"12%"
                     }
                   }],
                   "style":{
@@ -2759,7 +2759,10 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
-                    "class":"ciptext_style"
+                    "class":"ciptext_style",
+                    "style":{
+                      "height":"12%"
+                    }
                   }],
                   "style":{
                     "width":"12%"
@@ -2796,7 +2799,7 @@
                       "border":"#FFFFFF",
                       "border_width":"2",
                       "align":"center",
-                      "height":"9%"
+                      "height":"12%"
                     }
                   }],
                   "style":{
@@ -2809,14 +2812,9 @@
                   "components":[{
                     "type":"textfield",
                     "value":"",
+                    "class":"ciptext_style",
                     "style":{
-                      "background":"rgb(197,231,183)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "padding":1,
-                      "height":"9%"
+                      "height":"12%"
                     }
                   }],
                   "style":{
