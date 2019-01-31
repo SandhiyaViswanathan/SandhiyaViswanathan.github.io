@@ -164,7 +164,10 @@
           "border_width":"2",
           "align":"center",
           "padding":1,
-          "size":15
+          "size":15,
+          "height":"5%",
+          "width":"13%",
+          "font": "HelveticaHeader"
         },
         "cip2text_style":{
           "background":"rgb(198,239,255)",
@@ -174,6 +177,8 @@
           "align":"center",
           "padding":1,
           "size":15,
+          "height":"5%",
+          "width":"13%",
           "font": "HelveticaHeader"
         },
         "submit_button_styles": {
@@ -1163,11 +1168,7 @@
                           "value":"{{$global.textfield10 || ''}}",
                           "name":"textfield10",
                           "contentDescription": "ten",
-                          "class":"cip2text_style",
-                          "style":{
-                            "height":"5%",
-                            "width":"13%"
-                          }
+                          "class":"cip2text_style"
                         }],
                         "style":{
                           "width":"13%",
