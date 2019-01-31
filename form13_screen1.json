@@ -212,7 +212,43 @@
             "f13_s1_month": "{{$get.month}}",
             "f13_s1_year": "{{$get.year}}",
             "f13_s1_shift": "{{$get.shift}}",
-            "f13_s1_operator": "{{$get.operator}}"
+            "f13_s1_operator": "{{$get.operator}}",
+            "textfield1":"{{$get.textfield1 || ''}}",
+            "textfield2":"{{$get.textfield2 || ''}}",
+            "textfield3":"{{$get.textfield3 || ''}}",
+            "textfield4":"{{$get.textfield4 || ''}}",
+            "textfield5":"{{$get.textfield5 || ''}}",
+            "textfield6":"{{$get.textfield6 || ''}}",
+            "textfield7":"{{$get.textfield7 || ''}}",
+            "textfield8":"{{$get.textfield8 || ''}}",
+            "textfield9":"{{$get.textfield9 || ''}}",
+            "textfield10":"{{$get.textfield10 || ''}}",
+            "textfield11":"{{$get.textfield11 || ''}}",
+            "textfield12":"{{$get.textfield12 || ''}}",
+            "textfield13":"{{$get.textfield13 || ''}}",
+            "textfield14":"{{$get.textfield14 || ''}}",
+            "textfield15":"{{$get.textfield15 || ''}}",
+            "textfield16":"{{$get.textfield16 || ''}}",
+            "textfield17":"{{$get.textfield17 || ''}}",
+            "textfield18":"{{$get.textfield18 || ''}}",
+            "textfield19":"{{$get.textfield19 || ''}}",
+            "textfield20":"{{$get.textfield20 || ''}}",
+            "textfield21":"{{$get.textfield21 || ''}}",
+            "textfield22":"{{$get.textfield22 || ''}}",
+            "textfield23":"{{$get.textfield23 || ''}}",
+            "textfield24":"{{$get.textfield24 || ''}}",
+            "textfield25":"{{$get.textfield25 || ''}}",
+            "textfield26":"{{$get.textfield26 || ''}}",
+            "textfield27":"{{$get.textfield27 || ''}}",
+            "textfield28":"{{$get.textfield28 || ''}}",
+            "textfield29":"{{$get.textfield29 || ''}}",
+            "textfield30":"{{$get.textfield30 || ''}}",
+            "textfield31":"{{$get.textfield31 || ''}}",
+            "textfield32":"{{$get.textfield32 || ''}}",
+            "textfield33":"{{$get.textfield33 || ''}}",
+            "textfield34":"{{$get.textfield34 || ''}}",
+            "textfield35":"{{$get.textfield35 || ''}}",
+            "textfield36":"{{$get.textfield36 || ''}}"
           },
           "success": {
             "type": "$util.toast",
@@ -231,7 +267,7 @@
             "name": "consumed",
             "value": "Consumed",
             "col_type": "col_name",
-            "styles": "table_header_styles center_align table_header_name_styles"
+            "styles": "table_header_stylestable_header_styles center_align table_header_name_styles"
           },
           {
             "type": "label",
@@ -275,7 +311,7 @@
                     {
                       "type": "dropdown",
                       "name": "day",
-                      "value": "{{$global.f12_s1_day}}",
+                      "value": "{{$global.f13_s1_day}}",
                       "contentDescription": "Day",
                       "class": "dropdown_date_style center_align",
                       "options": [
@@ -417,7 +453,7 @@
                     {
                       "type": "dropdown",
                       "name": "month",
-                      "value": "{{$global.f12_s1_month}}",
+                      "value": "{{$global.f13_s1_month}}",
                       "contentDescription": "month",
                       "class": "dropdown_date_style center_align",
                       "options": [
@@ -484,7 +520,7 @@
                       "type": "dropdown",
                       "name": "year",
                       "contentDescription": "year",
-                      "value": "{{$global.f12_s1_year}}",
+                      "value": "{{$global.f13_s1_year}}",
                       "class": "dropdown_date_style center_align",
                       "options": [
                         {
@@ -523,7 +559,7 @@
                     {
                       "type": "dropdown",
                       "name": "shift",
-                      "value": "{{$global.f12_s1_shift}}",
+                      "value": "{{$global.f13_s1_shift}}",
                       "contentDescription": "shift",
                       "class": "center_align black_color dropdown_shift_style",
                       "options": [
@@ -563,7 +599,7 @@
                     {
                       "type": "dropdown",
                       "name": "operator",
-                      "value": "{{$global.f12_s1_operator}}",
+                      "value": "{{$global.f13_s1_operator}}",
                       "contentDescription": "operator",
                       "class": "center_align black_color dropdown_operator_style",
                       "options": [
@@ -606,7 +642,7 @@
                     },
                     {
                       "type": "textfield",
-                      "value": "{{$global.f12_s1_sign || ''}}",
+                      "value": "{{$global.f13_s1_sign || ''}}",
                       "name": "sign",
                       "placeholder": "Sign",
                       "class": "sign_style center_align black_color",
@@ -1072,7 +1108,9 @@
                         "class":"no_padding",
                         "components":[{
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield1",
+                          "value":"{{$global.textfield1 || ''}}",
+                          "contentDescription": "one",
                           "class":"ciptext_style"
                         }],
                         "style":{
@@ -1109,7 +1147,9 @@
                         "class":"no_padding",
                         "components":[{
                           "type":"textfield",
-                          "value":"",
+                          "value":"{{$global.textfield10 || ''}}",
+                          "name":"textfield10",
+                          "contentDescription": "ten",
                           "class":"cip2text_style"
                         }],
                         "style":{
@@ -1155,7 +1195,9 @@
                     "class":"no_padding",
                     "components":[{
                       "type":"textfield",
-                      "value":"",
+                      "value":"{{$global.textfield19 || ''}}",
+                      "name":"textfield19",
+                      "contentDescription": "nineteen",
                       "class":"ciptext_style"
                     }],
                     "style":{
@@ -1192,7 +1234,9 @@
                     "class":"no_padding",
                     "components":[{
                       "type":"textfield",
-                      "value":"",
+                      "name":"textfield28",
+                      "contentDescription": "twenty-eight",
+                      "value":"{{$global.textfield28 || ''}}",
                       "class":"cip2text_style"
                     }],
                     "style":{
@@ -1248,7 +1292,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "name":"textfield2",
+                        "value":"{{$global.textfield2 || ''}}",
+                        "contentDescription": "two",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -1285,7 +1331,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield11 || ''}}",
+                        "name":"textfield11",
+                        "contentDescription": "eleven",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -1331,7 +1379,9 @@
                         "class":"no_padding",
                         "components":[{
                           "type":"textfield",
-                          "value":"",
+                          "name":"textfield20",
+                          "contentDescription": "twenty",
+                          "value":"{{$global.textfield20 || ''}}",
                           "class":"ciptext_style"
                         }],
                         "style":{
@@ -1368,7 +1418,9 @@
                         "class":"no_padding",
                         "components":[{
                           "type":"textfield",
-                          "value":"",
+                          "value":"{{$global.textfield29 || ''}}",
+                          "name":"textfield29",
+                          "contentDescription": "twenty-nine",
                           "class":"cip2text_style"
                         }],
                         "style":{
@@ -1420,7 +1472,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield3 || ''}}",
+                        "name":"textfield3",
+                        "contentDescription": "three",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -1457,7 +1511,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield12 || ''}}",
+                        "name":"textfield12",
+                        "contentDescription": "twelve",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -1503,7 +1559,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield21 || ''}}",
+                        "name":"textfield21",
+                        "contentDescription": "twenty-one",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -1540,7 +1598,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield30 || ''}}",
+                        "name":"textfield30",
+                        "contentDescription": "thirty",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -1596,7 +1656,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield4 || ''}}",
+                        "name":"textfield4",
+                        "contentDescription": "four",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -1633,7 +1695,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield13 || ''}}",
+                        "name":"textfield13",
+                        "contentDescription": "thirteen",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -1679,7 +1743,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield22 || ''}}",
+                        "name":"textfield22",
+                        "contentDescription": "twenty-two",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -1704,7 +1770,7 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"label",
-                        "text":"41",
+                        "text":"31",
                         "class":"cip2_style"
                       }],
                       "style":{
@@ -1716,7 +1782,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield31 || }}",
+                        "name":"textfield31",
+                        "contentDescription": "thirty-one",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -1772,7 +1840,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield5 || ''}}",
+                        "name":"textfield5",
+                        "contentDescription": "five",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -1809,7 +1879,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield14 || ''}}",
+                        "name":"textfield14",
+                        "contentDescription": "fourteen",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -1855,7 +1927,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield23 || ''}}",
+                        "name":"textfield23",
+                        "contentDescription": "twenty-three",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -1892,7 +1966,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield32 || ''}}",
+                        "name":"textfield32",
+                        "contentDescription": "thirty-two",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -1948,7 +2024,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield6 || ''}}",
+                        "name":"textfield6",
+                        "contentDescription": "six",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -1985,7 +2063,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield15 || ''}}",
+                        "name":"textfield15",
+                        "contentDescription": "fifteen",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -2031,7 +2111,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield24 || ''}}",
+                        "name":"textfield24",
+                        "contentDescription": "twenty-four",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -2068,7 +2150,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield33 || ''}}",
+                        "name":"textfield33",
+                        "contentDescription": "thirty-three",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -2124,7 +2208,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield7 || ''}}",
+                        "name":"textfield7",
+                        "contentDescription": "seven",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -2161,7 +2247,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield16 || ''}}",
+                        "name":"textfield16",
+                        "contentDescription": "sixteen",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -2207,7 +2295,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield25 || ''}}",
+                        "name":"textfield25",
+                        "contentDescription": "twenty-five",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -2244,7 +2334,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield34 || ''}}",
+                        "name":"textfield34",
+                        "contentDescription": "thirty-four",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -2300,7 +2392,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield8 || ''}}",
+                        "name":"textfield8",
+                        "contentDescription": "eight",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -2337,7 +2431,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield17 || ''}}",
+                        "name":"textfield17",
+                        "contentDescription": "seventeen",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -2383,7 +2479,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield26 || ''}}",
+                        "name":"textfield26",
+                        "contentDescription": "twenty-six",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -2420,7 +2518,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield35 || ''}}",
+                        "name":"textfield35",
+                        "contentDescription": "thirty-five",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -2476,7 +2576,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield9 || ''}}",
+                        "name":"textfield9",
+                        "contentDescription": "nine",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -2513,7 +2615,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield18 || ''}}",
+                        "name":"textfield18",
+                        "contentDescription": "eighteen",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -2559,7 +2663,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield27 || ''}}",
+                        "name":"textfield27",
+                        "contentDescription": "twenty-seven",
                         "class":"ciptext_style"
                       }],
                       "style":{
@@ -2596,7 +2702,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
+                        "value":"{{$global.textfield36 || ''}}",
+                        "name":"textfield36",
+                        "contentDescription": "thirty-six",
                         "class":"cip2text_style"
                       }],
                       "style":{
@@ -2744,13 +2852,14 @@
                   "type": "horizontal",
                   "class": "no_padding center_align",
                   "style": {
-                    "padding_top": "1%"
+                    "padding_top": "1%",
+                    "padding_bottom": "1%"
                   },
                   "components": [
                     {
                       "type": "space",
                       "style": {
-                        "width": "40%"
+                        "width": "20%"
                       }
                     },
                     {
@@ -2761,42 +2870,7 @@
                       "action": {
                         "type": "$href",
                         "options": {
-                          "url": "file://form12_screen1.json",
-                          "preload": {
-                            "style": {
-                              "background": "#ff0000"
-                            },
-                            "layers": [
-                              {
-                                "type": "image",
-                                "url": "file://infinit.gif",
-                                "style": {
-                                  "top": "50%-25",
-                                  "left": "50%-25",
-                                  "width": "50",
-                                  "height": "50"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "type": "space",
-                      "style": {
-                        "width": "5%"
-                      }
-                    },
-                    {
-                      "type": "button",
-                      "name": "next",
-                      "text": "Next",
-                      "class": "next_button_styles center_align",
-                      "action": {
-                        "type": "$href",
-                        "options": {
-                          "url": "https://sandhiyaviswanathan.github.io/form12_screen2.json",
+                          "url": "https://sandhiyaviswanathan.github.io/form13_screen1.json",
                           "preload": {
                             "style": {
                               "background": "#ff0000"
@@ -2835,7 +2909,84 @@
                     {
                       "type": "space",
                       "style": {
-                        "width": "10%"
+                        "width": "5%"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "submit",
+                      "text": "submit",
+                      "class": "center_align submit_button_styles",
+                      "contentDescription": "submit",
+                      "action": {
+                        "type": "$global.reset",
+                        "options": {
+                          "save": "true",
+                          "filename": "Carbon_count_Intergration"
+                        },
+                        "success": {
+                          "type": "$global.reset",
+                          "options": {
+                            "items": [
+                              "section_id",
+                              "f13_s1_sign",
+                              "f13_s1_day",
+                              "f13_s1_month",
+                              "f13_s1_year",
+                              "f13_s1_shift",
+                              "f13_s1_operator",
+                              "textfield1",
+                              "textfield2",
+                              "textfield3",
+                              "textfield4",
+                              "textfield5",
+                              "textfield6",
+                              "textfield7",
+                              "textfield8",
+                              "textfield9",
+                              "textfield10",
+                              "textfield11",
+                              "textfield12",
+                              "textfield13",
+                              "textfield14",
+                              "textfield15",
+                              "textfield16",
+                              "textfield17",
+                              "textfield18",
+                              "textfield19",
+                              "textfield20",
+                              "textfield21",
+                              "textfield22",
+                              "textfield23",
+                              "textfield24",
+                              "textfield25",
+                              "textfield26",
+                              "textfield27",
+                              "textfield28",
+                              "textfield29",
+                              "textfield30",
+                              "textfield31",
+                              "textfield32",
+                              "textfield33",
+                              "textfield34",
+                              "textfield35",
+                              "textfield36"
+                            ]
+                          },
+                          "success": {
+                            "type": "$util.toast",
+                            "options": {
+                              "text": "Data Submitted successfully",
+                              "type": "warning"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "space",
+                      "style": {
+                        "width": "5%"
                       }
                     }
                   ]
