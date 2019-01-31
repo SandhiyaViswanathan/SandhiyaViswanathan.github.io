@@ -2762,7 +2762,8 @@
                         "value":"sddd",
                         "class":"ciptext_style",
                         "style":{
-                          "height":"9%"
+                          "height":"9%",
+                          "width":"12%"
                         }
                       }],
                       "style":{
