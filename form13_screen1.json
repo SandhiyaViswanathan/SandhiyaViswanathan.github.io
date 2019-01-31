@@ -2735,6 +2735,140 @@
               "class":"no_padding",
               "items":[
                 {
+                  "type": "horizontal",
+                  "class": "no_padding",
+                  "components":[
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"label",
+                        "text":"CIP Fine Carbon Bags(Full, Removed from stand)",
+                        "style":{
+                          "background":"rgb(197,231,183)",
+                          "color":"#000000",
+                          "border":"#FFFFFF",
+                          "border_width":"2",
+                          "align":"center",
+                          "height":"12%"
+                        }
+                      }],
+                      "style":{
+                        "width":"25%"
+                      }
+                    },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"textfield",
+                        "value":"",
+                        "class":"ciptext_style",
+                        "style":{
+                          "height":"12%"
+                        }
+                      }],
+                      "style":{
+                        "width":"12%"
+                      }
+                    },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"label",
+                        "text":"",
+                        "style":{
+                          "color":"#000000",
+                          "border":"#FFFFFF",
+                          "border_width":"2",
+                          "align":"center",
+                          "padding":1,
+                          "height":"9%"
+                        }
+                      }],
+                      "style":{
+                        "width":"13%"
+                      }
+                    }
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
+                },
+                {
+                  "type": "horizontal",
+                  "class": "no_padding",
+                  "components":[
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"label",
+                        "text":"CIP Fine Carbon Bags(Full, Removed from stand)",
+                        "style":{
+                          "background":"rgb(197,231,183)",
+                          "color":"#000000",
+                          "border":"#FFFFFF",
+                          "border_width":"2",
+                          "align":"center",
+                          "height":"9%"
+                        }
+                      }],
+                      "style":{
+                        "width":"25%"
+                      }
+                    },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"textfield",
+                        "value":"",
+                        "class":"ciptext_style",
+                        "style":{
+                          "height":"6%"
+                        }
+                      }],
+                      "style":{
+                        "width":"25%"
+                      }
+                    },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"label",
+                        "text":"",
+                        "style":{
+                          "color":"#000000",
+                          "border":"#FFFFFF",
+                          "border_width":"2",
+                          "align":"center",
+                          "padding":1,
+                          "height":"9%"
+                        }
+                      }],
+                      "style":{
+                        "width":"13%"
+                      }
+                    }
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
+                }
+
+              ],
+              "style":{
+                "width":"100%"
+              }
+            },
+            {
+              "type":"horizontal",
+              "class":"no_padding",
+              "items":[
+                {
                   "type":"vertical",
                   "class":"no_padding",
                   "components":[{
