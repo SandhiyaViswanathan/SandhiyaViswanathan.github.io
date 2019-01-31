@@ -2739,7 +2739,7 @@
                   "class": "no_padding",
                   "components":[
                     {
-                      "type":"vertical",
+                      "type":"horizontal",
                       "class":"no_padding",
                       "components":[{
                         "type":"label",
@@ -2750,7 +2750,7 @@
                           "border":"#FFFFFF",
                           "border_width":"2",
                           "align":"center",
-                          "height":"12%"
+                          "height":"9%"
                         }
                       }],
                       "style":{
@@ -2758,7 +2758,7 @@
                       }
                     },
                     {
-                      "type":"vertical",
+                      "type":"horizontal",
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
@@ -2773,7 +2773,7 @@
                       }
                     },
                     {
-                      "type":"vertical",
+                      "type":"horizontal",
                       "class":"no_padding",
                       "components":[{
                         "type":"label",
@@ -2812,7 +2812,7 @@
                           "border":"#FFFFFF",
                           "border_width":"2",
                           "align":"center",
-                          "height":"12%"
+                          "height":"9%"
                         }
                       }],
                       "style":{
