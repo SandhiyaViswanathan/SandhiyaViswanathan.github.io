@@ -61,7 +61,7 @@
         "dropdown_date_style1": {
           "color": "rgb(0, 0, 0)",
           "border": "rgb(0, 0, 0)",
-          "width": "6%",
+          "width": "7%",
           "height": "3%"
         },
         "right_padding": {
@@ -324,6 +324,10 @@
                 {
                   "type": "horizontal",
                   "class": "no_padding center_align",
+                  "style": {
+                    "padding_left": "1%",
+                    "padding_right": "1%"
+                  },
                   "components": [
                     {
                       "type": "dropdown",
@@ -677,6 +681,10 @@
                 {
                 "type":"vertical",
                 "class":"no_padding",
+                  "style": {
+                    "padding_left": "1%",
+                    "padding_right": "1%"
+                  },
                 "components":[{
                   "type":"horizontal",
                   "class":"no_padding",
