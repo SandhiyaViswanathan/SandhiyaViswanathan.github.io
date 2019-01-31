@@ -2731,6 +2731,77 @@
               }
             },
             {
+              "type":"horizontal",
+              "class":"no_padding",
+              "items":[
+                {
+                  "type": "horizontal",
+                  "class": "no_padding",
+                  "components":[
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"label",
+                        "text":"CIP Fine Carbon Bags(Full, Removed from stand)"
+                      }],
+                      "style":{
+                        "width":"25%"
+                      }
+                    },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"textfield",
+                        "value":"",
+                        "class":"ciptext_style"
+                      }],
+                      "style":{
+                        "width":"12%"
+                      }
+                    }
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
+                },
+                {
+                  "type": "horizontal",
+                  "class": "no_padding",
+                  "components":[
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"label",
+                        "text":"CIP Fine Carbon Bags(Full, Removed from stand)"
+                      }],
+                      "style":{
+                        "width":"25%"
+                      }
+                    },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"label",
+                        "text":"",
+                        "class":"ciptext_style"
+                      }],
+                      "style":{
+                        "width":"12%"
+                      }
+                    }
+                  ],
+                  "style":{
+                    "width":"50%"
+                  }
+                }
+
+              ]
+            },
+            {
               "type": "horizontal",
               "items": [
                 {
