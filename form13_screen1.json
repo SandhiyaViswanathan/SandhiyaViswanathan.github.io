@@ -324,6 +324,10 @@
                 {
                   "type": "horizontal",
                   "class": "no_padding center_align",
+                  "style": {
+                    "padding_left": "1%",
+                    "padding_right": "1%"
+                  },
                   "components": [
                     {
                       "type": "dropdown",
