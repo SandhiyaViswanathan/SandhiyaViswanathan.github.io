@@ -2739,7 +2739,7 @@
                   "class": "no_padding",
                   "components":[
                     {
-                      "type":"horizontal",
+                      "type":"vertical",
                       "class":"no_padding",
                       "components":[{
                         "type":"label",
@@ -2754,11 +2754,11 @@
                         }
                       }],
                       "style":{
-                        "width":"25%"
+                        "width":"13%"
                       }
                     },
                     {
-                      "type":"horizontal",
+                      "type":"vertical",
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
@@ -2773,7 +2773,7 @@
                       }
                     },
                     {
-                      "type":"horizontal",
+                      "type":"vertical",
                       "class":"no_padding",
                       "components":[{
                         "type":"label",
@@ -2860,11 +2860,7 @@
                   }
                 }
 
-              ],
-              "style":{
-                "width":"100%",
-                "background":"#000000"
-              }
+              ]
             },
             {
               "type": "horizontal",
