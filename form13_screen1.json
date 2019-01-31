@@ -164,8 +164,7 @@
           "border_width":"2",
           "align":"center",
           "padding":1,
-          "size":15,
-          "font": "HelveticaHeader"
+          "size":15
         },
         "cip2text_style":{
           "background":"rgb(198,239,255)",
@@ -1164,7 +1163,10 @@
                           "value":"{{$global.textfield10 || ''}}",
                           "name":"textfield10",
                           "contentDescription": "ten",
-                          "class":"cip2text_style"
+                          "class":"cip2text_style",
+                          "style":{
+                            "height":"5%"
+                          }
                         }],
                         "style":{
                           "width":"13%",
