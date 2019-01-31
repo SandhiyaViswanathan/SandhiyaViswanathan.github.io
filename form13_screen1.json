@@ -61,8 +61,8 @@
         "dropdown_date_style1": {
           "color": "rgb(0, 0, 0)",
           "border": "rgb(0, 0, 0)",
-          "width": "7%",
-          "height": "4%"
+          "width": "5%",
+          "height": "3%"
         },
         "right_padding": {
           "padding_left": "-2",
@@ -267,7 +267,9 @@
             "textfield33":"{{$get.textfield33 || ''}}",
             "textfield34":"{{$get.textfield34 || ''}}",
             "textfield35":"{{$get.textfield35 || ''}}",
-            "textfield36":"{{$get.textfield36 || ''}}"
+            "textfield36":"{{$get.textfield36 || ''}}",
+            "textfield37":"{{$get.textfield37 || ''}}",
+            "textfield38":"{{$get.textfield38 || ''}}"
           },
           "success": {
             "type": "$util.toast",
@@ -688,7 +690,7 @@
                       "name": "day",
                       "value": "Date",
                       "contentDescription": "Day",
-                      "class": "dropdown_date_style center_align",
+                      "class": "dropdown_date_style1 center_align",
                       "style":{
                         "width":"8%"
                       },
@@ -824,11 +826,16 @@
                       ]
                     },
                     {
+                      "type": "label",
+                      "text": "▼",
+                      "class": "right_padding"
+                    },
+                    {
                       "type": "dropdown",
                       "name": "month",
                       "value": "month",
                       "contentDescription": "month",
-                      "class": "dropdown_date_style center_align",
+                      "class": "dropdown_date_style1 center_align",
                       "style":{
                         "width":"8%"
                       },
@@ -888,11 +895,16 @@
                       ]
                     },
                     {
+                      "type": "label",
+                      "text": "▼",
+                      "class": "right_padding"
+                    },
+                    {
                       "type": "dropdown",
                       "name": "year",
                       "contentDescription": "year",
                       "value": "year",
-                      "class": "dropdown_date_style center_align",
+                      "class": "dropdown_date_style1 center_align",
                       "style":{
                         "width":"9%"
                       },
@@ -918,6 +930,11 @@
                           "defaultSelected": "false"
                         }
                       ]
+                    }
+                    {
+                      "type": "label",
+                      "text": "▼",
+                      "class": "right_padding"
                     }
                   ]
                 }],
@@ -2761,7 +2778,23 @@
                         }
                       }],
                       "style":{
-                        "width":"25%",
+                        "width":"22%",
+                        "height":"9%"
+                      }
+                    },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"label",
+                        "text":"37",
+                        "class":"cip_style",
+                        "style":{
+                          "height":"9%"
+                        }
+                      }],
+                      "style":{
+                        "width":"3%",
                         "height":"9%"
                       }
                     },
@@ -2770,7 +2803,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"sddd",
+                        "name":"textfield37",
+                        "value":"{{$global.textfield37 || ''}}",
+                        "contentDescription": "thirty-seven",
                         "class":"ciptext_style",
                         "style":{
                           "height":"9%",
@@ -2803,7 +2838,23 @@
                         }
                       }],
                       "style":{
-                        "width":"25%",
+                        "width":"22%",
+                        "height":"9%"
+                      }
+                    },
+                    {
+                      "type":"vertical",
+                      "class":"no_padding",
+                      "components":[{
+                        "type":"label",
+                        "text":"38",
+                        "class":"cip_style",
+                        "style":{
+                          "height":"9%"
+                        }
+                      }],
+                      "style":{
+                        "width":"3%",
                         "height":"9%"
                       }
                     },
@@ -2812,7 +2863,9 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"ssfdff",
+                        "name":"textfield38",
+                        "value":"{{$global.textfield38 || ''}}",
+                        "contentDescription": "thirty-eight",
                         "class":"ciptext_style",
                         "style":{
                           "height":"9%",
