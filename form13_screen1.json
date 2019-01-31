@@ -2759,11 +2759,8 @@
                       "class":"no_padding",
                       "components":[{
                         "type":"textfield",
-                        "value":"",
-                        "class":"ciptext_style",
-                        "style":{
-                          "height":"9%"
-                        }
+                        "value":"sddd",
+                        "class":"ciptext_style"
                       }],
                       "style":{
                         "width":"12%",
@@ -2799,12 +2796,9 @@
                       "type":"vertical",
                       "class":"no_padding",
                       "components":[{
-                        "type":"label",
-                        "text":"",
-                        "class":"ciptext_style",
-                        "style":{
-                          "height":"9%"
-                        }
+                        "type":"textfield",
+                        "value":"ssfdff",
+                        "class":"ciptext_style"
                       }],
                       "style":{
                         "width":"12%",
