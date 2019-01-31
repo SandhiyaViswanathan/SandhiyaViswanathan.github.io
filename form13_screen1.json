@@ -2740,14 +2740,7 @@
                   "components":[{
                     "type":"label",
                     "text":"CIP Fine Carbon Bags(Full, Removed from stand)",
-                    "style":{
-                      "background":"rgb(197,231,183)",
-                      "color":"#000000",
-                      "border":"#FFFFFF",
-                      "border_width":"2",
-                      "align":"center",
-                      "height":"9%"
-                    }
+                    "class":"ciptext_style"
                   }],
                   "style":{
                     "width":"25%"
