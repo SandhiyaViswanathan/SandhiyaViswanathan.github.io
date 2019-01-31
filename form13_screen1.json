@@ -2823,8 +2823,8 @@
                       "type":"vertical",
                       "class":"no_padding",
                       "components":[{
-                        "type":"textfield",
-                        "value":"",
+                        "type":"label",
+                        "text":"",
                         "class":"ciptext_style",
                         "style":{
                           "height":"6%"
@@ -2838,8 +2838,8 @@
                       "type":"vertical",
                       "class":"no_padding",
                       "components":[{
-                        "type":"label",
-                        "text":"",
+                        "type":"textfield",
+                        "value":"",
                         "class":"ciptext_style",
                         "style":{
                           "color":"#000000",
