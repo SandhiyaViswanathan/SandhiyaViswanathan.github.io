@@ -2780,7 +2780,8 @@
                         "class":"cip_style"
                       }],
                       "style":{
-                        "width":"25%"
+                        "width":"25%",
+                        "height":"9%"
                       }
                     },
                     {
@@ -2792,7 +2793,8 @@
                         "class":"ciptext_style"
                       }],
                       "style":{
-                        "width":"12%"
+                        "width":"12%",
+                        "height":"9%"
                       }
                     }
                   ],
