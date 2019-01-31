@@ -163,7 +163,7 @@
           "border":"#FFFFFF",
           "border_width":"2",
           "align":"center",
-          "padding":0,
+          "padding":1,
           "size":15,
           "font": "HelveticaHeader"
         },
@@ -173,7 +173,7 @@
           "border":"#FFFFFF",
           "border_width":"2",
           "align":"center",
-          "padding":0,
+          "padding":1,
           "size":15,
           "font": "HelveticaHeader"
         },
@@ -684,7 +684,7 @@
                       "name": "day",
                       "value": "Date",
                       "contentDescription": "Day",
-                      "class": "dropdown_date_style1 center_align",
+                      "class": "dropdown_date_style center_align",
                       "style":{
                         "width":"8%"
                       },
@@ -824,7 +824,7 @@
                       "name": "month",
                       "value": "month",
                       "contentDescription": "month",
-                      "class": "dropdown_date_style1 center_align",
+                      "class": "dropdown_date_style center_align",
                       "style":{
                         "width":"8%"
                       },
@@ -888,7 +888,7 @@
                       "name": "year",
                       "contentDescription": "year",
                       "value": "year",
-                      "class": "dropdown_date_style1 center_align",
+                      "class": "dropdown_date_style center_align",
                       "style":{
                         "width":"9%"
                       },
@@ -933,12 +933,13 @@
                       "color":"#FFFFFF",
                       "align":"center",
                       "background":"rgb(14,53,112)",
-                      "height":"6%"
+                      "height":"5%"
                     }
                   }],
                   "style":{
                     "width":"25%",
-                    "background":"rgb(14,53,112)"
+                    "background":"rgb(14,53,112)",
+                    "height":"5%"
                   }
                 },
                 {
@@ -953,18 +954,16 @@
                         "color":"#FFFFFF",
                         "align":"center",
                         "background":"rgb(14,53,112)",
-                        "height":"6%"
+                        "height":"5%"
                       }
                   }],
                   "style":{
                     "width":"50%",
-                    "background":"rgb(14,53,112)"
+                    "background":"rgb(14,53,112)",
+                    "height":"5%"
                   }
                 }
-              ],
-              "style":{
-                "background":"rgb(14,53,112)"
-              }
+              ]
             },
             {
               "type":"horizontal",
