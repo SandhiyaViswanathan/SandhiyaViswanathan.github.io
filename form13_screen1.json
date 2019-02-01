@@ -864,7 +864,10 @@
                         "components":[{
                           "type":"label",
                           "text":"1",
-                          "class":"cip_style"
+                          "class":"cip_style",
+                          "style":{
+                            "background":"rgb(244, 247, 246)"
+                          }
                         }],
                         "style":{
                           "width":"3%"
@@ -903,7 +906,10 @@
                         "components":[{
                           "type":"label",
                           "text":"10",
-                          "class":"cip2_style"
+                          "class":"cip2_style",
+                          "style":{
+                            "background":"rgb(244, 247, 246)"
+                          }
                         }],
                         "style":{
                           "width":"3%"
@@ -951,7 +957,10 @@
                     "components":[{
                       "type":"label",
                       "text":"19",
-                      "class":"cip_style"
+                      "class":"cip_style",
+                      "style":{
+                        "background":"rgb(244, 247, 246)"
+                      }
                     }],
                     "style":{
                       "width":"3%"
@@ -990,7 +999,10 @@
                     "components":[{
                       "type":"label",
                       "text":"28",
-                      "class":"cip2_style"
+                      "class":"cip2_style",
+                      "style":{
+                        "background":"rgb(244, 247, 246)"
+                      }
                     }],
                     "style":{
                       "width":"3%"
@@ -1048,7 +1060,10 @@
                       "components":[{
                         "type":"label",
                         "text":"2",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1087,7 +1102,10 @@
                       "components":[{
                         "type":"label",
                         "text":"11",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1135,8 +1153,11 @@
                         "components":[{
                           "type":"label",
                           "text":"20",
-                          "class":"cip_style"
-                        }],
+                          "class":"cip_style",
+                          "style":{
+                            "background":"rgb(244, 247, 246)"
+                          }
+                      }],
                         "style":{
                           "width":"3%"
                         }
@@ -1174,7 +1195,10 @@
                         "components":[{
                           "type":"label",
                           "text":"29",
-                          "class":"cip2_style"
+                          "class":"cip2_style",
+                          "style":{
+                            "background":"rgb(244, 247, 246)"
+                          }
                         }],
                         "style":{
                           "width":"3%"
@@ -1228,7 +1252,10 @@
                       "components":[{
                         "type":"label",
                         "text":"3",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1267,7 +1294,10 @@
                       "components":[{
                         "type":"label",
                         "text":"12",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1315,7 +1345,10 @@
                       "components":[{
                         "type":"label",
                         "text":"21",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1354,7 +1387,10 @@
                       "components":[{
                         "type":"label",
                         "text":"30",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1412,7 +1448,10 @@
                       "components":[{
                         "type":"label",
                         "text":"4",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1451,7 +1490,10 @@
                       "components":[{
                         "type":"label",
                         "text":"13",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1499,7 +1541,10 @@
                       "components":[{
                         "type":"label",
                         "text":"22",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1538,7 +1583,10 @@
                       "components":[{
                         "type":"label",
                         "text":"31",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1596,7 +1644,10 @@
                       "components":[{
                         "type":"label",
                         "text":"5",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1635,7 +1686,10 @@
                       "components":[{
                         "type":"label",
                         "text":"14",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1683,7 +1737,10 @@
                       "components":[{
                         "type":"label",
                         "text":"23",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1722,7 +1779,10 @@
                       "components":[{
                         "type":"label",
                         "text":"32",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1780,7 +1840,10 @@
                       "components":[{
                         "type":"label",
                         "text":"6",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1819,7 +1882,10 @@
                       "components":[{
                         "type":"label",
                         "text":"15",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1867,7 +1933,10 @@
                       "components":[{
                         "type":"label",
                         "text":"24",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1906,7 +1975,10 @@
                       "components":[{
                         "type":"label",
                         "text":"33",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -1964,7 +2036,10 @@
                       "components":[{
                         "type":"label",
                         "text":"7",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -2003,7 +2078,10 @@
                       "components":[{
                         "type":"label",
                         "text":"16",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -2051,7 +2129,10 @@
                       "components":[{
                         "type":"label",
                         "text":"25",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -2090,7 +2171,10 @@
                       "components":[{
                         "type":"label",
                         "text":"34",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -2148,7 +2232,10 @@
                       "components":[{
                         "type":"label",
                         "text":"8",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -2187,7 +2274,10 @@
                       "components":[{
                         "type":"label",
                         "text":"17",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -2235,7 +2325,10 @@
                       "components":[{
                         "type":"label",
                         "text":"26",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -2274,7 +2367,10 @@
                       "components":[{
                         "type":"label",
                         "text":"35",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -2332,7 +2428,10 @@
                       "components":[{
                         "type":"label",
                         "text":"9",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -2371,7 +2470,10 @@
                       "components":[{
                         "type":"label",
                         "text":"18",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -2419,7 +2521,10 @@
                       "components":[{
                         "type":"label",
                         "text":"27",
-                        "class":"cip_style"
+                        "class":"cip_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -2458,7 +2563,10 @@
                       "components":[{
                         "type":"label",
                         "text":"36",
-                        "class":"cip2_style"
+                        "class":"cip2_style",
+                        "style":{
+                          "background":"rgb(244, 247, 246)"
+                        }
                       }],
                       "style":{
                         "width":"3%"
@@ -2522,7 +2630,8 @@
                         "text":"37",
                         "class":"cip_style",
                         "style":{
-                          "height":"9%"
+                          "height":"9%",
+                          "background":"rgb(244, 247, 246)"
                         }
                       }],
                       "style":{
@@ -2583,7 +2692,8 @@
                         "text":"38",
                         "class":"cip_style",
                         "style":{
-                          "height":"9%"
+                          "height":"9%",
+                          "background":"rgb(244, 247, 246)"
                         }
                       }],
                       "style":{
