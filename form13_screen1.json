@@ -193,7 +193,7 @@
         "$load": {
           "type": "$global.set",
           "options": {
-            "section_id": "form13_page1"
+            "section_id": "form16_page1"
           },
           "success": {
             "type": "$render",
@@ -225,13 +225,13 @@
         "handleSave": {
           "type": "$global.set",
           "options": {
-            "section_id": "form13_page1",
-            "f13_s1_sign": "{{$get.sign || ''}}",
-            "f13_s1_day": "{{$get.day}}",
-            "f13_s1_month": "{{$get.month}}",
-            "f13_s1_year": "{{$get.year}}",
-            "f13_s1_shift": "{{$get.shift}}",
-            "f13_s1_operator": "{{$get.operator}}",
+            "section_id": "form16_page1",
+            "f16_s1_sign": "{{$get.sign || ''}}",
+            "f16_s1_day": "{{$get.day}}",
+            "f16_s1_month": "{{$get.month}}",
+            "f16_s1_year": "{{$get.year}}",
+            "f16_s1_shift": "{{$get.shift}}",
+            "f16_s1_operator": "{{$get.operator}}",
             "textfield1":"{{$get.textfield1 || ''}}",
             "textfield2":"{{$get.textfield2 || ''}}",
             "textfield3":"{{$get.textfield3 || ''}}",
@@ -332,7 +332,7 @@
                     {
                       "type": "dropdown",
                       "name": "day",
-                      "value": "{{$global.f13_s1_day}}",
+                      "value": "{{$global.f16_s1_day}}",
                       "contentDescription": "Day",
                       "class": "dropdown_date_style center_align",
                       "options": [
@@ -474,7 +474,7 @@
                     {
                       "type": "dropdown",
                       "name": "month",
-                      "value": "{{$global.f13_s1_month}}",
+                      "value": "{{$global.f16_s1_month}}",
                       "contentDescription": "month",
                       "class": "dropdown_date_style center_align",
                       "options": [
@@ -541,7 +541,7 @@
                       "type": "dropdown",
                       "name": "year",
                       "contentDescription": "year",
-                      "value": "{{$global.f13_s1_year}}",
+                      "value": "{{$global.f16_s1_year}}",
                       "class": "dropdown_date_style center_align",
                       "options": [
                         {
@@ -580,7 +580,7 @@
                     {
                       "type": "dropdown",
                       "name": "shift",
-                      "value": "{{$global.f13_s1_shift}}",
+                      "value": "{{$global.f16_s1_shift}}",
                       "contentDescription": "shift",
                       "class": "center_align black_color dropdown_shift_style",
                       "options": [
@@ -620,7 +620,7 @@
                     {
                       "type": "dropdown",
                       "name": "operator",
-                      "value": "{{$global.f13_s1_operator}}",
+                      "value": "{{$global.f16_s1_operator}}",
                       "contentDescription": "operator",
                       "class": "center_align black_color dropdown_operator_style",
                       "options": [
@@ -663,7 +663,7 @@
                     },
                     {
                       "type": "textfield",
-                      "value": "{{$global.f13_s1_sign || ''}}",
+                      "value": "{{$global.f16_s1_sign || ''}}",
                       "name": "sign",
                       "placeholder": "Sign",
                       "class": "sign_style center_align black_color",
@@ -733,7 +733,8 @@
                     "color":"#000000",
                     "border":"#FFFFFF",
                     "border_width":"2",
-                    "align":"center"
+                    "align":"center",
+                    "height":"5%"
                   }
                 }],
                   "style":{
@@ -751,7 +752,8 @@
                       "color":"#000000",
                       "border":"#FFFFFF",
                       "border_width":"2",
-                      "align":"center"
+                      "align":"center",
+                      "height":"5%"
                     }
                   }],
                   "style":{
@@ -775,7 +777,8 @@
                       "color":"#000000",
                       "border":"#FFFFFF",
                       "border_width":"2",
-                      "align":"center"
+                      "align":"center",
+                      "height":"5%"
                     }
                   }],
                   "style":{
@@ -793,7 +796,8 @@
                       "color":"#000000",
                       "border":"#FFFFFF",
                       "border_width":"2",
-                      "align":"center"
+                      "align":"center",
+                      "height":"5%"
                     }
                   }],
                   "style":{
@@ -811,7 +815,8 @@
                       "color":"#000000",
                       "border":"#FFFFFF",
                       "border_width":"2",
-                      "align":"center"
+                      "align":"center",
+                      "height":"5%"
                     }
                   }],
                   "style":{
@@ -829,7 +834,8 @@
                       "color":"#000000",
                       "border":"#FFFFFF",
                       "border_width":"2",
-                      "align":"center"
+                      "align":"center",
+                      "height":"5%"
                     }
                   }],
                   "style":{
@@ -2754,7 +2760,7 @@
                       "action": {
                         "type": "$href",
                         "options": {
-                          "url": "https://sandhiyaviswanathan.github.io/form13_screen1.json",
+                          "url": "https://sandhiyaviswanathan.github.io/form16_screen1.json",
                           "preload": {
                             "style": {
                               "background": "#ff0000"
@@ -2813,12 +2819,12 @@
                           "options": {
                             "items": [
                               "section_id",
-                              "f13_s1_sign",
-                              "f13_s1_day",
-                              "f13_s1_month",
-                              "f13_s1_year",
-                              "f13_s1_shift",
-                              "f13_s1_operator",
+                              "f16_s1_sign",
+                              "f16_s1_day",
+                              "f16_s1_month",
+                              "f16_s1_year",
+                              "f16_s1_shift",
+                              "f16_s1_operator",
                               "textfield1",
                               "textfield2",
                               "textfield3",
