@@ -640,7 +640,9 @@
                 "label": "4",
                 "contentDescription": "four"
               }
-            ],
+            ]
+          },
+          {
             "row_values": [
               {
                 "type": "label",
